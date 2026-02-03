@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "skills": {
+    "self-improving-agent": {
+      "version": "1.0.4",
+      "installedAt": 1769936496521
+    },
+    "auto-updater": {
+      "version": "1.0.0",
+      "installedAt": 1769467628294
+    },
+    "claude-code-wingman": {
+      "version": "0.3.0",
+      "installedAt": 1769590890146
+    },
+    "youtube-watcher": {
+      "version": "1.0.0",
+      "installedAt": 1769468623919
+    },
+    "humanizer": {
+      "version": "1.0.0",
+      "installedAt": 1769468631429
+    },
+    "gemini-deep-research": {
+      "version": "1.0.0",
+      "installedAt": 1769468641713
+    },
+    "nano-banana-pro": {
+      "version": "1.0.1",
+      "installedAt": 1769469045277
+    }
+  }
+}

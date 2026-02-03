@@ -1,0 +1,29 @@
+{
+  "WFWorkflowActions": [
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.dictatetext",
+      "WFWorkflowActionParameters": {
+        "WFSpeechLanguage": "en-US"
+      }
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.sendmessage",
+      "WFWorkflowActionParameters": {
+        "WFSendMessageActionRecipients": ["@MWPJarvisBot"],
+        "WFSendMessageContent": "{{DictatedText}}",
+        "WFSendMessageService": "Telegram"
+      }
+    }
+  ],
+  "WFWorkflowClientVersion": "2302.0.4",
+  "WFWorkflowClientRelease": "2.2",
+  "WFWorkflowMinimumClientVersion": 900,
+  "WFWorkflowMinimumClientRelease": "2.0",
+  "WFWorkflowTypes": ["NCWidget", "WatchKit"],
+  "WFWorkflowInputContentItemClasses": [],
+  "WFWorkflowImportQuestions": [],
+  "WFWorkflowIcon": {
+    "WFWorkflowIconStartColor": 4282601983,
+    "WFWorkflowIconGlyphNumber": 59511
+  }
+}

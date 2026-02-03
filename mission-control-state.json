@@ -1,0 +1,17 @@
+{
+  "status": "active",
+  "workflow_id": "07c0UEtyANfhe0l7",
+  "created_at": "2026-02-01T23:26:00-05:00",
+  "last_checks": {
+    "email": null,
+    "calendar": null,
+    "research": null
+  },
+  "pending_alerts": [],
+  "research_findings": {
+    "competitors": [],
+    "cms_updates": [],
+    "industry_news": []
+  },
+  "briefing_prepared": false
+}

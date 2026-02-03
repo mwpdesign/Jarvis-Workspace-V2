@@ -1,0 +1,12 @@
+# Dependencies and build artifacts
+lib/
+
+# macOS
+.DS_Store
+
+# Temporary files
+*.tmp
+*.log
+*.mp3
+credentials/*.json
+credentials/*.pickle
