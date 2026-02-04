@@ -124,6 +124,16 @@
 
 **Cost Impact:** Estimated 60-75% reduction in per-turn costs due to context cap
 
+## Cost Monitoring System (2026-02-04)
+- **Status:** ✅ Active
+- **Daily cost estimate:** ~$2-4/day (~$65-125/month)
+- **Biggest cost items:** Task-worker empty runs (optimized to 2h), main session usage
+- **Tracking:** memory/cost-tracker.json (daily), morning briefing (daily), weekly summary (Mondays)
+- **Documentation:** docs/COST-MONITORING.md
+- **work-log.json:** Fixed format — now includes model and tokens_est per entry
+- **Cron cleanup:** Removed 4 stale jobs (old email monitor had 2,493+ wasted runs on main session)
+- **Optimization:** Task-worker frequency reduced from */30 (48 runs/day) to */2 (12 runs/day) — saves ~$0.35/day ($10.50/month)
+
 ## Systems Operational (2026-02-03)
 - ✅ Daily briefing: 7 AM via Telegram
 - ✅ Heartbeat monitoring: Every 30 minutes
