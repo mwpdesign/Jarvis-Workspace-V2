@@ -1,1 +1,1 @@
-{}
+session_type: cron:email-monitor, action: email_check, category: email, model: gpt-4o-mini, tokens_est: 2500, count: { P1: 0, P2: 1, P3: 8, P4: 1 }

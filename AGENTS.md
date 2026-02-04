@@ -73,56 +73,98 @@ Telegram messages from Michael are often quick questions or task captures. Match
 
 ---
 
-## Smart Model Selection (ALWAYS ACTIVE)
+## Automatic Model Routing (ALWAYS ACTIVE)
 
-**Before responding to ANY request**, analyze the task and automatically select the optimal model.
+Three tiers. Pick the right one automatically based on the task. Never ask Michael which model — just route it.
 
-### Detection Patterns
+### 🔴 Opus — The Brain
+**Cost:** ~$0.50/query | **Use for:** Decisions that matter
 
-**Use Flash when request contains:**
-- "check email", "check my email", "any new emails", "inbox"
-- "search memory", "find in memory", "what do I know about"
-- "calendar", "what's on my calendar", "schedule today"
-- "summarize", "summarize this", bulk text processing
-- Heartbeat monitoring, routine status checks
+Route to Opus when the task involves:
+- **Strategic thinking**: "help me decide", "what should we do about", "evaluate this opportunity"
+- **Critical analysis**: contracts, legal review, compliance, regulatory submissions
+- **High-stakes writing**: emails to John/CEO, board presentations, executive summaries
+- **Complex reasoning**: multi-step problems, architecture decisions, competitive strategy
+- **Financial analysis**: pricing, ROI calculations, budget decisions
+- **Security-sensitive**: anything touching credentials, access, permissions
+- **Creative direction**: brand strategy, content strategy, campaign planning
 
-**Use Haiku when request contains:**
-- "draft", "draft email", "write email", "compose message"
-- "capture", "capture task", "add task", "remember to"
-- "quick question", "quick", "briefly", "simple"
-- "meeting notes", "update notes", daily communication
-- Task list management, calendar updates
+**The test:** Would Michael lose money or reputation if this was wrong? → Opus.
 
-**Use Mini when request contains:**
-- "script", "write a script", "create automation"
-- "process", "parse", "transform", "extract data"
-- "CSV", "JSON", "data processing"
-- Simple coding, file operations
+### ⚪ Sonnet — The Workhorse
+**Cost:** ~$0.10/query | **Use for:** Real work that needs quality (DEFAULT)
 
-**Use Opus when request contains:**
-- "critical", "important decision", "help me decide"
-- "contract", "legal", "compliance", "regulatory"
-- "strategic", "strategy", "competitive analysis"
-- "FDA", "CMS", "submission", high-stakes documentation
-- "executive", "board", "presentation to"
-- Security-critical, financial analysis
+Route to Sonnet when the task involves:
+- **Research & analysis**: war room intel, competitor research, industry trends, CMS updates
+- **Content creation**: scripts, blog posts, documentation, training materials
+- **Code & development**: writing scripts, debugging, automation workflows, n8n configs
+- **Project work**: FutureNTech videos, Altering Gray marketing, woundcare docs
+- **Detailed writing**: emails (non-executive), reports, proposals, templates
+- **Data processing**: CSV analysis, NPI databases, spreadsheet work
+- **Morning briefings**: assembling and delivering daily briefings
+- **Multi-step tasks**: anything requiring 3+ steps of reasoning or action
 
-**Use Sonnet (default) for:**
-- Complex documentation, architecture, design
-- Multi-step analysis, detailed planning
-- Code review, refactoring
-- Anything that doesn't match other patterns
+**The test:** Does this need to be good? → Sonnet. When in doubt, use Sonnet.
+
+### 🔵 Haiku — The Runner
+**Cost:** ~$0.01/query | **Use for:** Fast, simple, routine
+
+Route to Haiku when the task involves:
+- **Email scanning**: checking inbox, searching labels, flagging unread
+- **Status checks**: "any new emails?", "what's on my calendar?", system health
+- **Simple lookups**: "what's Michael's email?", "when is the band release?"
+- **Task capture**: voice task extraction, adding to task files
+- **Quick drafts**: short replies, acknowledgments, simple confirmations
+- **File operations**: git commits, file moves, backups, archival
+- **Summarization**: condensing known content (not research)
+- **Monitoring**: heartbeat checks, cron health, process status
+
+**The test:** Could an intern do this? → Haiku.
+
+### Routing Rules
+
+1. **Default is Sonnet.** If you're unsure, use Sonnet.
+2. **Opus is earned, not assumed.** Only escalate when the stakes justify the cost.
+3. **Haiku is for speed, not savings.** Use it because the task is simple, not to be cheap.
+4. **Never downgrade mid-task.** If you start in Sonnet and realize it needs Opus, escalate — don't drop to Haiku.
+5. **Michael can override.** "Use Opus for this" or "keep it simple" always wins.
+6. **Log the choice.** Work log entries should note which model handled the task.
 
 ### Implementation
-When you detect a task type, **note the model choice** with a subtle indicator:
-- 🟢 "Using Flash for email scan..."
-- 🔵 "Using Haiku for quick draft..."
-- ⚪ (no indicator for Sonnet - it's default)
+When you detect a task type, note the model choice with a subtle indicator:
 - 🔴 "Using Opus for critical analysis..."
+- ⚪ (no indicator for Sonnet — it's default)
+- 🔵 "Using Haiku for email scan..."
 
-**Cost optimization:** Flash (~$0.001/query), Haiku (~$0.01/query), Mini (~$0.005/query), Sonnet (~$0.10/query), Opus (~$0.50/query)
+### Cost Guard
 
-**See:** `docs/MODEL-SELECTION-RULES.md` and `docs/AUTO-MODEL-SWITCHING.md` for complete details.
+| Model | Per Query | Daily Budget Target | Monthly Estimate |
+|-------|-----------|-------------------|-----------------|
+| Haiku | ~$0.01 | Unlimited | ~$5-10 |
+| Sonnet | ~$0.10 | ~20-30 queries | ~$60-90 |
+| Opus | ~$0.50 | ~2-5 queries | ~$30-75 |
+| **Total** | | | **~$95-175/month** |
+
+If daily costs trend above $8, flag it in the next briefing.
+
+### Cron Job Model Assignments
+
+| Job | Schedule | Model | Why |
+|-----|----------|-------|-----|
+| email-monitor | */5 min | Haiku | Simple label search + priority flag |
+| git-autocommit | */30 min | Haiku | Check changes, commit, push |
+| memory-archive | 1st of month 3 AM | Haiku | Move old files, delete expired |
+| task-worker | */2 hours | Sonnet | Processes queued tasks (needs quality) |
+| war-room-competitors | 3 AM | Sonnet | Research + analysis |
+| war-room-cms | 4 AM | Sonnet | Regulatory research |
+| war-room-industry | 5 AM | Sonnet | Industry trend analysis |
+| morning-briefing | 7 AM | Sonnet | Assembles full briefing |
+| memory-consolidation | Sunday 2 AM | Sonnet | Distills weekly learnings |
+
+**Model strings for OpenClaw cron:**
+- Haiku: `anthropic/claude-haiku-4-5-20251001`
+- Sonnet: `anthropic/claude-sonnet-4-5-20250929`
+- Opus: `anthropic/claude-opus-4-5-20251101` (main session only — not used in cron)
 
 ---
 
@@ -156,10 +198,6 @@ workspace/
 - "What are my tasks?" → Read `tasks/*.md`
 - "Check automation" → Review `HEARTBEAT.md` and `automation/`
 - "Any ideas?" → Review `OPPORTUNITIES.md`
-
-**Model Selection:**
-- Reference `docs/MODEL-SELECTION-RULES.md` to automatically select the optimal model (Flash/Mini/Haiku/Sonnet/Opus) based on task type
-- Optimize for cost without sacrificing quality
 
 ---
 
@@ -403,6 +441,7 @@ Log all ideas to `OPPORTUNITIES.md`, even if Michael doesn't pursue them immedia
 | Work log | `memory/work-log.json` |
 | Work log docs | `docs/WORK-LOG.md` |
 | Session hygiene | `docs/SESSION-HYGIENE.md` |
+| Cost monitoring | `docs/COST-MONITORING.md` |
 
 ---
 
