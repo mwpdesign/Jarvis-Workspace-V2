@@ -166,3 +166,17 @@
 - **A-Team labels**: Emails from key team members (Gavyn, Brent, John, Phil, Sil, Pat, Thomas) skip inbox, auto-labeled
 - **1 SNETWORK labels**: Work emails (Orders, IVRs, Intake, Onboarding) skip inbox, auto-labeled
 - **Email monitor searches**: Both A-Team and 1 SNETWORK labels every 5 minutes for urgent unread messages
+
+## Key Learnings (2026-02-04)
+
+### Don't Repeat - Document Instead
+- **Lesson**: If I find something important (like CMS payment changes), DOCUMENT IT immediately
+- **Why**: I was repeating CMS 2026 changes in every morning briefing because I never wrote it down
+- **Solution**: Created docs/CMS-2026-SKIN-SUBSTITUTE-CHANGES.md
+- **Rule**: Find → Document → Reference. Don't find → Repeat → Repeat → Repeat.
+
+### Industry Intelligence
+- **CMS 2026 Changes**: 90% payment cut for skin substitutes (standardized to ~$127/cm²)
+- **Impact**: Major market disruption, expect consolidation
+- **Opportunity**: Clinical differentiation now matters more than price
+- **Documented**: docs/CMS-2026-SKIN-SUBSTITUTE-CHANGES.md

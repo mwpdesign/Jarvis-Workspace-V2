@@ -30,6 +30,14 @@
   - Delete alert file after delivery
 - **Silent if no alert**
 
+### 3a. Telegram Health Check (Daily at 6:55 AM)
+- **Test Telegram connectivity** before morning briefing
+- Send silent test message via `message` tool
+- Check for delivery confirmation
+- **If successful:** Proceed with 7 AM briefing as normal
+- **If failed:** Alert Michael immediately with error details and suggested fix
+- **Silent operation:** Only alert if broken
+
 ### 4. System Status
 - If Clawdbot hasn't been updated in > 7 days, suggest running update
 
