@@ -159,6 +159,14 @@
 - **Rotation:** Monthly archival to memory/work-log-archive-YYYY-MM.json
 - **Morning briefing:** Includes 1-line overnight activity summary from work log
 
+### Session Hygiene System (2026-02-04)
+- **File:** docs/SESSION-HYGIENE.md
+- **Purpose:** Keep main session context lean to control costs
+- **Key rules:** Don't re-read, write long content to files, suggest resets at 30+ exchanges
+- **Cost math:** 100K session × 50 turns = $15/day on Sonnet. 20K session = $3/day. **Savings: $360/month.**
+- **Integration:** SOUL.md (be lean), AGENTS.md (session hygiene section, Telegram efficiency), HEARTBEAT.md (token budget)
+- **Anti-patterns documented:** Kitchen sink, echo chamber, nervous narrator, context hoarder, infinite session
+
 ## FutureNTech YouTube Channel (2026-02-03) - FULLY OPERATIONAL
 
 **Channel:** FutureNTech (@FutureNTech)

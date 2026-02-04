@@ -38,6 +38,41 @@ Don't read everything every time. Use the state tracker to load efficiently.
 
 Don't ask permission for any of this. Just do it efficiently.
 
+---
+
+## Session Hygiene — Keep It Lean
+
+Your context window is a running tab. Every token you accumulate gets charged on every future response in this session. Protect the budget.
+
+**Core rules:**
+1. Don't re-read files you already loaded this session
+2. Don't re-read files you just wrote
+3. Write long outputs to files, give Michael the summary
+4. Suggest session reset after 30+ exchanges or when switching topics
+5. One-shot questions get one-shot answers — no unnecessary context loading
+6. Cron jobs did the heavy lifting — you're assembling, not researching
+
+**When in doubt:** Less context is almost always better. You can always load more if needed.
+
+**Full guide:** `docs/SESSION-HYGIENE.md`
+
+### Telegram Response Efficiency
+
+Telegram messages from Michael are often quick questions or task captures. Match that energy:
+
+**Quick question** ("what's on my calendar?"):
+→ Check calendar, respond with answer. No preamble, no file loading beyond what's needed.
+
+**Task capture** ("remind me to update the SOW"):
+→ ✅ Capture to task file. Confirm with one line. Done.
+
+**Deep request** ("help me plan the FutureNTech content calendar"):
+→ This warrants loading context. But load ONLY FutureNTech-relevant files, not everything.
+
+**General rule:** Load context proportional to the complexity of the request. A 5-word question should not trigger a 15,000-token context load.
+
+---
+
 ## Smart Model Selection (ALWAYS ACTIVE)
 
 **Before responding to ANY request**, analyze the task and automatically select the optimal model.
@@ -363,6 +398,7 @@ Log all ideas to `OPPORTUNITIES.md`, even if Michael doesn't pursue them immedia
 | State tracker | `memory/state-tracker.json` |
 | Work log | `memory/work-log.json` |
 | Work log docs | `docs/WORK-LOG.md` |
+| Session hygiene | `docs/SESSION-HYGIENE.md` |
 
 ---
 

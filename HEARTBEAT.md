@@ -62,7 +62,10 @@
 
 ## Rules
 
-- Heartbeat should be FAST and CHEAP — target under 2000 tokens per cycle
+- Heartbeat should be FAST and CHEAP — target under 2000 tokens total per cycle (including file reads)
+- If heartbeat context is growing, you're doing too much — HEARTBEAT_OK and move on
+- Never read USER.md, SOUL.md, or other large stable files during heartbeat
+- Heartbeat reads: state-tracker.json, .urgent-email-alert.json, queue.json — that's it for routine checks
 - No web searches during heartbeat
 - No email checking during heartbeat (cron does this)
 - No war room research during heartbeat (cron does this)
