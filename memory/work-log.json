@@ -1,1 +1,29 @@
-session_type: cron:email-monitor, action: email_check, category: email, model: gpt-4o-mini, tokens_est: 2500, count: { P1: 0, P2: 1, P3: 8, P4: 1 }
+[
+  {
+    "timestamp": "2026-02-04T18:43:00-05:00",
+    "session_type": "manual:build-5.0",
+    "action": "cron_cleanup",
+    "category": "system",
+    "model": "sonnet",
+    "tokens_est": 40000,
+    "detail": "9 duplicate/broken cron jobs deleted (3 broken Haiku-3.5 models, 5 ghost duplicates with no enabled field, 1 pre-Build 4 Mini job), 7 healthy jobs remaining"
+  },
+  {
+    "timestamp": "2026-02-04T18:45:00-05:00",
+    "session_type": "manual:build-5.0",
+    "action": "cron_recreate",
+    "category": "system",
+    "model": "sonnet",
+    "tokens_est": 46000,
+    "detail": "3 Haiku cron jobs recreated with correct model string (anthropic/claude-haiku-4-5-20251001): email-monitor (*/5 min), git-autocommit (*/30 min), memory-archive (1st of month 3 AM). Total roster now 10 jobs."
+  },
+  {
+    "timestamp": "2026-02-04T18:46:00-05:00",
+    "session_type": "manual:build-5.1",
+    "action": "runlog_cleanup",
+    "category": "system",
+    "model": "sonnet",
+    "tokens_est": 50000,
+    "detail": "15 orphaned run log files deleted (47.3 KB), 2 active run logs kept (task-worker, Daily Auto-Update)"
+  }
+]
