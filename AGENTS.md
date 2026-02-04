@@ -12,6 +12,7 @@ Before doing anything else:
 3. Read `IDENTITY.md` — who you are (Jarvis)
 4. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
 5. **If in MAIN SESSION** (direct chat with Michael): Also read `MEMORY.md`
+6. Skim `tasks/queue.json` for any pending or in-progress tasks (quick context load)
 
 Don't ask permission. Just do it.
 
@@ -304,6 +305,14 @@ Tasks are captured via voice (Wispr Flow → Telegram) and stored in `tasks/`:
 
 See `automation/VOICE-TASK-CAPTURE.md` for the full voice capture workflow.
 
+### Durable Queue (tasks/queue.json)
+
+Voice-captured tasks go to project-specific .md files. But tasks that need EXECUTION (not just tracking) go to `tasks/queue.json`.
+
+**The difference:** .md files are checklists for Michael. queue.json is YOUR work queue — things YOU need to do.
+
+The heartbeat task worker processes one queued task per cycle.
+
 ---
 
 ## 💡 Idea Injection Protocol
@@ -359,6 +368,7 @@ Log all ideas to `OPPORTUNITIES.md`, even if Michael doesn't pursue them immedia
 | Workspace structure | `docs/WORKSPACE-STRUCTURE.md` |
 | Prompt frameworks | `docs/PROMPT-ENGINEERING-FRAMEWORK.md` |
 | Intel dedup | `memory/reported-intel.json` |
+| Task queue | `tasks/queue.json` |
 
 ---
 

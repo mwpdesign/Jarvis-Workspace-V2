@@ -1,0 +1,52 @@
+{
+  "version": "1.0",
+  "description": "Persistent task queue - survives between sessions. Tasks filed here WILL get done.",
+  "next_id": 4,
+  "tasks": [
+    {
+      "id": "TASK-001",
+      "created": "2026-02-04T14:51:00-05:00",
+      "source": "self",
+      "request": "Build durable task queue system for persistent work tracking",
+      "project": "jarvis-infra",
+      "priority": "high",
+      "status": "complete",
+      "assigned_session": "main-2026-02-04",
+      "result_file": "tasks/queue.json, docs/TASK-QUEUE.md",
+      "result_summary": "Built complete task queue system: created queue.json, updated SOUL.md (task persistence rules), HEARTBEAT.md (queue worker + briefing integration), AGENTS.md (session startup + references), created TASK-QUEUE.md documentation",
+      "deadline": null,
+      "notes": "System now operational - tasks persist across sessions and get worked via heartbeat",
+      "completed_at": "2026-02-04T14:57:00-05:00"
+    },
+    {
+      "id": "TASK-002",
+      "created": "2026-02-04T14:57:00-05:00",
+      "source": "self",
+      "request": "Write FutureNTech video script #1 for unsigned metal band feature",
+      "project": "futurentech",
+      "priority": "medium",
+      "status": "pending",
+      "assigned_session": null,
+      "result_file": null,
+      "result_summary": null,
+      "deadline": null,
+      "notes": "First video script for FutureNTech YouTube channel - needs band research and compelling narrative",
+      "completed_at": null
+    },
+    {
+      "id": "TASK-003",
+      "created": "2026-02-04T14:57:00-05:00",
+      "source": "telegram",
+      "request": "FutureNTech band outreach setup (Reddit/Instagram/Bandcamp)",
+      "project": "futurentech",
+      "priority": "high",
+      "status": "blocked",
+      "assigned_session": null,
+      "result_file": null,
+      "result_summary": null,
+      "deadline": null,
+      "notes": "BLOCKED: Need Michael to provide Reddit API credentials + Instagram access, OR approve Bandcamp-only approach. 6 bands waiting for outreach (Usury, Mantera Anarchist, Volubilis, thistle., dead things, Void)",
+      "completed_at": null
+    }
+  ]
+}

@@ -21,6 +21,19 @@
 - **Run check** every heartbeat (30 min)
 - **Silent operation** - only alert if git push fails
 
+### 2a. Task Queue Worker
+- **Read** `tasks/queue.json`
+- **If any tasks are "pending":**
+  - Pick the OLDEST pending task (FIFO — first in, first out)
+  - If it can be done in one heartbeat turn (< 5 min of work): Do it now, update status to "complete", fill in result_summary and completed_at
+  - If it's bigger: Update status to "in-progress", do what you can, add notes on progress
+  - If it's blocked (needs Michael's input): Set status to "blocked" with notes explaining what you need
+- **If any tasks are "complete" and haven't been reported to Michael:**
+  - Mention in the next briefing or Telegram message: "✅ Completed: [task summary]"
+- **If any tasks are "in-progress" for more than 24 hours:**
+  - Flag to Michael: "⏳ Task [ID] still in progress — [status update]"
+- **Max 1 task per heartbeat** to avoid burning tokens. Priority order: high > medium > low, then oldest first.
+
 ### 3. 🚨 Urgent Email Alert Check (Phase II)
 - **Check file:** `.urgent-email-alert.json` 
 - **If exists:**
@@ -59,6 +72,13 @@
 2. **📅 Appointments** - Upcoming appointments/meetings today
 
 3. **⏰ Time-Sensitive Tasks** - Anything with deadlines today or overdue
+
+3a. **📋 Queue Status** - Quick summary of task queue
+   - Completed since last briefing (celebrate wins)
+   - Currently in-progress
+   - Pending (what's coming up)
+   - Blocked (what needs Michael's input)
+   - Keep this BRIEF — just task IDs and one-line summaries
 
 4. **📧 Important Emails** (check overnight, separate into two groups):
    - **Work:** mike@clearhealthpass.com (A-Team flagged)
