@@ -27,8 +27,9 @@
 
 ### 1. Urgent Email Alert Delivery
 - Check `.urgent-email-alert.json`
-- If exists: deliver alert to Michael, delete file after delivery
+- If exists: deliver alert to Michael with priority badge, delete file after delivery
 - If not: silent
+- 🚨 **Email alerts now use priority scoring (P1-P4).** See docs/ALERT-PRIORITY-SCORING.md. Only P1/P2 generate immediate alerts.
 
 ### 2. Daily Memory File
 - Check if `memory/YYYY-MM-DD.md` exists for today

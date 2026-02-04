@@ -151,6 +151,14 @@
 - **Documentation:** docs/MEMORY-CONSOLIDATION.md (Memory Hygiene section)
 - **Cost:** ~$0.01/month (Mini model, simple file operations)
 
+## Alert Priority Scoring (2026-02-04)
+- **Status:** ✅ P1-P4 system for email alerts (Build 3.3)
+- **Priority levels:** P1 (John/Pat, always critical), P2 (Brent/Phil, time-sensitive), P3 (other A-Team), P4 (automated/low)
+- **Smart downgrade:** P2 outside business hours (8AM-6PM EST) → P3 unless from John/Pat
+- **Integration:** email-monitor cron scores all emails, only P1/P2 generate immediate alerts
+- **Documentation:** docs/ALERT-PRIORITY-SCORING.md
+- **Cost impact:** ~$1/month additional (scoring logic)
+
 ## Systems Operational (2026-02-03)
 - ✅ Daily briefing: 7 AM via Telegram
 - ✅ Heartbeat monitoring: Every 30 minutes
