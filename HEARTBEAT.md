@@ -81,6 +81,15 @@
    - **Wound Care Industry:** Trends, new tech, market shifts
    - **Goal:** Be ahead of the curve - find things BEFORE they're common knowledge
    - Search overnight, present findings in morning
+   
+   **⚠️ DEDUP RULE (Intel Ledger):**
+   Before reporting ANY finding:
+   1. Read `memory/reported-intel.json`
+   2. Generate a `topic_hash` for the finding
+   3. Check if that hash (or similar) exists within its `ttl_days` window
+   4. If YES → SKIP IT (old news) unless there's a MATERIAL UPDATE
+   5. If NO → include it and add entry to ledger AFTER delivering briefing
+   6. Clean up entries older than 30 days on 1st of each month
 
 8. **🎵 Daily Lyric Seed** (Creative Spark)
    - **Altering Grey style:** Chevelle/Breaking Benjamin base + BFMV melodic intensity + Fleetwood Mac harmonic sweetness
@@ -153,6 +162,8 @@
 **🎯 Michael's Boss:** "We need our own war room so we know what's going on in the market before everybody else knows."
 
 **SEARCH OVERNIGHT (include in 7 AM briefing):**
+
+**⚠️ DEDUP RULE:** Before reporting any finding, check `memory/reported-intel.json`. If the topic_hash exists within its ttl_days window, SKIP IT unless there is a genuinely new development. After delivering a briefing, append all new items to the ledger. This prevents the same news from appearing in multiple briefings.
 
 **⚠️ SEARCH STRATEGY - Avoid Rate Limits:**
 - **Spread searches across overnight hours** (2:00 AM - 6:00 AM)

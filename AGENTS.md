@@ -358,6 +358,7 @@ Log all ideas to `OPPORTUNITIES.md`, even if Michael doesn't pursue them immedia
 | Voice task capture | `automation/VOICE-TASK-CAPTURE.md` |
 | Workspace structure | `docs/WORKSPACE-STRUCTURE.md` |
 | Prompt frameworks | `docs/PROMPT-ENGINEERING-FRAMEWORK.md` |
+| Intel dedup | `memory/reported-intel.json` |
 
 ---
 

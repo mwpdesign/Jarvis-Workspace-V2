@@ -1,0 +1,38 @@
+{
+  "version": "1.0",
+  "description": "Tracks intel already reported to Michael to prevent duplicate briefing items",
+  "entries": [
+    {
+      "date_reported": "2026-02-03",
+      "topic_hash": "cms-2026-skin-substitute-payment-cut",
+      "headline": "CMS standardizes skin substitute payments to ~$127/cm² (90% reduction)",
+      "source": "morning-briefing",
+      "category": "cms",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-03",
+      "topic_hash": "cms-2026-skin-substitute-lcds-withdrawn",
+      "headline": "CMS withdraws Local Coverage Determinations for skin substitutes",
+      "source": "morning-briefing",
+      "category": "cms",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-03",
+      "topic_hash": "wound-care-smart-antimicrobial-dressings-trend",
+      "headline": "Smart and antimicrobial dressings with silver/iodine gaining traction",
+      "source": "morning-briefing",
+      "category": "industry",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-03",
+      "topic_hash": "bioengineered-skin-substitutes-emerging",
+      "headline": "Bioengineered skin substitutes and smart wound dressings emerging tech",
+      "source": "morning-briefing",
+      "category": "industry",
+      "ttl_days": 14
+    }
+  ]
+}

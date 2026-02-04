@@ -125,6 +125,15 @@
 - ✅ Plaud AI integration: Ready to process meeting transcripts (send share links or paste transcripts)
 - ✅ FutureNTech: Fully operational (see below)
 
+## Systems & Infrastructure
+
+### Reported Intel Ledger (2026-02-04)
+- **File:** memory/reported-intel.json
+- **Purpose:** Prevents duplicate intel in morning briefings and war room updates
+- **How it works:** Before reporting any finding, check if topic_hash exists within ttl_days window. Skip duplicates. Log new items after delivery.
+- **Maintenance:** Clean entries older than 30 days on 1st of each month
+- **Created because:** Was repeating CMS 2026 payment cut news across multiple briefings
+
 ## FutureNTech YouTube Channel (2026-02-03) - FULLY OPERATIONAL
 
 **Channel:** FutureNTech (@FutureNTech)
