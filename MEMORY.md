@@ -142,6 +142,14 @@
 - **Cost impact:** Flash for simple checks (~$0.001/call), Sonnet for real work (~$0.10/call). No more Opus-level tokens burned on email checks.
 - **Manage crons:** `openclaw cron list`, `openclaw cron remove --id <id>`, `openclaw cron runs --id <id>`
 
+### Context Loading Optimization (2026-02-04)
+- **File:** memory/state-tracker.json + docs/CONTEXT-LOADING.md
+- **Purpose:** Track file changes so session startup only reads what's new
+- **How:** Files classified as always-read, check-if-changed, or skip-unless-needed
+- **Impact:** Estimated 60-80% reduction in session startup tokens
+- **Tracker updated:** By heartbeat (file timestamps) and at session end (read/write records)
+- **Created because:** Was reading 15,000+ tokens of unchanged files every session startup
+
 ## FutureNTech YouTube Channel (2026-02-03) - FULLY OPERATIONAL
 
 **Channel:** FutureNTech (@FutureNTech)

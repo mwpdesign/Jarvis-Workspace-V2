@@ -4,17 +4,39 @@ This folder is home. Treat it that way.
 
 ---
 
-## Every Session
+## Every Session — Smart Context Loading
 
-Before doing anything else:
-1. Read `SOUL.md` — your personality, values, and behavior rules
-2. Read `USER.md` — who Michael is and how to help him
-3. Read `IDENTITY.md` — who you are (Jarvis)
-4. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
-5. **If in MAIN SESSION** (direct chat with Michael): Also read `MEMORY.md`
-6. Skim `tasks/queue.json` for any pending or in-progress tasks (quick context load)
+Don't read everything every time. Use the state tracker to load efficiently.
 
-Don't ask permission. Just do it.
+### First thing, every session:
+
+1. Read `memory/state-tracker.json` — see what's changed
+2. Read today's `memory/YYYY-MM-DD.md` (create if doesn't exist)
+3. Read `tasks/queue.json` (cron workers may have updated it)
+4. Check `.urgent-email-alert.json` (time-sensitive)
+
+### First session of the day (add these):
+
+5. Read `SOUL.md` — daily identity refresh
+6. Read `IDENTITY.md` — who you are
+7. Read yesterday's `memory/YYYY-MM-DD.md` — overnight context
+
+### Then check state-tracker for changed files:
+
+8. Any 🟡 file modified since `last_session`? Read it.
+9. Everything else? Skip until the topic comes up.
+
+### If in MAIN SESSION with Michael:
+
+10. Also read `MEMORY.md` (but only if changed since last read, or first session of day)
+
+### At session end:
+
+11. Update `memory/state-tracker.json` with what you read and wrote this session
+
+**Full details:** `docs/CONTEXT-LOADING.md`
+
+Don't ask permission for any of this. Just do it efficiently.
 
 ## Smart Model Selection (ALWAYS ACTIVE)
 
@@ -336,6 +358,8 @@ Log all ideas to `OPPORTUNITIES.md`, even if Michael doesn't pursue them immedia
 | Prompt frameworks | `docs/PROMPT-ENGINEERING-FRAMEWORK.md` |
 | Intel dedup | `memory/reported-intel.json` |
 | Task queue | `tasks/queue.json` |
+| Context loading | `docs/CONTEXT-LOADING.md` |
+| State tracker | `memory/state-tracker.json` |
 
 ---
 

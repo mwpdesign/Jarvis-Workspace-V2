@@ -48,6 +48,12 @@
 ### 5. Nothing to Report?
 - Return HEARTBEAT_OK (silent — no message to Michael)
 
+### 5a. State Tracker Maintenance
+- Update `memory/state-tracker.json` with current file modification timestamps
+- This keeps the tracker accurate for the next session startup
+- Only check core and active-work files (not docs/ or projects/ — those are on-demand)
+- FAST operation — just stat the files, update timestamps, done
+
 ---
 
 ## Rules

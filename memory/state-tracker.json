@@ -1,0 +1,105 @@
+{
+  "version": "1.0",
+  "description": "Tracks file modification timestamps so Jarvis only re-reads changed files on session startup",
+  "last_session": "2026-02-04T15:02:00-05:00",
+  "files": {
+    "SOUL.md": {
+      "last_read": "2026-02-04T14:52:21-05:00",
+      "last_modified": "2026-02-04T14:52:21-05:00",
+      "content_hash": "stable",
+      "category": "core-identity",
+      "read_priority": "first-session-of-day"
+    },
+    "IDENTITY.md": {
+      "last_read": "2026-01-26T16:14:36-05:00",
+      "last_modified": "2026-01-26T16:14:36-05:00",
+      "content_hash": "stable",
+      "category": "core-identity",
+      "read_priority": "first-session-of-day"
+    },
+    "USER.md": {
+      "last_read": "2026-01-28T23:33:43-05:00",
+      "last_modified": "2026-01-28T23:33:43-05:00",
+      "content_hash": "stable",
+      "category": "reference",
+      "read_priority": "skip-unless-requested"
+    },
+    "AGENTS.md": {
+      "last_read": "2026-02-04T15:00:08-05:00",
+      "last_modified": "2026-02-04T15:00:08-05:00",
+      "content_hash": "stable",
+      "category": "core-config",
+      "read_priority": "check-if-changed"
+    },
+    "HEARTBEAT.md": {
+      "last_read": "2026-02-04T14:59:28-05:00",
+      "last_modified": "2026-02-04T14:59:28-05:00",
+      "content_hash": "stable",
+      "category": "core-config",
+      "read_priority": "check-if-changed"
+    },
+    "TOOLS.md": {
+      "last_read": "2026-02-03T08:44:24-05:00",
+      "last_modified": "2026-02-03T08:44:24-05:00",
+      "content_hash": "stable",
+      "category": "reference",
+      "read_priority": "check-if-changed"
+    },
+    "MEMORY.md": {
+      "last_read": "2026-02-04T14:59:44-05:00",
+      "last_modified": "2026-02-04T14:59:44-05:00",
+      "content_hash": "stable",
+      "category": "long-term-memory",
+      "read_priority": "check-if-changed"
+    },
+    "OPPORTUNITIES.md": {
+      "last_read": "2026-01-31T12:14:07-05:00",
+      "last_modified": "2026-01-31T12:14:07-05:00",
+      "content_hash": "stable",
+      "category": "ideas",
+      "read_priority": "check-if-changed"
+    },
+    "tasks/queue.json": {
+      "last_read": "2026-02-04T14:54:02-05:00",
+      "last_modified": "2026-02-04T14:54:02-05:00",
+      "content_hash": "stable",
+      "category": "active-work",
+      "read_priority": "always-read"
+    },
+    "tasks/KANBAN.md": {
+      "last_read": "2026-02-02T11:39:07-05:00",
+      "last_modified": "2026-02-02T11:39:07-05:00",
+      "content_hash": "stable",
+      "category": "active-work",
+      "read_priority": "check-if-changed"
+    },
+    "tasks/futurentech.md": {
+      "last_read": "2026-02-03T11:19:46-05:00",
+      "last_modified": "2026-02-03T11:19:46-05:00",
+      "content_hash": "stable",
+      "category": "active-work",
+      "read_priority": "check-if-changed"
+    },
+    "memory/reported-intel.json": {
+      "last_read": "2026-02-04T14:49:54-05:00",
+      "last_modified": "2026-02-04T14:49:54-05:00",
+      "content_hash": "stable",
+      "category": "active-work",
+      "read_priority": "always-read"
+    },
+    "memory/war-room-findings.md": {
+      "last_read": "2026-02-04T14:59:02-05:00",
+      "last_modified": "2026-02-04T14:59:02-05:00",
+      "content_hash": "stable",
+      "category": "active-work",
+      "read_priority": "check-if-changed"
+    },
+    "projects/futurentech/PROJECT.md": {
+      "last_read": "2026-02-03T08:45:28-05:00",
+      "last_modified": "2026-02-03T08:45:28-05:00",
+      "content_hash": "stable",
+      "category": "project-specific",
+      "read_priority": "skip-unless-requested"
+    }
+  }
+}
