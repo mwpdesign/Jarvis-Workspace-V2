@@ -2,19 +2,26 @@
 
 ---
 
-## OpenClaw Model IDs (Verified 2026-02-04)
+## OpenClaw Model IDs (Build 4: Pure Anthropic Stack - 2026-02-04)
 
-**Available Models:**
-- **Default Sonnet:** `anthropic/claude-sonnet-4-5-20250929` (default model, use when no model specified)
-- **Mini (cheap):** `openai/gpt-4o-mini` (alias: `mini`) - use for lightweight tasks
-- **Flash (cheapest):** `google/gemini-1.5-flash` (alias: `flash`) - **DO NOT USE** in cron jobs (fails with API error)
-- **Opus (expensive):** `anthropic/claude-opus-4-5` (alias: `opus`) - use for critical decisions only
+**3-Tier Anthropic Architecture:**
+- **🔴 Opus (Critical):** `anthropic/claude-opus-4-5` (alias: `opus`) - Strategic decisions, high-stakes work
+- **⚪ Sonnet (Heavy):** `anthropic/claude-sonnet-4-5-20250929` (default) - Research, task execution, briefings
+- **🔵 Haiku (Lightweight):** `anthropic/claude-haiku-3-5` (alias: `haiku`) - Email checks, git ops, simple tasks
 
 **For Cron Jobs:**
-- Cheap tasks → `mini` (openai/gpt-4o-mini)
-- Standard tasks → omit model parameter (uses default Sonnet)
+- Lightweight tasks (email, git, archive) → `anthropic/claude-haiku-3-5`
+- Heavy work (research, briefings, consolidation) → `anthropic/claude-sonnet-4-5-20250929` or omit (uses default)
 
-**Note:** Model aliases (flash, mini, opus) work in main sessions but may fail in isolated cron jobs. Use full names or omit for default.
+**External Providers (DEPRECATED in Build 4):**
+- ~~`openai/gpt-4o-mini` (Mini)~~ - Replaced by Haiku
+- ~~`google/gemini-1.5-flash` (Flash)~~ - Replaced by Haiku
+
+**Why Pure Anthropic:**
+- OAuth-only auth (more secure, no API keys)
+- No external provider dependencies
+- Consistent behavior across all models
+- Haiku faster and more reliable than Mini/Flash for simple tasks
 
 ---
 
