@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "description": "Feedback ratings for morning briefings - helps Jarvis learn what's useful vs noisy",
+  "ratings": [],
+  "schema": {
+    "date": "YYYY-MM-DD",
+    "overall": "1-5 (1=useless, 2=noisy, 3=fine, 4=good, 5=excellent)",
+    "best_section": "string (which section was most useful)",
+    "worst_section": "string (which section was least useful or noisy)",
+    "notes": "string (optional free text)"
+  },
+  "adjustments": {
+    "description": "Learned preferences from feedback - these override defaults",
+    "include_more": [],
+    "include_less": [],
+    "skip_sections": [],
+    "custom_rules": []
+  },
+  "stats": {
+    "total_ratings": 0,
+    "average_rating": 0,
+    "last_updated": null
+  }
+}

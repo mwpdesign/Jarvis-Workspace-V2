@@ -217,4 +217,86 @@ Want me to help with any of these?"
 
 ---
 
+## 📊 Briefing Feedback Capture (Build 5.3a)
+
+**New Pattern**: Rate morning briefings to help Jarvis improve them.
+
+### Detection Patterns
+
+Jarvis detects briefing feedback when Michael says:
+- "briefing" + number (1-5)
+- "briefing feedback"
+- "briefing was a [number]"
+- "briefing: [rating]"
+
+### Examples
+
+**Simple rating:**
+```
+Michael: "Briefing was a 4 today"
+
+Jarvis: "✅ Noted!
+Briefing rated: 4/5
+
+Thanks for the feedback!"
+```
+
+**With sections:**
+```
+Michael: "Briefing: 4, best section was war room, worst was weather"
+
+Jarvis: "✅ Feedback logged!
+• Rating: 4/5
+• Best: war-room
+• Worst: weather
+
+I'll adjust future briefings based on this."
+```
+
+**Detailed feedback:**
+```
+Michael: "Briefing feedback: 5, war room intel was perfect, email breakdown helped prioritize, skip affirmations on weekdays"
+
+Jarvis: "✅ Great feedback!
+• Rating: 5/5 ⭐
+• Best: war-room, emails
+• Adjustment: Skip affirmations on weekdays
+
+Applied for tomorrow's briefing."
+```
+
+### Storage
+
+Feedback is saved to `memory/briefing-feedback.json`:
+```json
+{
+  "date": "2026-02-05",
+  "overall": 4,
+  "best_section": "war-room",
+  "worst_section": "weather",
+  "notes": "War room intel was perfect timing"
+}
+```
+
+### Auto-Adjustments
+
+After 3+ ratings for a section:
+- **Consistent 1-2 ratings** → Section gets trimmed or skipped
+- **Consistent 4-5 ratings** → Section gets expanded
+- **Explicit requests** (e.g., "skip weather") → Applied immediately
+
+### Rating Scale
+
+| Rating | Meaning |
+|--------|---------|
+| 5 | Excellent - perfect balance, keep doing this |
+| 4 | Good - mostly useful, minor tweaks only |
+| 3 | Fine - acceptable but room for improvement |
+| 2 | Noisy - too much low-value content |
+| 1 | Useless - major problems, rethink approach |
+
+**See:** `docs/BRIEFING-FEEDBACK.md` for full documentation
+
+---
+
 **It just works. Talk naturally, I'll handle the rest.** ✨
