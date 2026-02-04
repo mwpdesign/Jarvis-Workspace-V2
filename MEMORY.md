@@ -134,6 +134,16 @@
 - **Cron cleanup:** Removed 4 stale jobs (old email monitor had 2,493+ wasted runs on main session)
 - **Optimization:** Task-worker frequency reduced from */30 (48 runs/day) to */2 (12 runs/day) — saves ~$0.35/day ($10.50/month)
 
+## Memory Consolidation (2026-02-04)
+- **Status:** ✅ Automated weekly (Sundays 2 AM)
+- **Purpose:** Distills daily memory files into long-term curated MEMORY.md
+- **Process:** Reads past 7 days of memory/YYYY-MM-DD.md files, extracts significant events, appends to MEMORY.md
+- **Rules:** Append-only, deduplication, quality over quantity (max 30 lines/run)
+- **Log:** memory/consolidation-log.json tracks run history
+- **Documentation:** docs/MEMORY-CONSOLIDATION.md
+- **Cost:** ~$0.10-0.15/week (~$0.60/month)
+- **Manual consolidation:** Still welcome during sessions for urgent updates
+
 ## Systems Operational (2026-02-03)
 - ✅ Daily briefing: 7 AM via Telegram
 - ✅ Heartbeat monitoring: Every 30 minutes

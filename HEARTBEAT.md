@@ -16,7 +16,8 @@
 | war-room-industry | 5 AM daily | Default | Industry trends scan → war-room-findings.md |
 | morning-briefing | 7 AM daily | Default | Assembles + delivers briefing to Telegram |
 | git-autocommit | Every 30 min | Mini | Commits + pushes workspace changes |
-| task-worker | Every 30 min | Default | Processes 1 pending task from queue.json |
+| task-worker | Every 2 hours | Default | Processes 1 pending task from queue.json |
+| memory-consolidation | 2 AM Sundays | Default | Distills weekly learnings into MEMORY.md |
 
 **⚠️ DO NOT run web searches, email checks, or war room research during heartbeat. Cron handles all of that.**
 

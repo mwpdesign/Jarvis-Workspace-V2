@@ -305,11 +305,13 @@ Your heartbeat job is LIGHTWEIGHT:
 
 ### 🔄 Memory Maintenance
 
-Periodically (every few days), use a heartbeat to:
-1. Read recent `memory/YYYY-MM-DD.md` files
-2. Identify significant events, lessons, insights
-3. Update `MEMORY.md` with distilled learnings
-4. Remove outdated info from MEMORY.md
+**Automated** via memory-consolidation cron (Sundays 2 AM). The cron:
+1. Reads recent `memory/YYYY-MM-DD.md` files (past week)
+2. Identifies significant events, lessons, insights
+3. Updates `MEMORY.md` with distilled learnings (append-only)
+4. Skips routine logs and duplicates
+
+**Manual consolidation still welcome** during sessions for urgent updates or major events.
 
 Daily files = raw notes. MEMORY.md = curated wisdom.
 
