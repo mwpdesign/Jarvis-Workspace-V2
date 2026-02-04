@@ -10,13 +10,13 @@
 
 | Job | Schedule | Model | What It Does |
 |-----|----------|-------|--------------|
-| email-monitor | Every 5 min | Flash | Scans A-Team + 1 SNETWORK for urgent unread |
-| war-room-competitors | 3 AM daily | Sonnet | Competitor news scan → war-room-findings.md |
-| war-room-cms | 4 AM daily | Sonnet | CMS/regulatory scan → war-room-findings.md |
-| war-room-industry | 5 AM daily | Sonnet | Industry trends scan → war-room-findings.md |
-| morning-briefing-new | 7 AM daily | Sonnet | Assembles + delivers briefing to Telegram |
-| git-autocommit | Every 30 min | Flash | Commits + pushes workspace changes |
-| task-worker | Every 30 min | Sonnet | Processes 1 pending task from queue.json |
+| email-monitor | Every 5 min | Mini | Scans A-Team + 1 SNETWORK for urgent unread |
+| war-room-competitors | 3 AM daily | Default | Competitor news scan → war-room-findings.md |
+| war-room-cms | 4 AM daily | Default | CMS/regulatory scan → war-room-findings.md |
+| war-room-industry | 5 AM daily | Default | Industry trends scan → war-room-findings.md |
+| morning-briefing | 7 AM daily | Default | Assembles + delivers briefing to Telegram |
+| git-autocommit | Every 30 min | Mini | Commits + pushes workspace changes |
+| task-worker | Every 30 min | Default | Processes 1 pending task from queue.json |
 
 **⚠️ DO NOT run web searches, email checks, or war room research during heartbeat. Cron handles all of that.**
 

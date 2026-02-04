@@ -2,6 +2,22 @@
 
 ---
 
+## OpenClaw Model IDs (Verified 2026-02-04)
+
+**Available Models:**
+- **Default Sonnet:** `anthropic/claude-sonnet-4-5-20250929` (default model, use when no model specified)
+- **Mini (cheap):** `openai/gpt-4o-mini` (alias: `mini`) - use for lightweight tasks
+- **Flash (cheapest):** `google/gemini-1.5-flash` (alias: `flash`) - **DO NOT USE** in cron jobs (fails with API error)
+- **Opus (expensive):** `anthropic/claude-opus-4-5` (alias: `opus`) - use for critical decisions only
+
+**For Cron Jobs:**
+- Cheap tasks → `mini` (openai/gpt-4o-mini)
+- Standard tasks → omit model parameter (uses default Sonnet)
+
+**Note:** Model aliases (flash, mini, opus) work in main sessions but may fail in isolated cron jobs. Use full names or omit for default.
+
+---
+
 ## Google Workspace (gog CLI v0.9.0)
 
 ### Accounts
