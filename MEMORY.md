@@ -150,6 +150,15 @@
 - **Tracker updated:** By heartbeat (file timestamps) and at session end (read/write records)
 - **Created because:** Was reading 15,000+ tokens of unchanged files every session startup
 
+### Work Log System (2026-02-04)
+- **File:** memory/work-log.json + docs/WORK-LOG.md
+- **Purpose:** Track every meaningful action for accountability and cost visibility
+- **Logged by:** Main session, heartbeat, and all cron jobs
+- **Query:** "What have you been doing?" → read and summarize work-log.json by time range
+- **Cost tracking:** tokens_est × model_rate gives rough spend per period
+- **Rotation:** Monthly archival to memory/work-log-archive-YYYY-MM.json
+- **Morning briefing:** Includes 1-line overnight activity summary from work log
+
 ## FutureNTech YouTube Channel (2026-02-03) - FULLY OPERATIONAL
 
 **Channel:** FutureNTech (@FutureNTech)

@@ -54,6 +54,10 @@
 - Only check core and active-work files (not docs/ or projects/ — those are on-demand)
 - FAST operation — just stat the files, update timestamps, done
 
+### 5b. Work Log Housekeeping
+- If it's the 1st of the month: archive entries older than 30 days to `memory/work-log-archive-YYYY-MM.json`
+- Quick sanity check: if work-log.json is larger than 500 entries, archive older half regardless of date
+
 ---
 
 ## Rules

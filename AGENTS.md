@@ -170,6 +170,7 @@ Capture what matters. Decisions, context, things to remember. Skip secrets unles
 - Search the web, check calendars
 - Work within this workspace
 - Draft emails and messages (but don't send)
+- Log actions to work-log.json
 
 **Ask first:**
 - Sending emails, tweets, public posts
@@ -360,6 +361,8 @@ Log all ideas to `OPPORTUNITIES.md`, even if Michael doesn't pursue them immedia
 | Task queue | `tasks/queue.json` |
 | Context loading | `docs/CONTEXT-LOADING.md` |
 | State tracker | `memory/state-tracker.json` |
+| Work log | `memory/work-log.json` |
+| Work log docs | `docs/WORK-LOG.md` |
 
 ---
 
