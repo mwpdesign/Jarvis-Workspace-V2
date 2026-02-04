@@ -1,10 +1,25 @@
-[
-  {
-    "date": "2026-02-04",
-    "jobs": {},
-    "total_cron_cost": 0,
-    "main_session_est": 0,
-    "daily_total": 0,
-    "notes": "Cost tracking started. Partial day — system was being configured."
+{
+  "daily": [
+    {
+      "date": "2026-02-04",
+      "cron_cost": 6.14,
+      "session_cost_est": 2.00,
+      "total": 8.14,
+      "notes": "Partial day (Build 5.1 deployed). Email-monitor running */5 min = high cost."
+    }
+  ],
+  "format_spec": {
+    "date": "YYYY-MM-DD",
+    "cron_cost": "Sum of all cron job costs for the day",
+    "session_cost_est": "Estimated main session usage (~$2/day baseline)",
+    "total": "cron_cost + session_cost_est",
+    "notes": "Optional context or anomalies"
+  },
+  "weekly_summary": {
+    "last_updated": "2026-02-04 18:54 EST",
+    "projected_weekly": 22.99,
+    "projected_monthly": 99.48,
+    "status": "✅ OPTIMIZED - Within $55-120 budget range",
+    "optimization_notes": "email-monitor */5→*/15, git-autocommit */30→hourly (2026-02-04 18:54)"
   }
-]
+}

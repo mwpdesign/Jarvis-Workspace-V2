@@ -25,5 +25,23 @@
     "model": "sonnet",
     "tokens_est": 50000,
     "detail": "15 orphaned run log files deleted (47.3 KB), 2 active run logs kept (task-worker, Daily Auto-Update)"
+  },
+  {
+    "timestamp": "2026-02-04T18:48:00-05:00",
+    "session_type": "manual:build-5.2",
+    "action": "cost_validation",
+    "category": "system",
+    "model": "sonnet",
+    "tokens_est": 56000,
+    "detail": "Cost validation complete — projected $185.55/month vs $55-120 estimate. ⚠️ CRITICAL: email-monitor (*/5 min) costs $87/month alone. Recommended: reduce to */15 min for $99/month total. Full report: docs/COST-VALIDATION-REPORT.md"
+  },
+  {
+    "timestamp": "2026-02-04T18:54:00-05:00",
+    "session_type": "manual:build-5.2-optimize",
+    "action": "cron_schedule_update",
+    "category": "system",
+    "model": "sonnet",
+    "tokens_est": 64000,
+    "detail": "email-monitor changed to */15 min (was */5), git-autocommit changed to hourly (was */30) — projected savings $86.07/month. New monthly projection: $99.48 (within $55-120 budget). Updated: docs/COST-VALIDATION-REPORT.md, memory/cost-tracker.json"
   }
 ]
