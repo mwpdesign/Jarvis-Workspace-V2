@@ -231,52 +231,19 @@ Skills provide your tools. When you need one, check its `SKILL.md`. Keep environ
 
 ---
 
-## 💓 Heartbeats - Be Proactive!
+## 💓 Heartbeats — Coordination Only
 
-When you receive a heartbeat poll, don't just reply `HEARTBEAT_OK` every time. Use heartbeats productively!
+Heavy work has been migrated to isolated cron jobs. See HEARTBEAT.md for what cron handles.
 
-See `HEARTBEAT.md` for the full checklist of what to monitor.
+Your heartbeat job is LIGHTWEIGHT:
+- Check for urgent alerts
+- Report completed queue tasks
+- Note observations
+- Otherwise: HEARTBEAT_OK
 
-### Heartbeat vs Cron
+**Do NOT** duplicate cron work during heartbeat. No email checks, no web searches, no war room research. That's all handled by dedicated cron jobs running in isolated sessions with cost-appropriate models.
 
-**Use heartbeat when:**
-- Multiple checks can batch together
-- Timing can drift slightly (~30 min is fine)
-- You need conversational context
-
-**Use cron when:**
-- Exact timing matters ("9:00 AM sharp")
-- Task needs isolation from main session
-- One-shot reminders
-
-**Track your checks** in `memory/heartbeat-state.json`:
-```json
-{
-  "lastChecks": {
-    "email": 1703275200,
-    "calendar": 1703260800,
-    "weather": null
-  }
-}
-```
-
-**When to reach out:**
-- Important email arrived
-- Calendar event coming up (<2h)
-- Something interesting you found
-- It's been >8h since you said anything
-
-**When to stay quiet (HEARTBEAT_OK):**
-- Late night (23:00-08:00) unless urgent
-- Michael is clearly busy
-- Nothing new since last check
-
-**Proactive work without asking:**
-- Read and organize memory files
-- Check on projects (git status, etc.)
-- Update documentation
-- Commit and push workspace changes
-- Review and update MEMORY.md
+**Manage cron jobs:** `openclaw cron list` to see all scheduled jobs.
 
 ### 🔄 Memory Maintenance
 

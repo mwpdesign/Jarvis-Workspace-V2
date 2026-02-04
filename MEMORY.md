@@ -134,6 +134,14 @@
 - **Maintenance:** Clean entries older than 30 days on 1st of each month
 - **Created because:** Was repeating CMS 2026 payment cut news across multiple briefings
 
+### Cron Architecture Migration (2026-02-04)
+- **Migrated from:** Monolithic heartbeat doing everything
+- **Migrated to:** Isolated cron jobs for heavy work + lean heartbeat for coordination
+- **Jobs created:** email-monitor (5min/Flash), war-room x3 (overnight/Sonnet), morning-briefing-new (7AM/Sonnet), git-autocommit (30min/Flash), task-worker (30min/Sonnet)
+- **Why:** Heartbeat was inconsistent, expensive, and bloated main session context. Isolated crons use clean sessions with appropriate models.
+- **Cost impact:** Flash for simple checks (~$0.001/call), Sonnet for real work (~$0.10/call). No more Opus-level tokens burned on email checks.
+- **Manage crons:** `openclaw cron list`, `openclaw cron remove --id <id>`, `openclaw cron runs --id <id>`
+
 ## FutureNTech YouTube Channel (2026-02-03) - FULLY OPERATIONAL
 
 **Channel:** FutureNTech (@FutureNTech)
