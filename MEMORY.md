@@ -144,6 +144,13 @@
 - **Cost:** ~$0.10-0.15/week (~$0.60/month)
 - **Manual consolidation:** Still welcome during sessions for urgent updates
 
+## Memory Hygiene (2026-02-04)
+- **Status:** ✅ Automated monthly archival (1st of month, 3 AM)
+- **Process:** Archives daily files >30 days old to memory/archive/YYYY-MM/, deletes archived files >90 days old (if consolidated)
+- **Rules:** Never touch active files (<30 days), never delete unprocessed files, trim consolidation log to last 12 entries
+- **Documentation:** docs/MEMORY-CONSOLIDATION.md (Memory Hygiene section)
+- **Cost:** ~$0.01/month (Mini model, simple file operations)
+
 ## Systems Operational (2026-02-03)
 - ✅ Daily briefing: 7 AM via Telegram
 - ✅ Heartbeat monitoring: Every 30 minutes

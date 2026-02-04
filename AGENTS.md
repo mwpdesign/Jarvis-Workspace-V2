@@ -313,6 +313,8 @@ Your heartbeat job is LIGHTWEIGHT:
 
 **Manual consolidation still welcome** during sessions for urgent updates or major events.
 
+**Hygiene:** Daily files auto-archive after 30 days, auto-delete after 90 days (if consolidated). See docs/MEMORY-CONSOLIDATION.md for full rules.
+
 Daily files = raw notes. MEMORY.md = curated wisdom.
 
 ---

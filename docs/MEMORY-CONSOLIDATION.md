@@ -117,3 +117,68 @@ Review and update consolidation rules if:
 - **Cost:** ~$0.10-0.15/week = **~$0.60/month**
 
 Minimal cost for significant organizational benefit.
+
+---
+
+## Memory Hygiene
+
+Memory files accumulate indefinitely without maintenance. These rules keep the system healthy and prevent unbounded growth.
+
+### Daily Files (memory/YYYY-MM-DD.md)
+
+**< 7 days old: Active**
+- Read frequently by cron jobs and sessions
+- Never touch or move
+
+**7-30 days old: Consolidated**
+- Already processed by weekly consolidation cron
+- Keep as raw historical record
+- No action needed
+
+**> 30 days old: Archive Candidates**
+- Move to `memory/archive/YYYY-MM/DD.md` on 1st of each month
+- Creates year-month directory structure automatically
+- Keeps active memory/ directory clean
+
+**> 90 days old (in archive): Delete Candidates**
+- Check `consolidation-log.json` to confirm processing
+- If consolidated: safe to delete
+- If NOT consolidated (edge case): flag in work log, keep file
+
+### MEMORY.md Hygiene
+
+**Target Size:** ~500 lines maximum
+
+**When approaching limit:**
+- Compress older entries (keep lesson, drop details)
+- Merge related items
+- Review "Systems Operational" section — remove entries for defunct systems
+
+**Dated entries older than 6 months:**
+- Candidates for compression
+- Distill to essential lesson or fact
+- Remove implementation details that are outdated
+
+**Never Delete:**
+- Key contacts and relationships
+- Security audit history
+- Account configurations
+- Lessons learned (core wisdom)
+- Project milestones
+
+### Consolidation Log Hygiene
+
+`memory/consolidation-log.json`:
+- Keep last **12 entries** (3 months of weekly runs)
+- Older entries: Delete during monthly archive job
+- Preserves recent history, prevents unbounded growth
+
+### Automated Archival
+
+The **memory-archive** cron (1st of month, 3 AM):
+1. Archives daily files > 30 days old
+2. Deletes archived files > 90 days old (if consolidated)
+3. Trims consolidation log to last 12 entries
+4. Logs actions to work-log.json
+
+**Manual cleanup still welcome** if files accumulate faster than expected or MEMORY.md needs reorganization.
