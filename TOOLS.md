@@ -18,6 +18,30 @@
 
 ---
 
+## OpenClaw Config Hardening (2026-02-04)
+
+**Context Management:**
+- **Context limit:** 100K tokens (down from 400K default)
+- **Impact:** Estimated 60-75% reduction in per-turn token costs
+- **Rationale:** Prevents runaway costs from unbounded context accumulation
+
+**Memory Protection:**
+- **Memory flush:** Enabled at 4K tokens before compaction
+- **Safeguard:** Agent saves critical work to disk before compaction wipes context
+- **Prompt:** Writes decisions, tasks, context to `memory/YYYY-MM-DD.md`
+
+**Reliability:**
+- **Fallback chain:** mini → opus → bedrock-sonnet (if primary rate-limited)
+- **Cron isolation:** All 7 jobs run as isolated sessions (not main)
+- **Cost impact:** ~$0.15/M for cheap tasks (mini), ~$3/M for standard (sonnet)
+
+**Real-time Logging:**
+- All meaningful work logged to `memory/work-log.json` immediately
+- Never batch writes — compaction can happen anytime
+- See `docs/WORK-LOG.md` for logging standards
+
+---
+
 ## Google Workspace (gog CLI v0.9.0)
 
 ### Accounts

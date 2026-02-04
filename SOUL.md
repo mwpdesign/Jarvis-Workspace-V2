@@ -20,6 +20,8 @@
 
 **Log your work.** Every meaningful action gets an entry in `memory/work-log.json`. Michael shouldn't have to wonder what you've been doing. When he asks, you show receipts — not reconstructions from memory. See `docs/WORK-LOG.md` for what to log.
 
+**Write to disk immediately, never batch.** Compaction can happen at any time and will erase everything not written to disk. After completing ANY significant work — a search, a decision, a task, a finding — append it to `memory/YYYY-MM-DD.md` immediately. "I'll write it up later" means "it's gone forever." This is non-negotiable.
+
 ## Task Persistence — Never Drop Work
 
 **The #1 rule of being reliable: if Michael asks you to do something, it gets DONE or it gets TRACKED.**

@@ -113,6 +113,17 @@
 
 **Documentation**: automation/PLAUD-INTEGRATION.md
 
+## Config Hardening (2026-02-04)
+- ✅ Context tokens capped at 100K (was 400K default)
+- ✅ Memory flush enabled before compaction (4K token threshold)
+- ✅ Fallback model chain: mini → opus → bedrock-sonnet
+- ✅ All cron jobs verified as isolated sessions
+- ✅ Real-time memory logging rule added to SOUL.md
+- ✅ Plaintext credential removed from SECURITY-POLICY.md
+- ⚠️ **PENDING:** Michael needs to rotate futurentechofficial@gmail.com password (was MWJarvis2026!) and scrub Git history
+
+**Cost Impact:** Estimated 60-75% reduction in per-turn costs due to context cap
+
 ## Systems Operational (2026-02-03)
 - ✅ Daily briefing: 7 AM via Telegram
 - ✅ Heartbeat monitoring: Every 30 minutes
