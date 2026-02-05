@@ -33,6 +33,46 @@
       "source": "morning-briefing",
       "category": "industry",
       "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-05",
+      "topic_hash": "mimedx-summit-partnership-feb2026",
+      "headline": "MiMedx exclusive distribution deal with Summit for 3 products (Hydrelix, NovaForm, G4Derm Plus)",
+      "source": "war-room-competitors",
+      "category": "competitor",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-05",
+      "topic_hash": "mimedx-analyst-downgrade-cms-confusion",
+      "headline": "Craig-Hallum downgrades MiMedx on CMS confusion, expects Q1 volume pressure",
+      "source": "war-room-competitors",
+      "category": "competitor",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-05",
+      "topic_hash": "integra-cms-positioning-broadest-portfolio",
+      "headline": "Integra CEO claims broadest portfolio aligned to CMS reimbursement changes",
+      "source": "war-room-competitors",
+      "category": "competitor",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-05",
+      "topic_hash": "smith-nephew-2026-growth-target-6pct",
+      "headline": "Smith+Nephew expects 6% revenue growth in 2026 (up from 5% in 2025)",
+      "source": "war-room-competitors",
+      "category": "competitor",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-05",
+      "topic_hash": "organogenesis-wccc-summit-sponsor-2026",
+      "headline": "Organogenesis principal sponsor at 2026 SAWC Spring WCCC Summit",
+      "source": "war-room-competitors",
+      "category": "competitor",
+      "ttl_days": 14
     }
   ]
 }

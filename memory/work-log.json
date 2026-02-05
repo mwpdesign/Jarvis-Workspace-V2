@@ -151,5 +151,16 @@
     "model": "haiku",
     "tokens_est": 45,
     "detail": "Scanned a-team + 1-snetwork labels (gog), 0 unread messages. Inbox clear."
+  },
+  {
+    "timestamp": "2026-02-05T03:00:00-05:00",
+    "session_type": "cron:war-room-competitors",
+    "action": "web_search",
+    "category": "war-room",
+    "model": "sonnet",
+    "tokens_est": 8000,
+    "detail": "5 new competitor findings: MiMedx Summit partnership, analyst downgrade; Integra CMS positioning; Smith+Nephew 2026 growth target; Organogenesis WCCC sponsorship",
+    "result": "5 findings written to war-room-findings.md, dedup ledger updated"
   }
 ]
+{"timestamp": "2026-02-05T03:05:00-05:00", "job": "email-monitor", "action": "search_unread", "result": "no_urgent_unread", "p1_count": 0, "p2_count": 0, "model": "haiku", "tokens_est": 120}
