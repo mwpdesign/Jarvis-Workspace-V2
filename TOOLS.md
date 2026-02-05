@@ -133,6 +133,23 @@ Work process emails:
 - **Video Editing**: ✅ ffmpeg installed
 - **Launch Status**: 100% Ready
 
+### FutureNTech Google Sheets (2026-02-04)
+
+**Outreach Tracking Sheet** (OUTBOUND - emails we send):
+- **URL**: https://docs.google.com/spreadsheets/d/1Dq2KDX-ktde3JMybQVydAfFesaf-slxAm77wTZNubnU/edit
+- **Sheet Name**: futurentech-outreach
+- **Columns**: Date | Platform | Artist/Band | Location | Genre | Link | Status | Notes
+- **Status Values**: To Contact, Contacted, Interested, Declined, No Response
+- **Access**: gog sheets via futurentechofficial@gmail.com
+- **Purpose**: Track every outreach email sent to bands we discover
+
+**Form Responses Sheet** (INBOUND - bands submit to us):
+- **URL**: https://docs.google.com/spreadsheets/d/1hD5OPvNMbyYufqqB_fcXCieRWgspzK-ZVl-HxJDTVaw
+- **Auto-populated**: When bands submit via Google Form
+- **Monitored by**: futurentech-form-check cron (daily 8 AM)
+- **Access**: gog sheets via futurentechofficial@gmail.com
+- **Purpose**: Inbound submissions → auto-create research tasks
+
 ---
 
 ## Audio Production

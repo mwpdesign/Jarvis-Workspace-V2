@@ -235,7 +235,16 @@
 - Voice Clone ID: Rt1MCyQ54DxjUUsampFD
 - Submission Form: https://docs.google.com/forms/d/e/1uiD8vWmX_AQnNdfVxDI1Ft2yN5HBR_R2MKF8KnWkoTk/viewform
 - Responses Sheet: https://docs.google.com/spreadsheets/d/1hD5OPvNMbyYufqqB_fcXCieRWgspzK-ZVl-HxJDTVaw
+- Outreach Tracking Sheet: https://docs.google.com/spreadsheets/d/1Dq2KDX-ktde3JMybQVydAfFesaf-slxAm77wTZNubnU/edit
 - Test Upload: https://www.youtube.com/watch?v=GYI8jovPLvk
+
+**Outreach Tracking Integration (2026-02-04):**
+- Every outbound email automatically logged to Outreach Tracking sheet
+- Sheet tracks: Date | Platform | Artist/Band | Location | Genre | Link | Status | Notes
+- Reply monitoring: Daily check (8 AM) updates status based on band responses
+- Status flow: To Contact → Contacted → Interested/Declined/No Response
+- Atomic operation: Email send + sheet log = one action (if sheet fails, alert Michael)
+- Documented in: TOOLS.md, AGENTS.md (hard rule section)
 
 **Project File:** projects/futurentech/PROJECT.md
 

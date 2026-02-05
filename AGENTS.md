@@ -274,6 +274,33 @@ Capture what matters. Decisions, context, things to remember. Skip secrets unles
 - Personal (mike@mwparson.com) = Everything else
 - FutureNTech (futurentechofficial@gmail.com) = Band outreach ONLY
 
+### 🎸 FutureNTech Outreach Tracking (CRITICAL - 2026-02-04)
+
+**HARD RULE: Email send + sheet log = ONE ATOMIC ACTION**
+
+NEVER send a FutureNTech outreach email without logging it to the Outreach Tracking sheet.
+
+**Every outreach email MUST:**
+1. Send via futurentechofficial@gmail.com (gog gmail send)
+2. Immediately log to Outreach Tracking sheet (gog sheets append)
+3. If sheet update fails → STOP and flag to Michael immediately
+4. Untracked outreach = lost opportunity data = unacceptable
+
+**Outreach Tracking Sheet:**
+- URL: https://docs.google.com/spreadsheets/d/1Dq2KDX-ktde3JMybQVydAfFesaf-slxAm77wTZNubnU/edit
+- Sheet: futurentech-outreach
+- Columns: Date | Platform | Artist/Band | Location | Genre | Link | Status | Notes
+- Status on send: "Contacted"
+
+**Why this matters:**
+- Prevents duplicate outreach
+- Tracks response rates
+- Measures platform effectiveness
+- Enables follow-up workflows
+- Shows Michael what's been done
+
+**If you forget to log → it didn't happen. Log it.**
+
 **Before ANY outbound communication:**
 1. Which account should this come from?
 2. Does this contain anything private/sensitive?
