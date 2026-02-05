@@ -88,5 +88,14 @@
     "model": "sonnet",
     "tokens_est": 113000,
     "detail": "Created futurentech-form-check cron job (ID: 6b047a05-dad3-45fd-b37d-d4ef985fd8c3). Schedule: daily 8 AM, Haiku model. Monitors Google Form submissions (https://docs.google.com/spreadsheets/d/1hD5OPvNMbyYufqqB_fcXCieRWgspzK-ZVl-HxJDTVaw), checks against processed-submissions.json for new artists, creates research tasks in tasks/queue.json with metadata (artist_name, music_links, social_links, email). Silent if no new submissions. Total active cron jobs: 11."
+  },
+  {
+    "timestamp": "2026-02-04T19:13:00-05:00",
+    "session_type": "manual:build-5.5c",
+    "action": "task_worker_update",
+    "category": "futurentech",
+    "model": "sonnet",
+    "tokens_est": 127000,
+    "detail": "Task-worker cron updated with full FutureNTech pipeline handling (new ID: c74ba6a0-4724-4502-a6cc-9de41d392437). Added 5 FutureNTech action types: (1) research-artist - evaluates fit, writes research notes, creates script task if good fit, (2) write-script - creates 6-8 min video script, blocks for approval, alerts Michael, (3) generate-voice - uses sag CLI + voice Rt1MCyQ54DxjUUsampFD after approval, (4) produce-video - ffmpeg video production + thumbnail generation, blocks for final review, (5) upload-video - youtube-upload after approval, sends confirmation + artist thank-you email. All tasks log to work-log with category 'futurentech'. Task-worker now handles general tasks + full FutureNTech pipeline end-to-end."
   }
 ]
