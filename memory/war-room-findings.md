@@ -71,3 +71,27 @@ Morning briefing reads this file to assemble intel section.
 - Source: Modern Healthcare (Jan 29, 2026)
 
 ---
+
+## 2026-02-05 - Industry Intelligence
+
+**Manuka Honey Wound Care - 2026 Product Trend**
+- Industry prediction: Manuka honey-based wound care will be most popular new product category in 2026
+- Manuka honey from New Zealand recognized as most pure and effective honey available
+- Represents shift toward natural antimicrobial alternatives
+- Source: EIN Presswire (Jan 2026)
+
+**Global Wound Care Market Growth - Strong CAGR**
+- Market valued at $22.22B in 2025
+- Projected 6.5% CAGR from 2025-2030
+- Forecast: $30.48B by 2030
+- Drivers: Aging population, chronic wound prevalence, shift to eco-friendly/cost-effective solutions
+- Source: Markets and Markets (Feb 2026)
+
+**AI in Wound Care - Explosive Growth Forecast**
+- Market size: $0.64B in 2025, projected $12.9B by 2034
+- 35.03% CAGR over forecast period
+- Represents 20x growth in AI-powered wound assessment, monitoring, and treatment planning
+- Vital Wound Care expanded Houston operations (June 2025) - example of market expansion
+- Source: Globe Newswire (Feb 4, 2026)
+
+---

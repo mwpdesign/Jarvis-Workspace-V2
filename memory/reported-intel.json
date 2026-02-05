@@ -113,6 +113,30 @@
       "source": "war-room-cms",
       "category": "cms",
       "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-05",
+      "topic_hash": "manuka-honey-wound-care-2026-trend",
+      "headline": "Manuka honey-based wound care predicted as most popular new product in 2026",
+      "source": "war-room-industry",
+      "category": "industry",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-05",
+      "topic_hash": "wound-care-market-6.5pct-cagr-30B-by-2030",
+      "headline": "Global wound care market projected 6.5% CAGR ($22.22B → $30.48B by 2030)",
+      "source": "war-room-industry",
+      "category": "industry",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-05",
+      "topic_hash": "ai-wound-care-35pct-cagr-12.9B-by-2034",
+      "headline": "AI in wound care market 35.03% CAGR ($0.64B → $12.9B by 2034) - 20x growth",
+      "source": "war-room-industry",
+      "category": "industry",
+      "ttl_days": 14
     }
   ]
 }
