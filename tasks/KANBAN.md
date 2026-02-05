@@ -1,6 +1,6 @@
 # 📋 KANBAN - Michael's Task Board
 
-**Last Updated:** 2026-02-05 09:16 EST
+**Last Updated:** 2026-02-05 16:29 EST
 
 ---
 
@@ -45,7 +45,14 @@
 - [ ] 🔴 Reach out to Kenya: give training + get address for computer (TODAY - Feb 5)
 - [ ] 🔴 Get Tiffany's address for computer (TODAY - Feb 5)
 - [ ] 🔴 Set up both computers for Kenya and Tiffany (TODAY - Feb 5)
-- [ ] 🔴 Go through all of Henry's questions from yesterday and get answers (TODAY - Feb 5)
+- [x] 🔴 Go through all of Henry's questions from yesterday and get answers (DONE - Jarvis scanned emails)
+- [ ] 🔴 Review Sprint 1 Deliverables documentation from Henry (THIS WEEK)
+  - Files: Sprint 1 Deliverables 20260205.pdf & .docx
+  - Check: Scope, frontend UI mockups, test credentials
+- [ ] 🔴 Test staging environment: http://demo.clearhealthpass.com/ (THIS WEEK)
+  - Use test credentials from deliverables doc
+  - Test different user roles
+- [ ] 🔴 Provide feedback to Henry on Sprint 1 completion (THIS WEEK)
 - [ ] 🔴 Reset Daniel's AWS password (expires in 9 days)
 - [x] Find and review Henry's questions from email (answered via Claude Desktop)
 - [ ] Follow up on deliverable testing
@@ -95,6 +102,7 @@ _Nothing yet - this section will fill as work completes_
 
 **Recent changes:**
 
+**2026-02-05 16:29** - ✅ Scanned Henry Campbell's emails and extracted Sprint 1 review tasks (3 new tasks added)
 **2026-02-05 09:16** - Added 7 urgent tasks for today: Phil denial appeals, Kenya/Tiffany computer setup + training, Henry's questions, Daniel AWS password, pack for flight
 **2026-02-02 09:19** - ✅ Completed: Smart Sheets video (uploaded to Drive for Tiffany/Kenya) | Added: 2 instructional guides (onboarding + patient checks)
 **2026-02-01 10:25** - Added: Smart Sheets training video merge, Finance team SOP
