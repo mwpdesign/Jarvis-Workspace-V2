@@ -1,0 +1,6 @@
+{
+  "version": "1.0",
+  "description": "Tracks which FutureNTech form submissions have been processed",
+  "processed": [],
+  "last_check": null
+}
