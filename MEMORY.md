@@ -268,3 +268,70 @@
 - **Impact**: Major market disruption, expect consolidation
 - **Opportunity**: Clinical differentiation now matters more than price
 - **Documented**: docs/CMS-2026-SKIN-SUBSTITUTE-CHANGES.md
+
+## Infrastructure Builds 5.x (2026-02-04)
+
+Comprehensive infrastructure overhaul focused on cost optimization, feedback loops, and automation.
+
+### Build 5.0: Cron Cleanup
+- **Status:** ✅ Complete
+- **What:** Deleted 9 broken/duplicate cron jobs (3 Haiku-3.5 model errors, 5 ghost duplicates, 1 pre-Build 4 Mini job)
+- **Result:** Clean roster of 10 active jobs, all using correct model strings
+- **Impact:** Eliminated error spam, clarified active automation
+
+### Build 5.1: Run Log Cleanup
+- **Status:** ✅ Complete
+- **What:** Deleted 15 orphaned .jsonl files from deleted cron jobs (47.3 KB reclaimed)
+- **Result:** Only 2 active run logs remain (task-worker, daily-auto-update)
+- **Impact:** Cleaner file structure, no wasted disk space
+
+### Build 5.2: Cost Tracking & Optimization
+- **Status:** ✅ Complete
+- **What:** Validated actual costs against estimates, found $185/month projection (over budget)
+- **Issue:** email-monitor running every 5 min ($87/month alone!)
+- **Fix:** Reduced email-monitor to */15 min, git-autocommit to hourly
+- **Result:** New projection $99.48/month (within $55-120 budget)
+- **Savings:** $86/month (46% reduction)
+- **Documentation:** docs/COST-VALIDATION-REPORT.md
+
+### Build 5.3: Briefing Feedback Loop
+- **Status:** ✅ Complete
+- **What:** Rating system for morning briefings (1-5 scale) with auto-adjustment
+- **Files:** memory/briefing-feedback.json, docs/BRIEFING-FEEDBACK.md
+- **Integration:** Morning briefing cron reads feedback, applies adjustments (skip_sections, include_less, include_more)
+- **Voice capture:** Detects "briefing: [rating]" pattern in Telegram
+- **Impact:** Continuous improvement based on Michael's ratings
+- **Goal:** Consistently 4+ ratings after first month of tuning
+
+### Build 5.4: Opus Usage Tracking
+- **Status:** ✅ Complete
+- **What:** Track manual Opus escalations to identify auto-escalation candidates
+- **Files:** memory/opus-usage-log.json, docs/OPUS-USAGE-PATTERNS.md
+- **Categories:** legal, compliance, financial, strategic, security, contract-review, executive-comms, other
+- **Review:** Weekly during memory-consolidation, 5+ escalations in 4 weeks triggers auto_escalation_candidates
+- **Integration:** AGENTS.md updated with tracking reminder
+- **Goal:** After 4+ weeks, auto-escalate categories that consistently benefit from Opus quality
+
+### Build 5.5: FutureNTech Automated Pipeline
+- **Status:** ✅ Complete (Build 5.5a-c)
+- **What:** End-to-end automated video production pipeline with human approval gates
+- **Documentation:** docs/FUTURENTECH-PIPELINE.md
+- **Stages:**
+  1. Form-check cron (daily 8 AM, Haiku) - monitors Google Form submissions
+  2. Research artist (task-worker, Sonnet) - evaluates fit, writes research notes
+  3. Write script (task-worker, Sonnet) - creates 6-8 min video script → [APPROVAL GATE 1]
+  4. Generate voice (task-worker, Sonnet) - ElevenLabs narration after approval
+  5. Produce video (task-worker, Sonnet) - ffmpeg video production → [APPROVAL GATE 2]
+  6. Upload video (task-worker, Haiku) - YouTube upload + artist email after approval
+- **Human time:** 15-25 minutes per video (2 approvals)
+- **Automated time:** ~2 hours per video
+- **Cost:** ~$0.62/video
+- **Impact:** 12-18x efficiency gain vs manual production
+- **Files:** projects/futurentech/processed-submissions.json, task-worker cron updated
+
+### Build 5 Summary
+- **Total builds:** 6 (5.0, 5.1, 5.2, 5.3, 5.4, 5.5a-c)
+- **Cost impact:** $86/month savings + $0.62/video production cost
+- **Automation:** FutureNTech pipeline fully operational
+- **Infrastructure:** Clean cron roster, optimized schedules, feedback loops active
+- **Documentation:** Complete changelog in docs/BUILD-5-SUMMARY.md

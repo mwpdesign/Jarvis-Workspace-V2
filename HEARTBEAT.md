@@ -2,7 +2,7 @@
 
 **Architecture:** Heavy work runs in isolated cron jobs. Heartbeat is a coordinator only.
 
-**Last updated:** 2026-02-04
+**Last updated:** 2026-02-04 (Build 5 complete)
 
 ---
 
@@ -10,16 +10,35 @@
 
 | Job | Schedule | Model | What It Does |
 |-----|----------|-------|--------------|
-| email-monitor | Every 5 min | Mini | Scans A-Team + 1 SNETWORK for urgent unread |
-| war-room-competitors | 3 AM daily | Default | Competitor news scan → war-room-findings.md |
-| war-room-cms | 4 AM daily | Default | CMS/regulatory scan → war-room-findings.md |
-| war-room-industry | 5 AM daily | Default | Industry trends scan → war-room-findings.md |
-| morning-briefing | 7 AM daily | Default | Assembles + delivers briefing to Telegram |
-| git-autocommit | Every 30 min | Mini | Commits + pushes workspace changes |
-| task-worker | Every 2 hours | Default | Processes 1 pending task from queue.json |
-| memory-consolidation | 2 AM Sundays | Default | Distills weekly learnings into MEMORY.md |
+| email-monitor | Every 15 min | Haiku | Scans A-Team + 1 SNETWORK for urgent unread (P1/P2 alerts) |
+| war-room-competitors | 3 AM daily | Sonnet | Competitor news scan → war-room-findings.md |
+| daily-auto-update | 4 AM daily | Default | Updates OpenClaw + skills |
+| war-room-cms | 4 AM daily | Sonnet | CMS/regulatory scan → war-room-findings.md |
+| war-room-industry | 5 AM daily | Sonnet | Industry trends scan → war-room-findings.md |
+| morning-briefing | 7 AM daily | Sonnet | Assembles + delivers briefing to Telegram (feedback-aware) |
+| futurentech-form-check | 8 AM daily | Haiku | Monitors submissions → creates research tasks |
+| git-autocommit | Every hour | Haiku | Commits + pushes workspace changes |
+| task-worker | Every 2 hours | Sonnet | Processes 1 pending task from queue.json + FutureNTech pipeline |
+| memory-consolidation | 2 AM Sundays | Sonnet | Distills weekly learnings into MEMORY.md + Opus tracking |
+| memory-archive | 1st of month 3 AM | Haiku | Archives old memory files |
 
-**⚠️ DO NOT run web searches, email checks, or war room research during heartbeat. Cron handles all of that.**
+**⚠️ DO NOT run web searches, email checks, war room research, or FutureNTech work during heartbeat. Cron handles all of that.**
+
+---
+
+## FutureNTech Pipeline (Build 5.5)
+
+**Pipeline automated** — see `docs/FUTURENTECH-PIPELINE.md` for full details.
+
+- **form-check cron** (8 AM daily) monitors Google Form submissions
+- **task-worker cron** (every 2 hours) handles all 5 pipeline stages:
+  1. Research artist
+  2. Write script
+  3. Generate voice (after approval)
+  4. Produce video
+  5. Upload to YouTube (after approval)
+
+**DO NOT manually intervene in FutureNTech pipeline during heartbeat.** The cron jobs handle end-to-end automation.
 
 ---
 
