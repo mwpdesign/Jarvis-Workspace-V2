@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "description": "Tracks file modification timestamps so Jarvis only re-reads changed files on session startup",
-  "last_session": "2026-02-04T15:02:00-05:00",
+  "last_session": "2026-02-04T23:57:00-05:00",
   "files": {
     "SOUL.md": {
       "last_read": "2026-02-04T14:52:21-05:00",
@@ -100,6 +100,15 @@
       "content_hash": "stable",
       "category": "project-specific",
       "read_priority": "skip-unless-requested"
+    },
+    "memory/work-log.json": {
+      "last_read": "2026-02-04T23:57:00-05:00"
+    },
+    "memory/cost-tracker.json": {
+      "last_read": "2026-02-04T23:57:00-05:00"
+    },
+    "docs/COST-VALIDATION-REPORT.md": {
+      "last_read": "2026-02-04T23:57:00-05:00"
     }
   }
 }
