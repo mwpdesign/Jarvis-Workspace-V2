@@ -73,6 +73,46 @@
       "source": "war-room-competitors",
       "category": "competitor",
       "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-05",
+      "topic_hash": "cms-2026-physician-payment-increase-first-in-5yrs",
+      "headline": "CMS conversion factor increases 3.77% (QPs) / 3.26% (non-QPs) - first increase in 5 years",
+      "source": "war-room-cms",
+      "category": "cms",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-05",
+      "topic_hash": "cms-2026-medicare-prior-auth-7day-mandate",
+      "headline": "Medicare Advantage 7-day prior authorization response time mandate + FHIR APIs required",
+      "source": "war-room-cms",
+      "category": "cms",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-05",
+      "topic_hash": "cms-2026-telehealth-permanent-virtual-supervision",
+      "headline": "Virtual supervision permanent for most services, expanded telehealth codes",
+      "source": "war-room-cms",
+      "category": "cms",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-05",
+      "topic_hash": "cms-2026-practice-expense-methodology-changes",
+      "headline": "Practice expense methodology updated - higher compensation for office-based vs facility",
+      "source": "war-room-cms",
+      "category": "cms",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-05",
+      "topic_hash": "cms-wiser-model-prior-auth-scrutiny",
+      "headline": "WISeR model (Wasteful and Inappropriate Service Reduction) under provider scrutiny",
+      "source": "war-room-cms",
+      "category": "cms",
+      "ttl_days": 14
     }
   ]
 }
