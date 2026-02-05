@@ -1,6 +1,6 @@
 # 📋 KANBAN - Michael's Task Board
 
-**Last Updated:** 2026-02-02 09:19 EST
+**Last Updated:** 2026-02-05 09:16 EST
 
 ---
 
@@ -41,6 +41,12 @@
 - [ ] Write Feb 28 show promotion copy
 
 ### Clear Health Pass / Woundcare
+- [ ] 🔴 Collect all denial appeal letters from Phil (TODAY - Feb 5)
+- [ ] 🔴 Reach out to Kenya: give training + get address for computer (TODAY - Feb 5)
+- [ ] 🔴 Get Tiffany's address for computer (TODAY - Feb 5)
+- [ ] 🔴 Set up both computers for Kenya and Tiffany (TODAY - Feb 5)
+- [ ] 🔴 Go through all of Henry's questions from yesterday and get answers (TODAY - Feb 5)
+- [ ] 🔴 Reset Daniel's AWS password (expires in 9 days)
 - [x] Find and review Henry's questions from email (answered via Claude Desktop)
 - [ ] Follow up on deliverable testing
 - [ ] Document S-Network (Google Drive system)
@@ -62,6 +68,9 @@
   - FutureNTech Gmail password
   - See: docs/API-KEY-ROTATION-CHECKLIST.md
 - [ ] Review and pay bills
+
+### Personal
+- [ ] 🔴 Pack clothes for flight tomorrow morning (TODAY - Feb 5)
 
 ---
 
@@ -86,6 +95,7 @@ _Nothing yet - this section will fill as work completes_
 
 **Recent changes:**
 
+**2026-02-05 09:16** - Added 7 urgent tasks for today: Phil denial appeals, Kenya/Tiffany computer setup + training, Henry's questions, Daniel AWS password, pack for flight
 **2026-02-02 09:19** - ✅ Completed: Smart Sheets video (uploaded to Drive for Tiffany/Kenya) | Added: 2 instructional guides (onboarding + patient checks)
 **2026-02-01 10:25** - Added: Smart Sheets training video merge, Finance team SOP
 **2026-02-01 09:46** - Kanban board created

@@ -206,5 +206,23 @@
     "model": "sonnet",
     "tokens_est": 45000,
     "detail": "Morning briefing delivered: Daily affirmations, weather (45°F/7°C cooler), appointments (Fort Lauderdale trip Feb 6-8, CHP update Feb 10), 15 unread emails (P1: John voicemail, P2: Joshua urgent order + Henry portal + Sil cancel + Spirit check-in + Google security alert, P3: 9 routine), task priorities (flight check-in, P1/P2 email review, Ryan Koch follow-up), yesterday's completions (FutureNTech pipeline + Build 5.0-5.4), war room intel (all previously reported), cost check ($8.14), lyric seed (Glass Horizon). No adjustments from feedback (clean slate)."
+  },
+  {
+    "timestamp": "2026-02-05T09:16:00-05:00",
+    "session_type": "main",
+    "action": "task_capture",
+    "category": "task_management",
+    "model": "sonnet",
+    "tokens_est": 2500,
+    "detail": "Voice task capture: 7 urgent tasks for today (Phil denial appeals, Kenya/Tiffany computer setup + training, Henry questions, Daniel AWS password, pack for flight)"
+  },
+  {
+    "timestamp": "2026-02-05T11:00:00-05:00",
+    "session_type": "cron:email-monitor",
+    "action": "email_check",
+    "category": "system",
+    "model": "haiku",
+    "tokens_est": 45,
+    "detail": "Scanned a-team + 1-snetwork labels (gog), 0 unread messages. Inbox clear."
   }
 ]
