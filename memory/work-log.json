@@ -224,5 +224,14 @@
     "model": "haiku",
     "tokens_est": 45,
     "detail": "Scanned a-team + 1-snetwork labels (gog), 0 unread messages. Inbox clear."
+  },
+  {
+    "timestamp": "2026-02-05T13:45:00-05:00",
+    "session_type": "main",
+    "action": "bandcamp_scraping",
+    "category": "futurentech",
+    "model": "sonnet",
+    "tokens_est": 8500,
+    "detail": "Manual Bandcamp artist discovery: Found and added 5 US-based artists to FutureNTech outreach Google Sheet using web search (Bandcamp requires browser automation for proper scraping). Added automation task to futurentech.md."
   }
 ]

@@ -40,3 +40,28 @@
 ---
 
 **TELL ME:** Which option? #1+#2, or #3?
+
+---
+
+## Automation Tasks
+
+### Build Full Bandcamp Scraper (Future)
+**Priority:** Medium (manual scraping works for now)
+**Estimated Time:** 1-2 hours
+**What it does:**
+- Automated Bandcamp artist discovery using browser automation (Selenium/Playwright)
+- Filters for US-based artists only
+- Searches multiple genres (metal, rock, alternative, progressive)
+- Targets new releases (last 30-60 days)
+- Automatically appends to FutureNTech outreach Google Sheet
+- Can run on a schedule (daily/weekly)
+
+**Current Status:** 
+- ✅ Manual scraping working (5 artists added 2026-02-05)
+- ⏳ Full automation planned for later
+
+**Why automation matters:**
+- Consistent daily discovery of new bands
+- Saves 15-20 minutes per day
+- Builds pipeline of fresh outreach targets
+- Higher response rates from recently active artists
