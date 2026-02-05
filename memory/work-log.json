@@ -52,6 +52,23 @@
     "model": "sonnet",
     "tokens_est": 74000,
     "detail": "Created briefing feedback infrastructure: memory/briefing-feedback.json (rating schema), docs/BRIEFING-FEEDBACK.md (full docs with 1-5 scale, section names, voice capture patterns), updated automation/VOICE-TASK-CAPTURE.md (added briefing feedback detection patterns). Enables continuous improvement of morning briefings based on Michael's ratings."
+  },
+  {
+    "timestamp": "2026-02-04T19:00:00-05:00",
+    "session_type": "manual:build-5.3b",
+    "action": "briefing_cron_update",
+    "category": "system",
+    "model": "sonnet",
+    "tokens_est": 82000,
+    "detail": "Morning briefing cron updated with feedback loop integration. Added pre-assembly block: reads briefing-feedback.json, applies adjustments (skip_sections, include_less, include_more, custom_rules), detects low ratings (<3 avg), auto-adjusts sections with 3+ worst_section mentions. New job ID: 8847226f-f75f-41af-81e3-46a8b0abdbcf. Tomorrow's 7 AM briefing will be feedback-aware."
+  },
+  {
+    "timestamp": "2026-02-04T19:02:00-05:00",
+    "session_type": "manual:build-5.4",
+    "action": "opus_tracking_setup",
+    "category": "system",
+    "model": "sonnet",
+    "tokens_est": 91000,
+    "detail": "Created Opus usage tracking infrastructure: memory/opus-usage-log.json (escalation tracking schema with 8 categories), docs/OPUS-USAGE-PATTERNS.md (full documentation with decision framework, review cycles, auto-escalation rules), updated AGENTS.md (added Opus escalation tracking section), updated memory-consolidation cron to check opus-usage-log.json weekly and identify auto-escalation candidates (5+ entries in 4 weeks). New memory-consolidation job ID: b8d85740-c582-4940-bec0-a949125a26fe. Goal: After 4+ weeks of data, auto-escalate categories that consistently benefit from Opus."
   }
 ]
-{"seq":1,"timestamp":"2026-02-05T00:00:11.187Z","action":"email-monitor-check","model":"haiku","result":"no-unread","tokens_est":50}

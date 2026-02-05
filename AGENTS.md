@@ -147,6 +147,21 @@ When you detect a task type, note the model choice with a subtle indicator:
 
 If daily costs trend above $8, flag it in the next briefing.
 
+### Opus Escalation Tracking
+
+When `/model opus` is triggered or Opus is manually requested, log the reason to `memory/opus-usage-log.json`. After 4 weeks of data, review patterns to identify auto-escalation candidates.
+
+**Log after each Opus session:**
+- Timestamp
+- Trigger (what caused escalation)
+- Topic category (legal, compliance, financial, strategic, security, contract-review, executive-comms, other)
+- Duration estimate
+- Value assessment (was Opus noticeably better than Sonnet?)
+
+**See:** `docs/OPUS-USAGE-PATTERNS.md` for full details.
+
+**Goal:** Identify categories that ALWAYS benefit from Opus → create auto-escalation rules.
+
 ### Cron Job Model Assignments
 
 | Job | Schedule | Model | Why |

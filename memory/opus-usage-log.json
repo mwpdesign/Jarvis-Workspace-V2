@@ -1,0 +1,19 @@
+{
+  "version": "1.0",
+  "description": "Tracks manual Opus escalations to identify patterns worth auto-escalating",
+  "entries": [],
+  "schema": {
+    "timestamp": "ISO 8601",
+    "trigger": "string (what caused the escalation — user request or topic detected)",
+    "topic_category": "string (legal, compliance, financial, strategic, security, contract-review, executive-comms, other)",
+    "duration_est": "string (how long Opus was active before switching back)",
+    "value_assessment": "string (was Opus quality noticeably better than Sonnet would have been?)"
+  },
+  "analysis": {
+    "total_escalations": 0,
+    "by_category": {},
+    "auto_escalation_candidates": [],
+    "last_reviewed": null
+  },
+  "notes": "After 4 weeks of data, review patterns. If a category is escalated 5+ times, consider adding it to auto-escalation rules."
+}
