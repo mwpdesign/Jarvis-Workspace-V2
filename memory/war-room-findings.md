@@ -95,3 +95,25 @@ Morning briefing reads this file to assemble intel section.
 - Source: Globe Newswire (Feb 4, 2026)
 
 ---
+
+## 2026-02-08 - Competitor Intelligence
+
+**Integra LifeSciences - Stock Weakness Signal**
+- Stock hit new 1-year low on Feb 3, 2026
+- Investor concern despite CEO's optimistic CMS positioning statements
+- Potential disconnect between public messaging and market confidence
+- Source: MarketBeat (Feb 3, 2026)
+
+**Smith+Nephew - New Product Launch (Jan 2026)**
+- Launched bioactive dressings with integrated antimicrobial and moisture-management technology
+- Designed to accelerate chronic wound healing
+- Positions S+N in growing antimicrobial dressing segment alongside Manuka honey trend
+- Source: OpenPR - US Advanced Wound Care Market report (Feb 3, 2026)
+
+**MiMedx - Second Analyst Downgrade**
+- Northland Securities lowered Q1 2026 EPS estimates (announced Feb 4, reported Feb 6)
+- Second analyst downgrade in same week (Craig-Hallum also reduced expectations)
+- Pattern of lowered near-term expectations across multiple analysts
+- Source: MarketBeat (Feb 6, 2026)
+
+---

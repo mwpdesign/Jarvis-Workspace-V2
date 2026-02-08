@@ -137,6 +137,30 @@
       "source": "war-room-industry",
       "category": "industry",
       "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-08",
+      "topic_hash": "integra-stock-1yr-low-feb2026",
+      "headline": "Integra LifeSciences stock hit 1-year low (Feb 3, 2026)",
+      "source": "war-room-competitors",
+      "category": "competitor",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-08",
+      "topic_hash": "smith-nephew-bioactive-dressing-launch-jan2026",
+      "headline": "Smith+Nephew launched bioactive dressings with antimicrobial/moisture tech (Jan 2026)",
+      "source": "war-room-competitors",
+      "category": "competitor",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-08",
+      "topic_hash": "mimedx-northland-eps-cut-feb2026",
+      "headline": "Northland Securities lowered MiMedx Q1 2026 EPS estimates (Feb 4-6)",
+      "source": "war-room-competitors",
+      "category": "competitor",
+      "ttl_days": 14
     }
   ]
 }

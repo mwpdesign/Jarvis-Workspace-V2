@@ -278,5 +278,24 @@
     "model": "sonnet",
     "tokens_est": 25000,
     "detail": "Consolidated 6 daily memory files (Feb 1-7). Added 8 entries to MEMORY.md: Email response deadlines (NOON/4PM), morning briefing timing (6-6:30 AM), Kanban board consolidation, n8n instance URL, Gmail label IDs, cost optimization philosophy (Sonnet over Haiku), self-improvement system activation, email acknowledgment project. No Opus escalations to review."
+  },
+  {
+    "timestamp": "2026-02-08T02:15:00-05:00",
+    "session_type": "cron:email-monitor",
+    "action": "email_check",
+    "category": "system",
+    "model": "haiku",
+    "tokens_est": 45,
+    "detail": "Scanned a-team + 1-snetwork labels (gog), 0 unread messages. Inbox clear."
+  },
+  {
+    "timestamp": "2026-02-08T03:00:00-05:00",
+    "session_type": "cron:war-room-competitors",
+    "action": "web_search",
+    "category": "war-room",
+    "model": "sonnet",
+    "tokens_est": 9500,
+    "detail": "3 new competitor findings written to war-room-findings.md: Integra stock at 1-year low (Feb 3), Smith+Nephew bioactive dressing launch (Jan 2026), MiMedx second analyst downgrade (Northland Securities Q1 EPS cut)",
+    "result": "3 findings written, dedup ledger updated"
   }
 ]
