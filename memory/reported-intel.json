@@ -161,6 +161,46 @@
       "source": "war-room-competitors",
       "category": "competitor",
       "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-08",
+      "topic_hash": "wound-biologics-market-10.7pct-cagr-10.66B-by-2032",
+      "headline": "Wound Care Biologics Market $5.28B → $10.66B by 2032 at 10.7% CAGR",
+      "source": "war-room-industry",
+      "category": "industry",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-08",
+      "topic_hash": "anti-biofilm-dressing-usa-9.3pct-cagr-904M-by-2036",
+      "headline": "USA Anti-biofilm Wound Dressing Market $372M → $904M by 2036 at 9.3% CAGR",
+      "source": "war-room-industry",
+      "category": "industry",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-08",
+      "topic_hash": "wound-care-market-6.18pct-cagr-39.11B-by-2032",
+      "headline": "Global Wound Care Market 6.18% CAGR to $39.11B by 2032",
+      "source": "war-room-industry",
+      "category": "industry",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-08",
+      "topic_hash": "ihs-fy2026-funding-8.05B-plus-5.31B-advance",
+      "headline": "IHS FY2026 funding $8.05B + $5.31B advance for FY2027",
+      "source": "war-room-industry",
+      "category": "tribal",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-08",
+      "topic_hash": "wyoming-ihs-tribal-facilities-41.3M-rate-increase",
+      "headline": "Wyoming adds $41.3M federal funds for IHS tribal facility rate increases",
+      "source": "war-room-industry",
+      "category": "tribal",
+      "ttl_days": 14
     }
   ]
 }

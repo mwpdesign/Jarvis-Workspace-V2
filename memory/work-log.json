@@ -316,5 +316,15 @@
     "model": "haiku",
     "tokens_est": 45,
     "detail": "Scanned a-team + 1-snetwork labels (gog), 0 unread messages. Inbox clear."
+  },
+  {
+    "timestamp": "2026-02-08T05:00:00-05:00",
+    "session_type": "cron:war-room-industry",
+    "action": "web_search",
+    "category": "war-room",
+    "model": "sonnet",
+    "tokens_est": 12000,
+    "detail": "5 new industry findings written to war-room-findings.md: Wound Care Biologics Market ($5.28B → $10.66B by 2032, 10.7% CAGR), USA Anti-biofilm Dressing Market ($372M → $904M by 2036, 9.3% CAGR), Global Wound Care Market (6.18% CAGR to $39.11B by 2032), IHS FY2026 funding ($8.05B + $5.31B advance for FY2027), Wyoming IHS tribal facilities ($41.3M rate increase funding)",
+    "result": "5 findings written, dedup ledger updated"
   }
 ]

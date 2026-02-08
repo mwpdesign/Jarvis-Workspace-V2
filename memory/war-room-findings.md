@@ -123,3 +123,43 @@ Morning briefing reads this file to assemble intel section.
 No new regulatory intel. Search completed for CMS Medicare/Medicaid policy changes, skin substitute reimbursement updates, wound care coverage decisions, FDA approvals, and HOPD vs ASC payment changes. Results returned general Medicare updates (IRMAA brackets, urology codes, 2027 MA rates, 340B rebate model) but no new wound care or skin substitute specific regulatory developments beyond previously reported items.
 
 ---
+
+## 2026-02-08 - Industry Intelligence
+
+**Wound Care Biologics Market - Strong Growth Trajectory**
+- Market valued at $5.28B in 2025
+- Projected to reach $10.66B by 2032
+- 10.7% CAGR over 2026-2032 period
+- Biologics segment outpacing general wound care market growth
+- Source: OpenPR (Feb 2, 2026)
+
+**Anti-biofilm Wound Dressing Market (USA) - Emerging Segment**
+- USA market: $372.0M in 2026
+- Projected to reach $904.0M by 2036
+- 9.3% CAGR reflecting growing awareness of biofilm role in chronic wounds
+- Represents significant opportunity in chronic wound management
+- Source: OpenPR (Feb 5, 2026)
+
+**Global Wound Care Market - Updated Projections**
+- Expanding at 6.18% CAGR
+- Projected to reach $39.11B by 2032
+- Advanced wound care demand growing: hydrocolloid dressings, foam dressings, antimicrobial solutions
+- Faster healing times and reduced infection risk driving adoption
+- Source: OpenPR (Feb 4, 2026)
+
+**Indian Health Service FY2026 Funding - Historic Allocation**
+- Congress allocated $8.05 billion for FY2026
+- Additional $5.31 billion in advance appropriations for FY2027
+- Marks fourth consecutive year of advance appropriations
+- IHS focusing on facility expansions and workforce development
+- Opportunity: Increased IHS funding may expand tribal healthcare market access
+- Source: Native News Online (Feb 5, 2026)
+
+**Wyoming IHS Tribal Facilities - $41.3M Rate Increase Funding**
+- Wyoming Joint Appropriations Committee added $41.3M in federal funds
+- Covers mandated rate increases for tribal healthcare facilities
+- Represents state-level response to federal IHS funding mandates
+- Signals growing state/federal coordination on tribal healthcare funding
+- Source: Buffalo Bulletin (Feb 6, 2026)
+
+---
