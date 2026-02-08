@@ -57,6 +57,9 @@
 - **Work hours**: Productive in late evenings (night owl)
 - **Multi-tasker**: Juggles multiple projects (Woundcare, band, n8n, CRM, WordPress)
 - **Detail-oriented**: Audio engineering background shows in thorough approach
+- **Task management** (2026-02-01): ONE Kanban board only (tasks/KANBAN.md), archived individual task files
+- **Email response deadlines** (2026-02-01): Morning emails (before noon) reply by NOON, Afternoon emails reply by 4 PM
+- **Morning briefing timing** (2026-02-01): 6:00-6:30 AM (while Michael in bed on phone)
 
 ## Company Structure (Clear Health Pass Holdings, LLC)
 - **Type**: Tribally-owned healthcare technology company
@@ -248,7 +251,14 @@
 
 **Project File:** projects/futurentech/PROJECT.md
 
-## n8n Agent Workflows - DELETED (2026-02-02)
+## n8n Infrastructure (2026-02-02)
+
+### Instance Details
+- **URL**: https://n8n.srv1055324.hstgr.cloud
+- **Hosting**: Hostinger VPS (self-hosted cloud)
+- **Access**: Full API access granted (2026-02-01)
+
+### Agent Workflows - DELETED (2026-02-02)
 **Status:** All Jarvis-created agent workflows deleted due to incompatibility with n8n cloud
 **Reason:** Workflows used `child_process` module (disallowed on n8n cloud), causing continuous failures and API cost burn
 **Total deleted:** 10 workflows (Mission Control, Deep Research, Context Loader, Opportunity Scanner, Calendar Intelligence, AI Intelligence Feed, Self-Improvement Logger, State Awareness, Pattern Analyzer, Knowledge Gap Tracker)
@@ -259,10 +269,20 @@
   3. Archive workflows in `/workspace/automation/n8n-archived/` if we want to reference later
 **Email monitoring:** NOW handled by heartbeat via `gog gmail search` (every 5 min) - working perfectly, no n8n needed
 
+### Email Acknowledgment System (2026-02-02)
+- **Status**: In progress (workflow created, OAuth pending)
+- **Goal**: Auto-acknowledge emails in 4 CHP labeled inboxes (Orders, Onboarding, IVRs, Intake)
+- **Requested by**: Kenya, Tiffany, Phil (tired of senders not knowing if emails received)
+- **Implementation**: n8n workflow → Gmail drafts (manual review, not auto-send during testing)
+- **Loop prevention**: Skip noreply@, no-reply@, mailer-daemon@, postmaster@, donotreply@
+- **Documentation**: automation/email-acknowledgments.md
+- **Workflow ID**: XLDD5Ng6O2QUhT8f (Orders - TEST)
+
 ## Gmail Organization (2026-01-25)
 - **A-Team labels**: Emails from key team members (Gavyn, Brent, John, Phil, Sil, Pat, Thomas) skip inbox, auto-labeled
 - **1 SNETWORK labels**: Work emails (Orders, IVRs, Intake, Onboarding) skip inbox, auto-labeled
 - **Email monitor searches**: Both A-Team and 1 SNETWORK labels every 5 minutes for urgent unread messages
+- **Label IDs** (2026-02-02): Orders (Label_4616328338066571363), IVRs (Label_5885609014616052807), Intake (Label_6503716778660195852), Onboarding (Label_5051430237326897767)
 
 ## Key Learnings (2026-02-04)
 
@@ -271,6 +291,19 @@
 - **Why**: I was repeating CMS 2026 changes in every morning briefing because I never wrote it down
 - **Solution**: Created docs/CMS-2026-SKIN-SUBSTITUTE-CHANGES.md
 - **Rule**: Find → Document → Reference. Don't find → Repeat → Repeat → Repeat.
+
+### Cost Optimization Philosophy (2026-02-03)
+- **Decision**: Keep Sonnet as default, don't switch to Haiku for $19/month savings
+- **Rationale**: Complexity isn't worth small cost reduction — matches "vibe coding" philosophy
+- **Lesson**: Simplicity over optimization when the savings are marginal
+- **Context**: Attempted migration to Haiku hit "model not allowed" error; chose to keep architecture simple
+
+### Self-Improvement System Activated (2026-02-03)
+- **Status**: Now tracking errors, learnings, feature requests consistently
+- **Location**: .learnings/ directory (ERRORS.md, LEARNINGS.md, FEATURE_REQUESTS.md)
+- **First error logged**: ERR-20260203-001 (directory read error from morning briefing)
+- **First learning logged**: LRN-20260203-001 (need to use self-improvement consistently)
+- **Commitment**: Log errors immediately, capture corrections, document better approaches
 
 ### Industry Intelligence
 - **CMS 2026 Changes**: 90% payment cut for skin substitutes (standardized to ~$127/cm²)
