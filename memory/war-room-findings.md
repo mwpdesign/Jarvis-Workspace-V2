@@ -117,3 +117,9 @@ Morning briefing reads this file to assemble intel section.
 - Source: MarketBeat (Feb 6, 2026)
 
 ---
+
+## 2026-02-08 - CMS Regulatory Intelligence
+
+No new regulatory intel. Search completed for CMS Medicare/Medicaid policy changes, skin substitute reimbursement updates, wound care coverage decisions, FDA approvals, and HOPD vs ASC payment changes. Results returned general Medicare updates (IRMAA brackets, urology codes, 2027 MA rates, 340B rebate model) but no new wound care or skin substitute specific regulatory developments beyond previously reported items.
+
+---
