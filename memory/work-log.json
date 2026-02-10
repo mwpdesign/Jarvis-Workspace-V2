@@ -97,5 +97,14 @@
     "tokens_est": 2500,
     "detail": "Industry scan (wound care market trends, new technologies, clinical trials, healthcare tech innovation, tribal healthcare) — Rate-limited after 2 queries",
     "result": "1_new_finding"
+  },
+  {
+    "timestamp": "2026-02-10T06:00:00-05:00",
+    "session_type": "cron:task-worker",
+    "action": "queue_check",
+    "category": "tasks",
+    "model": "sonnet",
+    "tokens_est": 2000,
+    "detail": "Queue check — no pending tasks. TASK-003 (FutureNTech outreach) remains blocked awaiting Reddit/Instagram API credentials."
   }
 ]
