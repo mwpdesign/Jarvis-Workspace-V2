@@ -193,5 +193,64 @@ jq '.ratings | map(.worst_section) | group_by(.) | map({section: .[0], count: le
 
 ---
 
+## Friday Follow-Through Section
+
+**Added:** 2026-02-05 (Michael's request for accountability)
+
+Every **Friday morning briefing** includes a **"Week in Review"** section:
+
+### What It Covers
+
+1. **Commitments Made This Week**
+   - What I said I'd do
+   - When I said I'd do it
+   - Source (which conversation/date)
+
+2. **Completion Status**
+   - ✅ Done (with brief result/outcome)
+   - 🟡 In Progress (current status, ETA)
+   - ❌ Not Done (why, what's blocking it)
+
+3. **Carrying Over**
+   - What's rolling into next week
+   - Adjusted timeline if needed
+
+### Why This Matters
+
+**Accountability:** Ensures I don't forget commitments made in passing conversations
+
+**Transparency:** Michael sees what got done vs what got dropped
+
+**Pattern recognition:** Helps identify if I'm over-committing or under-delivering
+
+### Data Sources
+
+Follow-through section pulls from:
+- `tasks/queue.json` (items I added this week)
+- `memory/work-log.json` (commitments logged as "commitment" action)
+- `memory/YYYY-MM-DD.md` files (decisions/agreements from daily logs)
+
+### Example Friday Section
+
+```
+🔄 **Week in Review**
+
+Commitments Made:
+• Voice strategy for briefings (Mon 2/3) → ✅ Implemented today
+• Bandcamp scraper automation (Wed 2/5) → 🟡 In Progress, blocked by browser automation setup
+• Update FutureNTech pipeline docs (Tue 2/4) → ✅ Done (docs/FUTURENTECH-PIPELINE.md)
+
+Carrying Over to Next Week:
+• Bandcamp scraper → Target: Mon 2/10
+• Pattern recognition across workflows → Ongoing
+```
+
+### Format
+
+Keep it **concise** (3-5 items max, ~100 words total) — this is a checkpoint, not a full report.
+
+---
+
 *Created: 2026-02-04*  
-*Part of Build 5.3a - Briefing Feedback Infrastructure*
+*Part of Build 5.3a - Briefing Feedback Infrastructure*  
+*Updated: 2026-02-05 - Added Friday Follow-Through Section*

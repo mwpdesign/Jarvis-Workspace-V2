@@ -397,6 +397,28 @@ Your heartbeat job is LIGHTWEIGHT:
 
 Daily files = raw notes. MEMORY.md = curated wisdom.
 
+### 📊 Friday Follow-Through
+
+**Added:** 2026-02-05 (accountability request from Michael)
+
+Every **Friday morning briefing** includes a **"Week in Review"** section:
+
+**What it covers:**
+- Commitments made this week (what I said I'd do)
+- Completion status (✅ Done, 🟡 In Progress, ❌ Not Done)
+- What's carrying over to next week
+
+**Why:** Closes accountability gap. Ensures commitments don't get forgotten.
+
+**Data sources:**
+- `tasks/queue.json` (items added this week)
+- `memory/work-log.json` (logged commitments)
+- Daily memory files (agreements/decisions)
+
+**Format:** Concise (3-5 items, ~100 words) — checkpoint, not full report.
+
+**Full details:** `docs/BRIEFING-FEEDBACK.md` (Friday Follow-Through Section)
+
 ---
 
 ## Task Management
