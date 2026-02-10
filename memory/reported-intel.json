@@ -201,6 +201,38 @@
       "source": "war-room-industry",
       "category": "tribal",
       "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-10",
+      "topic_hash": "smith-nephew-european-acquisition-jan2026",
+      "headline": "Smith+Nephew acquired European regenerative wound care company (bioactive matrices)",
+      "source": "war-room-competitors",
+      "category": "competitor",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-10",
+      "topic_hash": "integra-q4-2025-earnings-feb26-2026",
+      "headline": "Integra Q4 2025 earnings announcement scheduled Feb 26, 2026",
+      "source": "war-room-competitors",
+      "category": "competitor",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-10",
+      "topic_hash": "smith-nephew-fy2025-results-march2-2026",
+      "headline": "Smith+Nephew FY2025 results scheduled March 2, 2026 at 7:00 AM GMT",
+      "source": "war-room-competitors",
+      "category": "competitor",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-10",
+      "topic_hash": "integra-analyst-consensus-reduce-feb2026",
+      "headline": "Integra analyst consensus downgraded to 'Reduce' (3 sell, 2 hold)",
+      "source": "war-room-competitors",
+      "category": "competitor",
+      "ttl_days": 14
     }
   ]
 }

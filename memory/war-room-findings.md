@@ -163,3 +163,34 @@ No new regulatory intel. Search completed for CMS Medicare/Medicaid policy chang
 - Source: Buffalo Bulletin (Feb 6, 2026)
 
 ---
+
+## 2026-02-10 - Competitor Intelligence
+
+**Smith+Nephew - European Acquisition Expands Regenerative Portfolio (Jan 2026)**
+- Acquired European regenerative wound care company specializing in bioactive matrices
+- Strengthens Smith+Nephew's position in regenerative wound care segment
+- Follows recent bioactive dressing launch (Jan 2026)
+- Aggressive M&A strategy amid CMS reimbursement changes
+- Source: OpenPR - US Advanced Wound Care Market (Feb 3, 2026)
+
+**Integra LifeSciences - Q4 2025 Earnings Announcement Scheduled**
+- Earnings release: Thursday, February 26, 2026 (before market open)
+- Conference call following results announcement
+- Will provide first public insight into post-CMS reform Q4 2025 performance
+- Stock currently at 1-year low with analyst consensus "Reduce" rating
+- Source: Globe Newswire (Feb 9, 2026)
+
+**Smith+Nephew - FY2025 Results Scheduled March 2, 2026**
+- Full year 2025 results announcement: March 2, 2026 at 7:00 AM GMT
+- Conference call for analysts at 8:30 AM GMT
+- Expected to show trajectory toward 6% growth target for 2026
+- Source: Investegate (Feb 5, 2026)
+
+**Integra LifeSciences - Analyst Consensus Downgraded to "Reduce"**
+- Current analyst consensus: "Reduce" (3 sell ratings, 2 hold ratings as of Feb 5, 2026)
+- Stock hit 1-year low on Feb 3, 2026
+- Negative sentiment persists despite CEO's bullish CMS positioning claims
+- Market skepticism on "broadest portfolio" competitive messaging
+- Source: MarketBeat (Feb 5, 2026)
+
+---

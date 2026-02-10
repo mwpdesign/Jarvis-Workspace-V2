@@ -27,5 +27,24 @@
     "tokens_est": 45,
     "detail": "Scanned a-team + 1-snetwork labels (gog), 0 unread messages. Inbox clear.",
     "result": "no_alerts"
+  },
+  {
+    "timestamp": "2026-02-10T02:01:00-05:00",
+    "session_type": "cron:task-worker",
+    "action": "queue_check",
+    "category": "tasks",
+    "model": "sonnet",
+    "tokens_est": 2000,
+    "detail": "Queue check — no pending tasks. TASK-003 (FutureNTech outreach) remains blocked awaiting API credentials."
+  },
+  {
+    "timestamp": "2026-02-10T03:00:00-05:00",
+    "session_type": "cron:war-room-competitors",
+    "action": "web_search",
+    "category": "war-room",
+    "model": "sonnet",
+    "tokens_est": 3500,
+    "detail": "Competitor scan (Integra, MiMedx, Organogenesis, Smith+Nephew) — 4 new findings",
+    "result": "4_new_findings"
   }
 ]
