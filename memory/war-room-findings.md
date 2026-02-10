@@ -238,3 +238,17 @@ No new regulatory intel. Search completed for CMS Medicare/Medicaid policy chang
 - Source: Washington Monthly (Feb 3, 2026)
 
 ---
+
+## 2026-02-10 - Industry Intelligence
+
+**Mölnlycke Establishes First China Manufacturing Site (Nov 2025)**
+- Opened first wound care manufacturing facility in China (Changshu, November 2025)
+- 10,000 m² facility aims to begin production by late 2026 or early 2027
+- Strategic expansion of global production footprint
+- Enhances supply chain resilience and proximity to Asia-Pacific market
+- Signal: Major wound care players investing in regional manufacturing to strengthen market access
+- Source: Grand View Research Wound Care Market Report (Feb 2026)
+
+**Note:** Search rate-limited after 2 queries. Wound care market trends and tribal healthcare scanned. New technologies, clinical trials, and healthcare tech innovation queries blocked. Recommend retry during next cycle.
+
+---

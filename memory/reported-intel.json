@@ -273,6 +273,14 @@
       "source": "war-room-cms",
       "category": "cms",
       "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-10",
+      "topic_hash": "molnlycke-china-manufacturing-nov2025",
+      "headline": "Mölnlycke establishes first China wound care manufacturing site (10,000 m², production late 2026/early 2027)",
+      "source": "war-room-industry",
+      "category": "industry",
+      "ttl_days": 14
     }
   ]
 }
