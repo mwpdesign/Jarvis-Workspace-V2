@@ -193,4 +193,48 @@ No new regulatory intel. Search completed for CMS Medicare/Medicaid policy chang
 - Market skepticism on "broadest portfolio" competitive messaging
 - Source: MarketBeat (Feb 5, 2026)
 
+**Coloplast/Kerecis - Bracing for Medicare Turbulence in 2026**
+- Coloplast earnings report shows Kerecis division preparing for significant 2026 impact
+- Medicare's flat reimbursement rate for outpatient skin substitutes causing strategic shift
+- Profitability gains originally hoped for in 2026 will be delayed
+- Management actively discussing adaptation strategies
+- Signal: Even large competitors struggling to pivot quickly to new CMS payment model
+- Opportunity: Smaller agile players may have competitive advantage during transition
+- Source: Morningstar Nordics (Feb 10, 2026 - 9 hours ago)
+
+---
+
+## 2026-02-10 - CMS Regulatory Intelligence
+
+**DOJ Creates New National Fraud Enforcement Division (2026)**
+- New DOJ division specifically for national fraud enforcement created in 2026
+- Combined with False Claims Act Working Group revitalization (mid-2025)
+- Strong enduring focus on investigating fraud schemes affecting federal programs (Medicare, Medicaid, TRICARE)
+- Signal: Heightened scrutiny on healthcare billing and claims practices
+- Implication: Compliance documentation becomes even more critical for skin substitute reimbursement
+- Source: FTI Consulting Healthcare Enforcement Analysis (Feb 6, 2026)
+
+**HHS OIG Issues Medicare Advantage Compliance Program Guidance (Feb 3, 2026)**
+- Office of Inspector General issued Industry Segment-Specific Compliance Program Guidance for Medicare Advantage (Medicare Advantage ICPG)
+- Provides detailed compliance framework for MA plans and providers
+- Timing: Issued same week as CMS crackdown on MA upcoding fraud
+- Compliance expectations tightening for MA billing and documentation
+- Source: Bronx County Dental Society / HHS OIG (Feb 3, 2026)
+
+**OIG January 2026 Work Plan - Tribal CHEF Program Focus**
+- **CRITICAL FOR CLEAR HEALTH PASS (tribally-owned company)**
+- CHEF (Contract Health Services Extended to Facilities) reimbursement added to OIG work plan
+- CHEF reimburses Tribal health programs for medical services from non-IHS providers when IHS/Tribal facilities cannot provide care
+- CHEF appropriations capped annually, must be used as payor of last resort
+- OIG scrutinizing CHEF payment practices and compliance
+- Implication: Tribal healthcare billing may face increased audit activity in 2026
+- Source: Healthicity OIG Work Plan Analysis (Jan 2026)
+
+**CMS Takes Aim at Medicare Advantage Fraud Crackdown**
+- CMS proposed crackdown on Medicare Advantage risk score upcoding
+- Could save billions annually through audit/recovery efforts
+- Marks turning point in fight against insurer fraud
+- Providers may face increased documentation requests to validate diagnoses
+- Source: Washington Monthly (Feb 3, 2026)
+
 ---

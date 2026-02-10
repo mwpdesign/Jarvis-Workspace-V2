@@ -233,6 +233,46 @@
       "source": "war-room-competitors",
       "category": "competitor",
       "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-10",
+      "topic_hash": "coloplast-kerecis-medicare-impact-feb2026",
+      "headline": "Coloplast/Kerecis division bracing for Medicare flat rate turbulence, profitability delayed",
+      "source": "war-room-competitors",
+      "category": "competitor",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-10",
+      "topic_hash": "doj-new-fraud-division-2026",
+      "headline": "DOJ creates new national fraud enforcement division (2026) + False Claims Act focus",
+      "source": "war-room-cms",
+      "category": "cms",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-10",
+      "topic_hash": "oig-medicare-advantage-compliance-guidance-feb2026",
+      "headline": "HHS OIG issues Industry Segment-Specific Compliance Program Guidance for Medicare Advantage",
+      "source": "war-room-cms",
+      "category": "cms",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-10",
+      "topic_hash": "oig-work-plan-jan2026-tribal-chef",
+      "headline": "OIG January 2026 Work Plan adds CHEF (Tribal health program reimbursement) scrutiny",
+      "source": "war-room-cms",
+      "category": "tribal",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-10",
+      "topic_hash": "cms-ma-upcoding-crackdown-feb2026",
+      "headline": "CMS proposes crackdown on Medicare Advantage risk score upcoding fraud",
+      "source": "war-room-cms",
+      "category": "cms",
+      "ttl_days": 14
     }
   ]
 }
