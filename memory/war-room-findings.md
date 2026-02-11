@@ -273,3 +273,37 @@ No new regulatory intel. Search completed for CMS Medicare/Medicaid policy chang
 - Source: MarketScreener (Feb 4, 2026)
 
 ---
+
+## 2026-02-11 - CMS Regulatory Intelligence
+
+**CMS Increases HOPD/ASC Payment Rates 2.6% for CY 2026**
+- Hospital Outpatient Prospective Payment System (HOPPS) and ASC payment rates increased 2.6% effective January 1, 2026
+- Rate increase reflects 3.3% hospital market basket update minus 0.7% productivity adjustment mandated by federal law
+- Update applies only to facility payment component (not professional fees)
+- CMS extended hospital market basket as ASC update factor through CY 2026 while studying surgical procedure migration
+- Positive signal: Facility-based wound care procedures receive modest rate relief
+- Source: CMS CY 2026 OPPS/ASC Final Rule (released Nov 21, 2025, effective Jan 1, 2026)
+
+**Site-Neutral Payment Expansion Cuts OPPS Spending $290M in CY 2026**
+- CMS expanded site-neutral payment policies targeting off-campus hospital outpatient departments
+- Projected to reduce OPPS spending by $290 million in 2026
+- Rural hospitals and sole community hospitals exempt from payment reduction
+- Part of broader CMS strategy to equalize payments across settings (office vs HOPD vs ASC)
+- Implication: Wound care delivered in off-campus HOPDs may face reduced facility payments
+- Source: American Hospital Association News (Nov 21, 2025)
+
+**ASC Quality Data Submission Penalty: 2% Payment Reduction**
+- ASCs failing to submit required quality data will receive 2 percentage point reduction to annual payment rate update
+- Penalty applies to CY 2026 payment rates
+- Reinforces CMS focus on quality measurement and transparency in ASC setting
+- Compliance burden increases for ASC-based wound care providers
+- Source: CMS CY 2026 OPPS/ASC Final Rule
+
+**Overall Hospital Quality Star Ratings Methodology Updated for 2026**
+- CMS updating star rating calculation to emphasize Safety of Care measure group starting 2026
+- Represents shift in public reporting priorities toward patient safety outcomes
+- May influence hospital investment decisions in quality improvement initiatives
+- Wound care infection control and safety protocols could gain strategic importance
+- Source: Insights WCHSB (Nov 26, 2025)
+
+---

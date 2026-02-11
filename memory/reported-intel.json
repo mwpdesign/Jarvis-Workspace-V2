@@ -297,6 +297,38 @@
       "source": "war-room-competitors",
       "category": "competitor",
       "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-11",
+      "topic_hash": "cms-hopd-asc-payment-increase-2.6pct-2026",
+      "headline": "CMS increases HOPD/ASC payment rates 2.6% for CY 2026 (3.3% market basket minus 0.7% productivity)",
+      "source": "war-room-cms",
+      "category": "cms",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-11",
+      "topic_hash": "cms-site-neutral-opps-290M-cut-2026",
+      "headline": "Site-neutral payment expansion cuts OPPS spending $290M in CY 2026",
+      "source": "war-room-cms",
+      "category": "cms",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-11",
+      "topic_hash": "cms-asc-quality-data-penalty-2pct-2026",
+      "headline": "ASCs failing to submit quality data receive 2% payment reduction in CY 2026",
+      "source": "war-room-cms",
+      "category": "cms",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-11",
+      "topic_hash": "cms-hospital-star-rating-safety-focus-2026",
+      "headline": "CMS updates Hospital Star Rating methodology emphasizing Safety of Care starting 2026",
+      "source": "war-room-cms",
+      "category": "cms",
+      "ttl_days": 14
     }
   ]
 }

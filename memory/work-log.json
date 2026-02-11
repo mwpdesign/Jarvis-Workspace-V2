@@ -265,5 +265,15 @@
     "tokens_est": 45,
     "detail": "Scanned a-team + 1-snetwork labels (gog), 0 unread messages. Inbox clear.",
     "result": "no_alerts"
+  },
+  {
+    "timestamp": "2026-02-11T04:00:00-05:00",
+    "session_type": "cron:war-room-cms",
+    "action": "web_search",
+    "category": "war-room",
+    "model": "sonnet",
+    "tokens_est": 3800,
+    "detail": "CMS regulatory scan (Medicare/Medicaid policy, skin substitute reimbursement, wound care coverage, FDA approvals, HOPD/ASC payment) — 4 new findings",
+    "result": "4_new_findings"
   }
 ]
