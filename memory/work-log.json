@@ -10,6 +10,25 @@
       "result": "no-unread-emails",
       "labels": "a-team,1-snetwork",
       "tokens_est": 45
+    },
+    "2026-02-11T17:00:00Z_task_worker": {
+      "session_type": "cron:task-worker",
+      "action": "queue_check",
+      "category": "tasks",
+      "model": "sonnet",
+      "tokens_est": 2000,
+      "detail": "No pending tasks found in queue (3 total: 2 complete, 1 blocked)",
+      "result": "no-work"
+    },
+    "2026-02-11T17:45:00Z_email_monitor": {
+      "session_type": "cron:email-monitor",
+      "action": "urgent-email-check",
+      "model": "haiku",
+      "labels_scanned": "a-team,1-snetwork",
+      "unread_count": 0,
+      "alerts_sent": 0,
+      "tokens_est": 35,
+      "result": "clean"
     }
   }
 }
