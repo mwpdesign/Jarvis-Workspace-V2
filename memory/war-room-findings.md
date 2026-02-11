@@ -274,6 +274,54 @@ No new regulatory intel. Search completed for CMS Medicare/Medicaid policy chang
 
 ---
 
+## 2026-02-11 - Industry Intelligence
+
+**Emerging Wound Care Technologies - Next-Generation Treatment Modalities**
+- **3D printing techniques** for custom wound dressings and scaffolds
+- **Microneedle array-based therapies** for targeted drug delivery
+- **Gene therapy applications** including microRNA (miRNA) therapy for wound healing regulation
+- **Nanotherapeutics** for enhanced cellular-level treatment
+- **Stem cell therapy** integrated into advanced wound care protocols
+- **3D bioprinting strategies** for skin regeneration and tissue engineering
+- Technologies moving from research to clinical application phase
+- Represents shift toward precision medicine in wound management
+- Source: ACS Applied Bio Materials, PMC (Feb 2026)
+
+**CMS Skin Substitute Financial Impact - $19 Billion Spending Reduction**
+- CMS projects fee-for-service spending on skin substitutes will decrease by more than $19 billion in 2026
+- Massive market contraction from 2026 payment standardization
+- Agency monitoring utilization, claims patterns, and clinical outcomes post-implementation
+- Confirms scale of market disruption previously estimated at 90% payment cuts
+- Context: Only 17 of 66 evaluated products passed randomized controlled trials (RCTs) for DFU approval
+- 5 of those 17 also approved for VLU treatment
+- Quality bar for clinical evidence now critical for market access
+- Source: Applied Policy, Medicare 2026 Update (Jan 2026)
+
+**Idaho Rural Health Transformation - $930M Federal Grant (Tribal Set-Aside)**
+- Idaho awarded $930 million in federal funds to improve rural health care access
+- **3.5% of total grant set aside for tribal health care facilities** and Native American resident services
+- Part of broader rural health infrastructure investment
+- Tribal set-aside represents ~$32.5M for Idaho tribal healthcare
+- Signal: Federal rural health grants now including structured tribal allocations
+- Source: Idaho Capital Sun (Jan 5, 2026)
+
+**CMS Rural Health Transformation Program - All 50 States (Tribal Provisions)**
+- CMS announced Rural Health Transformation Program awards in all 50 states
+- **Includes tribal set-asides and initiatives across multiple states**
+- National scope of tribal healthcare infrastructure investment
+- Complements advance IHS appropriations ($8.05B FY2026 + $5.31B FY2027)
+- Represents coordinated federal/state approach to tribal healthcare funding
+- Source: NCUIH (Jan 22, 2026)
+
+**IHS Pharmacy Residency Program - 82% Retention Success**
+- IHS Pharmacy Residency Program achieved 82% resident retention rate since 2000
+- Strong foundation for post-graduate training in tribal healthcare settings
+- Supports workforce development critical to IHS mission
+- Addresses chronic staffing challenges in rural/tribal facilities
+- Source: IHS Updates (Jan 21, 2026)
+
+---
+
 ## 2026-02-11 - CMS Regulatory Intelligence
 
 **CMS Increases HOPD/ASC Payment Rates 2.6% for CY 2026**

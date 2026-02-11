@@ -1,5 +1,15 @@
 [
   {
+    "timestamp": "2026-02-11T05:00:00-05:00",
+    "session_type": "cron:war-room-industry",
+    "action": "web_search",
+    "category": "war-room",
+    "model": "sonnet",
+    "tokens_est": 50000,
+    "detail": "Industry scan (wound care trends, new tech, clinical trials, healthcare innovation, tribal developments) — 6 new findings",
+    "result": "6_new_findings"
+  },
+  {
     "timestamp": "2026-02-09T22:00:15-05:00",
     "session_type": "cron:email-monitor",
     "action": "email_check",
@@ -275,5 +285,14 @@
     "tokens_est": 3800,
     "detail": "CMS regulatory scan (Medicare/Medicaid policy, skin substitute reimbursement, wound care coverage, FDA approvals, HOPD/ASC payment) — 4 new findings",
     "result": "4_new_findings"
+  },
+  {
+    "timestamp": "2026-02-11T04:03:00-05:00",
+    "session_type": "cron:task-worker",
+    "action": "queue_check",
+    "category": "tasks",
+    "model": "sonnet",
+    "tokens_est": 2000,
+    "detail": "Queue check — no pending tasks. TASK-003 (FutureNTech outreach) remains blocked awaiting Reddit/Instagram API credentials."
   }
 ]

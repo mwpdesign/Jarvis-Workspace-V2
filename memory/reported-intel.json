@@ -329,6 +329,54 @@
       "source": "war-room-cms",
       "category": "cms",
       "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-11",
+      "topic_hash": "emerging-wound-tech-3d-microneedle-gene-nano-stem-2026",
+      "headline": "Emerging wound care tech: 3D printing, microneedle arrays, miRNA gene therapy, nanotherapeutics, stem cells, 3D bioprinting",
+      "source": "war-room-industry",
+      "category": "industry",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-11",
+      "topic_hash": "cms-skin-substitute-19b-spending-reduction-2026",
+      "headline": "CMS projects >$19B FFS spending reduction on skin substitutes in 2026 from payment standardization",
+      "source": "war-room-industry",
+      "category": "cms",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-11",
+      "topic_hash": "skin-substitute-rct-validation-17-of-66-products",
+      "headline": "Only 17 of 66 evaluated skin substitute products passed RCTs (DFU), 5 of 17 also approved for VLU",
+      "source": "war-room-industry",
+      "category": "industry",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-11",
+      "topic_hash": "idaho-930m-rural-health-grant-3.5pct-tribal-jan2026",
+      "headline": "Idaho awarded $930M federal rural health grant with 3.5% tribal set-aside (~$32.5M for tribal facilities)",
+      "source": "war-room-industry",
+      "category": "tribal",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-11",
+      "topic_hash": "cms-rural-health-transformation-all-50-states-tribal-jan2026",
+      "headline": "CMS Rural Health Transformation Program awarded in all 50 states with tribal set-asides",
+      "source": "war-room-industry",
+      "category": "tribal",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-11",
+      "topic_hash": "ihs-pharmacy-residency-82pct-retention-since-2000",
+      "headline": "IHS Pharmacy Residency Program achieved 82% retention rate since 2000 (workforce development success)",
+      "source": "war-room-industry",
+      "category": "tribal",
+      "ttl_days": 14
     }
   ]
 }
