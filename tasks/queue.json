@@ -40,12 +40,12 @@
       "request": "FutureNTech band outreach - Bandcamp-only approach",
       "project": "futurentech",
       "priority": "high",
-      "status": "pending",
-      "assigned_session": null,
+      "status": "blocked",
+      "assigned_session": "cron:task-worker",
       "result_file": null,
       "result_summary": null,
       "deadline": null,
-      "notes": "✅ UNBLOCKED 2026-02-11: Michael approved Bandcamp-only approach. Will reach out to 6 bands (Usury, Mantera Anarchist, Volubilis, thistle., dead things, Void) via Bandcamp messaging. Reddit/Instagram outreach postponed until API credentials available.",
+      "notes": "⚠️ BLOCKED 2026-02-11: No Bandcamp messaging API available. This requires manual outreach by Michael via Bandcamp website. Target bands: Usury, Mantera Anarchist, Volubilis, thistle., dead things, Void. Recommend creating outreach message template in projects/futurentech/outreach-template.md for copy/paste efficiency.",
       "completed_at": null
     }
   ]
