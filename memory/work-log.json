@@ -6,7 +6,7 @@
     "category": "war-room",
     "model": "sonnet",
     "tokens_est": 50000,
-    "detail": "Industry scan (wound care trends, new tech, clinical trials, healthcare innovation, tribal developments) — 6 new findings",
+    "detail": "Industry scan (wound care trends, new tech, clinical trials, healthcare innovation, tribal developments) \u2014 6 new findings",
     "result": "6_new_findings"
   },
   {
@@ -26,7 +26,7 @@
     "category": "tasks",
     "model": "sonnet",
     "tokens_est": 2000,
-    "detail": "Queue check — no pending tasks. TASK-003 (FutureNTech outreach) still blocked awaiting Reddit/Instagram API credentials."
+    "detail": "Queue check \u2014 no pending tasks. TASK-003 (FutureNTech outreach) still blocked awaiting Reddit/Instagram API credentials."
   },
   {
     "timestamp": "2026-02-10T02:00:00-05:00",
@@ -45,7 +45,7 @@
     "category": "tasks",
     "model": "sonnet",
     "tokens_est": 2000,
-    "detail": "Queue check — no pending tasks. TASK-003 (FutureNTech outreach) remains blocked awaiting API credentials."
+    "detail": "Queue check \u2014 no pending tasks. TASK-003 (FutureNTech outreach) remains blocked awaiting API credentials."
   },
   {
     "timestamp": "2026-02-10T03:00:00-05:00",
@@ -54,7 +54,7 @@
     "category": "war-room",
     "model": "sonnet",
     "tokens_est": 3500,
-    "detail": "Competitor scan (Integra, MiMedx, Organogenesis, Smith+Nephew) — 4 new findings",
+    "detail": "Competitor scan (Integra, MiMedx, Organogenesis, Smith+Nephew) \u2014 4 new findings",
     "result": "4_new_findings"
   },
   {
@@ -74,7 +74,7 @@
     "category": "war-room",
     "model": "sonnet",
     "tokens_est": 4000,
-    "detail": "CMS regulatory scan (Medicare/Medicaid policy, skin substitute reimbursement, wound care coverage, FDA approvals, HOPD/ASC payment) — 5 new findings",
+    "detail": "CMS regulatory scan (Medicare/Medicaid policy, skin substitute reimbursement, wound care coverage, FDA approvals, HOPD/ASC payment) \u2014 5 new findings",
     "result": "5_new_findings"
   },
   {
@@ -94,7 +94,7 @@
     "category": "tasks",
     "model": "sonnet",
     "tokens_est": 2000,
-    "detail": "Queue check — no pending tasks. TASK-003 (FutureNTech outreach) still blocked awaiting API credentials."
+    "detail": "Queue check \u2014 no pending tasks. TASK-003 (FutureNTech outreach) still blocked awaiting API credentials."
   },
   {
     "timestamp": "2026-02-10T05:00:00-05:00",
@@ -103,7 +103,7 @@
     "category": "war-room",
     "model": "sonnet",
     "tokens_est": 2500,
-    "detail": "Industry scan (wound care market trends, new technologies, clinical trials, healthcare tech innovation, tribal healthcare) — Rate-limited after 2 queries",
+    "detail": "Industry scan (wound care market trends, new technologies, clinical trials, healthcare tech innovation, tribal healthcare) \u2014 Rate-limited after 2 queries",
     "result": "1_new_finding"
   },
   {
@@ -113,7 +113,7 @@
     "category": "tasks",
     "model": "sonnet",
     "tokens_est": 2000,
-    "detail": "Queue check — no pending tasks. TASK-003 (FutureNTech outreach) remains blocked awaiting Reddit/Instagram API credentials."
+    "detail": "Queue check \u2014 no pending tasks. TASK-003 (FutureNTech outreach) remains blocked awaiting Reddit/Instagram API credentials."
   },
   {
     "timestamp": "2026-02-10T07:00:00-05:00",
@@ -153,7 +153,7 @@
     "category": "tasks",
     "model": "sonnet",
     "tokens_est": 2000,
-    "detail": "Queue check — no pending tasks. TASK-003 (FutureNTech outreach) remains blocked awaiting Reddit/Instagram API credentials."
+    "detail": "Queue check \u2014 no pending tasks. TASK-003 (FutureNTech outreach) remains blocked awaiting Reddit/Instagram API credentials."
   },
   {
     "timestamp": "2026-02-10T09:15:00-05:00",
@@ -172,7 +172,7 @@
     "category": "tasks",
     "model": "sonnet",
     "tokens_est": 2000,
-    "detail": "Queue check — no pending tasks. TASK-003 (FutureNTech outreach) still blocked awaiting API credentials."
+    "detail": "Queue check \u2014 no pending tasks. TASK-003 (FutureNTech outreach) still blocked awaiting API credentials."
   },
   {
     "timestamp": "2026-02-10T11:45:00-05:00",
@@ -191,7 +191,7 @@
     "category": "tasks",
     "model": "sonnet",
     "tokens_est": 2000,
-    "detail": "Queue check — no pending tasks. TASK-003 (FutureNTech outreach) remains blocked awaiting Reddit/Instagram API credentials."
+    "detail": "Queue check \u2014 no pending tasks. TASK-003 (FutureNTech outreach) remains blocked awaiting Reddit/Instagram API credentials."
   },
   {
     "timestamp": "2026-02-10T14:00:00-05:00",
@@ -200,7 +200,7 @@
     "category": "tasks",
     "model": "sonnet",
     "tokens_est": 2000,
-    "detail": "Queue check — no pending tasks. TASK-003 (FutureNTech outreach) remains blocked awaiting Reddit/Instagram API credentials."
+    "detail": "Queue check \u2014 no pending tasks. TASK-003 (FutureNTech outreach) remains blocked awaiting Reddit/Instagram API credentials."
   },
   {
     "timestamp": "2026-02-10T16:00:00-05:00",
@@ -209,7 +209,7 @@
     "category": "tasks",
     "model": "sonnet",
     "tokens_est": 2000,
-    "detail": "Queue check — no pending tasks. TASK-003 (FutureNTech outreach) remains blocked awaiting Reddit/Instagram API credentials."
+    "detail": "Queue check \u2014 no pending tasks. TASK-003 (FutureNTech outreach) remains blocked awaiting Reddit/Instagram API credentials."
   },
   {
     "timestamp": "2026-02-10T18:00:00-05:00",
@@ -218,7 +218,7 @@
     "category": "tasks",
     "model": "sonnet",
     "tokens_est": 2000,
-    "detail": "Queue check — no pending tasks. TASK-003 (FutureNTech outreach) remains blocked awaiting Reddit/Instagram API credentials."
+    "detail": "Queue check \u2014 no pending tasks. TASK-003 (FutureNTech outreach) remains blocked awaiting Reddit/Instagram API credentials."
   },
   {
     "timestamp": "2026-02-10T20:00:00-05:00",
@@ -227,7 +227,7 @@
     "category": "tasks",
     "model": "sonnet",
     "tokens_est": 2000,
-    "detail": "Queue check — no pending tasks. TASK-003 (FutureNTech outreach) remains blocked awaiting Reddit/Instagram API credentials."
+    "detail": "Queue check \u2014 no pending tasks. TASK-003 (FutureNTech outreach) remains blocked awaiting Reddit/Instagram API credentials."
   },
   {
     "timestamp": "2026-02-10T22:00:00-05:00",
@@ -236,7 +236,7 @@
     "category": "tasks",
     "model": "sonnet",
     "tokens_est": 2000,
-    "detail": "Queue check — no pending tasks. TASK-003 (FutureNTech outreach) remains blocked awaiting Reddit/Instagram API credentials."
+    "detail": "Queue check \u2014 no pending tasks. TASK-003 (FutureNTech outreach) remains blocked awaiting Reddit/Instagram API credentials."
   },
   {
     "timestamp": "2026-02-11T00:00:00-05:00",
@@ -245,7 +245,7 @@
     "category": "tasks",
     "model": "sonnet",
     "tokens_est": 2000,
-    "detail": "Queue check — no pending tasks. TASK-003 (FutureNTech outreach) remains blocked awaiting Reddit/Instagram API credentials."
+    "detail": "Queue check \u2014 no pending tasks. TASK-003 (FutureNTech outreach) remains blocked awaiting Reddit/Instagram API credentials."
   },
   {
     "timestamp": "2026-02-11T02:00:00-05:00",
@@ -254,7 +254,7 @@
     "category": "tasks",
     "model": "sonnet",
     "tokens_est": 2000,
-    "detail": "Queue check — no pending tasks. TASK-003 (FutureNTech outreach) remains blocked awaiting Reddit/Instagram API credentials."
+    "detail": "Queue check \u2014 no pending tasks. TASK-003 (FutureNTech outreach) remains blocked awaiting Reddit/Instagram API credentials."
   },
   {
     "timestamp": "2026-02-11T03:00:00-05:00",
@@ -263,7 +263,7 @@
     "category": "war-room",
     "model": "sonnet",
     "tokens_est": 3000,
-    "detail": "Competitor scan (Integra, MiMedx, Organogenesis, Smith+Nephew) — 2 new findings",
+    "detail": "Competitor scan (Integra, MiMedx, Organogenesis, Smith+Nephew) \u2014 2 new findings",
     "result": "2_new_findings"
   },
   {
@@ -283,7 +283,7 @@
     "category": "war-room",
     "model": "sonnet",
     "tokens_est": 3800,
-    "detail": "CMS regulatory scan (Medicare/Medicaid policy, skin substitute reimbursement, wound care coverage, FDA approvals, HOPD/ASC payment) — 4 new findings",
+    "detail": "CMS regulatory scan (Medicare/Medicaid policy, skin substitute reimbursement, wound care coverage, FDA approvals, HOPD/ASC payment) \u2014 4 new findings",
     "result": "4_new_findings"
   },
   {
@@ -293,7 +293,7 @@
     "category": "tasks",
     "model": "sonnet",
     "tokens_est": 2000,
-    "detail": "Queue check — no pending tasks. TASK-003 (FutureNTech outreach) remains blocked awaiting Reddit/Instagram API credentials."
+    "detail": "Queue check \u2014 no pending tasks. TASK-003 (FutureNTech outreach) remains blocked awaiting Reddit/Instagram API credentials."
   },
   {
     "timestamp": "2026-02-11T10:30:00Z",
@@ -316,6 +316,14 @@
     "category": "tasks",
     "model": "sonnet",
     "tokens_est": 2000,
-    "detail": "Queue check — no pending tasks. TASK-003 (FutureNTech outreach) remains blocked awaiting Reddit/Instagram API credentials."
+    "detail": "Queue check \u2014 no pending tasks. TASK-003 (FutureNTech outreach) remains blocked awaiting Reddit/Instagram API credentials."
+  },
+  {
+    "timestamp": "2026-02-11T07:00:00-05:00",
+    "session_type": "cron:git-autocommit",
+    "action": "git_commit_and_push",
+    "details": "Committed memory/work-log.json (1 file, 9 insertions) to GitHub",
+    "model": "haiku",
+    "tokens_est": 45
   }
 ]

@@ -6,6 +6,55 @@
       "session_cost_est": 2.00,
       "total": 8.14,
       "notes": "Partial day (Build 5.1 deployed). Email-monitor running */5 min = high cost."
+    },
+    {
+      "date": "2026-02-05",
+      "cron_cost": 2.50,
+      "session_cost_est": 1.50,
+      "total": 4.00,
+      "notes": "Post-optimization. email-monitor */15, git hourly."
+    },
+    {
+      "date": "2026-02-06",
+      "cron_cost": 2.50,
+      "session_cost_est": 1.50,
+      "total": 4.00,
+      "notes": "Standard operations."
+    },
+    {
+      "date": "2026-02-07",
+      "cron_cost": 2.50,
+      "session_cost_est": 1.50,
+      "total": 4.00,
+      "notes": "Standard operations."
+    },
+    {
+      "date": "2026-02-08",
+      "cron_cost": 2.50,
+      "session_cost_est": 1.50,
+      "total": 4.00,
+      "notes": "Weekend - standard cron operations."
+    },
+    {
+      "date": "2026-02-09",
+      "cron_cost": 3.00,
+      "session_cost_est": 1.50,
+      "total": 4.50,
+      "notes": "Sunday - memory consolidation ran. Morning briefing auth failure."
+    },
+    {
+      "date": "2026-02-10",
+      "cron_cost": 2.80,
+      "session_cost_est": 1.50,
+      "total": 4.30,
+      "notes": "Standard operations. War room research overnight."
+    },
+    {
+      "date": "2026-02-11",
+      "cron_cost": 3.20,
+      "session_cost_est": 1.50,
+      "total": 4.70,
+      "notes": "War room (3 jobs), config-review, daily-auto-update, standard operations."
     }
   ],
   "format_spec": {

@@ -166,15 +166,18 @@ When `/model opus` is triggered or Opus is manually requested, log the reason to
 
 | Job | Schedule | Model | Why |
 |-----|----------|-------|-----|
-| email-monitor | */5 min | Haiku | Simple label search + priority flag |
-| git-autocommit | */30 min | Haiku | Check changes, commit, push |
+| email-monitor | */15 min | Haiku | Simple label search + priority flag |
+| git-autocommit | Hourly | Haiku | Check changes, commit, push |
+| futurentech-form-check | 8 AM daily | Haiku | Monitor Google Form submissions |
 | memory-archive | 1st of month 3 AM | Haiku | Move old files, delete expired |
 | task-worker | */2 hours | Sonnet | Processes queued tasks (needs quality) |
-| war-room-competitors | 3 AM | Sonnet | Research + analysis |
-| war-room-cms | 4 AM | Sonnet | Regulatory research |
-| war-room-industry | 5 AM | Sonnet | Industry trend analysis |
-| morning-briefing | 7 AM | Sonnet | Assembles full briefing |
+| war-room-competitors | 3 AM daily | Sonnet | Research + analysis |
+| war-room-cms | 4 AM daily | Sonnet | Regulatory research |
+| war-room-industry | 5 AM daily | Sonnet | Industry trend analysis |
+| config-review | 6 AM daily | Sonnet | Reviews operational docs for drift |
+| morning-briefing | 7 AM daily | Sonnet | Assembles full briefing |
 | memory-consolidation | Sunday 2 AM | Sonnet | Distills weekly learnings |
+| sunday-self-improvement | Sunday 8 AM | Sonnet | Reviews learnings skill (pending activation) |
 
 **Model strings for OpenClaw cron:**
 - Haiku: `anthropic/claude-haiku-4-5-20251001`

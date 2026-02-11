@@ -37,15 +37,15 @@
       "id": "TASK-003",
       "created": "2026-02-04T14:57:00-05:00",
       "source": "telegram",
-      "request": "FutureNTech band outreach setup (Reddit/Instagram/Bandcamp)",
+      "request": "FutureNTech band outreach - Bandcamp-only approach",
       "project": "futurentech",
       "priority": "high",
-      "status": "blocked",
+      "status": "pending",
       "assigned_session": null,
       "result_file": null,
       "result_summary": null,
       "deadline": null,
-      "notes": "BLOCKED: Need Michael to provide Reddit API credentials + Instagram access, OR approve Bandcamp-only approach. 6 bands waiting for outreach (Usury, Mantera Anarchist, Volubilis, thistle., dead things, Void)",
+      "notes": "✅ UNBLOCKED 2026-02-11: Michael approved Bandcamp-only approach. Will reach out to 6 bands (Usury, Mantera Anarchist, Volubilis, thistle., dead things, Void) via Bandcamp messaging. Reddit/Instagram outreach postponed until API credentials available.",
       "completed_at": null
     }
   ]
