@@ -29,6 +29,15 @@
       "alerts_sent": 0,
       "tokens_est": 35,
       "result": "clean"
+    },
+    "2026-02-11T19:00:00Z_task_worker": {
+      "session_type": "cron:task-worker",
+      "action": "queue_check",
+      "category": "tasks",
+      "model": "sonnet",
+      "tokens_est": 2000,
+      "detail": "No pending tasks found in queue (3 total: 2 complete, 1 blocked - TASK-003 awaits manual Bandcamp outreach)",
+      "result": "no-work"
     }
   }
 }
