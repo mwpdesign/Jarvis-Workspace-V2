@@ -252,3 +252,24 @@ No new regulatory intel. Search completed for CMS Medicare/Medicaid policy chang
 **Note:** Search rate-limited after 2 queries. Wound care market trends and tribal healthcare scanned. New technologies, clinical trials, and healthcare tech innovation queries blocked. Recommend retry during next cycle.
 
 ---
+
+## 2026-02-11 - Competitor Intelligence
+
+**Integra LifeSciences - FDA Injury Reports on AI Surgical Device**
+- FDA reports flagging injuries linked to TruDi Navigation System (AI-enabled surgical navigation device)
+- TruDi acquired when Integra purchased Acclarent division from Johnson & Johnson
+- Integra denies causal connection between AI technology and reported injuries
+- Statement: "No credible evidence to show any causal connection between the TruDi Navigation System, AI technology, and any alleged injuries"
+- **Context:** Broader FDA scrutiny on AI-enabled medical devices increasing
+- **Reputational risk:** Comes at challenging time (stock at 1-year low, analyst consensus "Reduce", Q4 earnings Feb 26)
+- Source: MedBound Times, Dexerto (Feb 10, 2026 - last 24 hours)
+
+**MiMedx - Q4 2025 Earnings Scheduled March 3, 2026**
+- Q4 2025 earnings release projected for Monday, March 3, 2026
+- First post-CMS reform earnings report from MiMedx
+- Timing follows Integra (Feb 26) and Smith+Nephew (March 2)
+- Analyst expectations already lowered by Craig-Hallum and Northland Securities
+- Key watch: Volume impact from CMS LCD withdrawal and provider confusion
+- Source: MarketScreener (Feb 4, 2026)
+
+---

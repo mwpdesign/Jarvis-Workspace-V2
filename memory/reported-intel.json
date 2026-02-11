@@ -281,6 +281,22 @@
       "source": "war-room-industry",
       "category": "industry",
       "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-11",
+      "topic_hash": "integra-trudi-ai-fda-injuries-feb2026",
+      "headline": "FDA reports flag injuries linked to Integra's TruDi AI navigation system, Integra denies causal connection",
+      "source": "war-room-competitors",
+      "category": "competitor",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-11",
+      "topic_hash": "mimedx-q4-2025-earnings-march3-2026",
+      "headline": "MiMedx Q4 2025 earnings release scheduled March 3, 2026",
+      "source": "war-room-competitors",
+      "category": "competitor",
+      "ttl_days": 14
     }
   ]
 }
