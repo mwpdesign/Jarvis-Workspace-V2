@@ -2,7 +2,7 @@
 
 **Architecture:** Heavy work runs in isolated cron jobs. Heartbeat is a coordinator only.
 
-**Last updated:** 2026-02-04 (Build 5 complete)
+**Last updated:** 2026-02-12 (Config drift fixed)
 
 ---
 
@@ -15,8 +15,10 @@
 | daily-auto-update | 4 AM daily | Default | Updates OpenClaw + skills |
 | war-room-cms | 4 AM daily | Sonnet | CMS/regulatory scan → war-room-findings.md |
 | war-room-industry | 5 AM daily | Sonnet | Industry trends scan → war-room-findings.md |
+| config-review | 6 AM daily | Sonnet | Reviews operational docs for drift |
 | morning-briefing | 7 AM daily | Sonnet | Assembles + delivers briefing to Telegram (feedback-aware) |
 | futurentech-form-check | 8 AM daily | Haiku | Monitors submissions → creates research tasks |
+| sunday-self-improvement | 8 AM Sundays | Sonnet | Reviews learnings skill |
 | git-autocommit | Every hour | Haiku | Commits + pushes workspace changes |
 | task-worker | Every 2 hours | Sonnet | Processes 1 pending task from queue.json + FutureNTech pipeline |
 | memory-consolidation | 2 AM Sundays | Sonnet | Distills weekly learnings into MEMORY.md + Opus tracking |
@@ -70,10 +72,10 @@
 - Return HEARTBEAT_OK (silent — no message to Michael)
 
 ### 5a. State Tracker Maintenance
-- Update `memory/state-tracker.json` with current file modification timestamps
-- This keeps the tracker accurate for the next session startup
-- Only check core and active-work files (not docs/ or projects/ — those are on-demand)
-- FAST operation — just stat the files, update timestamps, done
+- ⚠️ **DISABLED (2026-02-12)**: State tracker updates moved to session end only (not heartbeat)
+- Heartbeat updates caused excessive file writes (12/hour × 24h = 288 writes/day)
+- Now updates once per main session close instead
+- Still reads state-tracker.json at session startup for efficient context loading
 
 ### 5b. Work Log Housekeeping
 - If it's the 1st of the month: archive entries older than 30 days to `memory/work-log-archive-YYYY-MM.json`

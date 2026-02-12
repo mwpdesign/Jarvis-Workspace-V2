@@ -36,13 +36,7 @@
 
 *Ideas that save time or reduce friction.*
 
-#### Project Context Quick-Loader
-**Idea:** "Work on [project]" command that loads ALL relevant context instantly
-**Why it matters:** Context switching is a top frustration; loading files manually is slow
-**Effort:** Days
-**First step:** Document what files/context each project needs
-**Added:** 2026-01-26
-**Status:** New
+*None currently - focus is on FutureNTech automation pipeline.*
 
 ---
 
@@ -69,6 +63,7 @@
 | Voice task capture system | Efficiency | Fully operational via Wispr Flow → Telegram | 2026-01-25 |
 | Daily briefing automation | Efficiency | 7 AM Telegram briefings working | 2026-01-25 |
 | Google Workspace integration | Efficiency | Both accounts connected via gog CLI | 2026-01-25 |
+| Context Loading System | Efficiency | state-tracker.json + CONTEXT-LOADING.md system built | 2026-02-04 |
 
 ---
 
