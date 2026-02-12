@@ -449,6 +449,78 @@
       "source": "war-room-cms",
       "category": "fda",
       "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-12",
+      "topic_hash": "vital-wound-care-ai-app-houston-june2025",
+      "headline": "Vital Wound Care launched AI-powered wound app and expanded Houston in-home services (June 2025)",
+      "source": "war-room-industry",
+      "category": "industry",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-12",
+      "topic_hash": "smart-biosensor-dressings-2026-leading-category",
+      "headline": "Smart biosensor-enabled dressings (moisture/pH/temperature tracking) projected top 2026 product category",
+      "source": "war-room-industry",
+      "category": "industry",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-12",
+      "topic_hash": "thermal-bacterial-imaging-wound-detection",
+      "headline": "Thermal and bacterial imaging technologies emerging as early wound complication indicators",
+      "source": "war-room-industry",
+      "category": "industry",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-12",
+      "topic_hash": "denovoskin-phase1-5yr-results-feb2026",
+      "headline": "DenovoSkin cultured autologous skin substitute 5-year Phase I trial confirms safety/feasibility for pediatric burns",
+      "source": "war-room-industry",
+      "category": "industry",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-12",
+      "topic_hash": "ihs-largest-hiring-effort-2026",
+      "headline": "IHS launches largest hiring effort in agency history (2026) - focus on early-career professionals and veterans",
+      "source": "war-room-industry",
+      "category": "tribal",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-12",
+      "topic_hash": "ihs-mercury-amalgam-phaseout-2027",
+      "headline": "IHS to end mercury-containing dental amalgam use by 2027 across all facilities",
+      "source": "war-room-industry",
+      "category": "tribal",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-12",
+      "topic_hash": "tribal-epi-centers-39.43m-fy2026",
+      "headline": "Tribal Epidemiology Centers funding increased to $39.43M for FY2026 (+$5M from FY2025)",
+      "source": "war-room-industry",
+      "category": "tribal",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-12",
+      "topic_hash": "produce-prescription-pilot-tribes-7m-fy2026",
+      "headline": "Produce Prescription Pilot for Tribes/UIOs allocated $7M for FY2026 (+$4M increase)",
+      "source": "war-room-industry",
+      "category": "tribal",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-12",
+      "topic_hash": "ihs-facilities-needs-assessment-2026",
+      "headline": "2026 IHS and Tribal Health Care Facilities Needs Assessment Report to Congress due (5-year mandate)",
+      "source": "war-room-industry",
+      "category": "tribal",
+      "ttl_days": 14
     }
   ]
 }

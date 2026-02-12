@@ -439,3 +439,71 @@ No new regulatory intel. Search completed for CMS Medicare/Medicaid policy chang
 - Source: Pharmacy Times (Feb 11, 2026 - 1 day ago)
 
 ---
+
+## 2026-02-12 - Industry Intelligence (5 AM Scan)
+
+**Vital Wound Care - AI-Powered Wound App Launch (June 2025)**
+- Launched AI-powered wound app for in-home wound care services
+- Expanded coverage across greater Houston metropolitan area
+- Represents commercialization of AI wound assessment technology
+- Part of broader 35% CAGR growth trajectory in AI wound care sector
+- Source: Globe Newswire AI in Wound Care Market Report (Feb 4, 2026)
+
+**Smart Biosensor-Enabled Dressings - Leading 2026 Product Category**
+- Advanced dressings with built-in sensors tracking wound conditions (moisture levels, pH, temperature)
+- Enables real-time wound monitoring without removing dressing
+- Projected to be top-selling product category in 2026
+- Aligns with shift toward data-driven wound management
+- Source: WCEI Blog (Sep 15, 2025)
+
+**Thermal and Bacterial Imaging - Early Wound Complication Detection**
+- New technologies serving as early indicators of wound progression or complication
+- Thermal imaging detects subtle temperature changes indicating infection or poor perfusion
+- Bacterial imaging identifies bioburden before clinical signs appear
+- Critical for chronic wounds where closure can take months/years
+- Clinical trial data emerging showing predictive value
+- Source: Swift Medical Research Summary (Nov 24, 2025)
+
+**DenovoSkin - 5-Year Phase I Trial Results for Pediatric Burns**
+- Cultured autologous dermo-epidermal skin substitute for children
+- 5-year long-term outcomes published February 2026
+- Results confirm safety (no infection, no graft-associated adverse events)
+- Proof of concept established for feasibility
+- First study reporting long-term pediatric outcomes for this technology
+- Source: PMC Article (Feb 2026)
+
+**IHS Launches Largest Hiring Effort in Agency History (2026)**
+- Indian Health Service unprecedented recruitment initiative announced 2026
+- Strong emphasis on early-career professionals and veterans
+- Reflects IHS expansion enabled by $8.05B FY2026 + $5.31B FY2027 advance appropriations
+- Workforce development focus to address chronic tribal healthcare staffing shortages
+- Source: IHS Press Release (2026)
+
+**IHS Mercury-Dental Amalgam Phase-Out by 2027**
+- IHS announced end of mercury-containing dental amalgam use by 2027
+- Environmental health initiative affecting all IHS and tribal dental facilities
+- Transition to alternative filling materials underway
+- Source: IHS Announcement (Feb 9, 2026)
+
+**Tribal Epidemiology Centers Funding Increase - $39.43M for FY2026**
+- TECs received $39.43 million in FY2026 appropriations
+- $5 million increase from FY2025 levels
+- Supports tribal public health surveillance and disease monitoring
+- Part of broader IHS funding increases
+- Source: NCUIH Congressional Update (Jan 6, 2026)
+
+**Produce Prescription Pilot for Tribes/UIOs - $7M for FY2026**
+- $7 million allocated for FY2026
+- $4 million increase from prior year
+- Program enables tribes and Urban Indian Organizations to provide produce prescriptions
+- Addresses food insecurity and chronic disease prevention in tribal communities
+- Source: NCUIH Congressional Update (Jan 6, 2026)
+
+**2026 IHS and Tribal Health Care Facilities Needs Assessment Report to Congress**
+- Mandated report due in 2026 (every 5 years per 25 U.S.C. § 1631)
+- Comprehensive assessment of IHS and tribal facility infrastructure needs
+- Will inform future federal capital investment priorities
+- Tribal information sessions conducted to gather Facility Master Plans
+- Source: IHS Calendar & DTLL Letter (Oct 9, 2024)
+
+---
