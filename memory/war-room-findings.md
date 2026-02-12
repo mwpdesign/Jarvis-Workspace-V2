@@ -355,3 +355,21 @@ No new regulatory intel. Search completed for CMS Medicare/Medicaid policy chang
 - Source: Insights WCHSB (Nov 26, 2025)
 
 ---
+
+## 2026-02-12 - Competitor Intelligence
+
+**MiMedx - Analyst Fair Value Estimate Lowered to $10.40**
+- Latest analyst research trims fair value estimate from ~$11.00 to $10.40
+- Reflects slightly more cautious stance on near-term prospects
+- Third consecutive week of negative analyst revisions (Craig-Hallum downgrade, Northland EPS cuts, now valuation trim)
+- Pattern: Sustained bearish sentiment on MiMedx through early February 2026
+- Source: Yahoo Finance Canada (Feb 7, 2026)
+
+**Smith+Nephew - Stock Hits 12-Month High (Feb 6)**
+- Stock reached new 12-month high on February 6, 2026
+- Contrasts sharply with Integra (1-year low) and MiMedx (multiple downgrades)
+- Investor confidence aligns with company's 6% 2026 growth target and recent European acquisition
+- Signal: S+N perceived as best-positioned major competitor in post-CMS reform environment
+- Source: Daily Political (Feb 6, 2026)
+
+---

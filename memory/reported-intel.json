@@ -377,6 +377,22 @@
       "source": "war-room-industry",
       "category": "tribal",
       "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-12",
+      "topic_hash": "mimedx-analyst-fair-value-cut-10.40-feb2026",
+      "headline": "Analyst fair value estimate for MiMedx lowered from ~$11.00 to $10.40 (Feb 7)",
+      "source": "war-room-competitors",
+      "category": "competitor",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-12",
+      "topic_hash": "smith-nephew-12month-high-feb6-2026",
+      "headline": "Smith+Nephew stock hit 12-month high on Feb 6, 2026",
+      "source": "war-room-competitors",
+      "category": "competitor",
+      "ttl_days": 14
     }
   ]
 }
