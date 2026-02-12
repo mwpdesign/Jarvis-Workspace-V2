@@ -373,3 +373,69 @@ No new regulatory intel. Search completed for CMS Medicare/Medicaid policy chang
 - Source: Daily Political (Feb 6, 2026)
 
 ---
+
+## 2026-02-12 - CMS Regulatory Intelligence
+
+**CMS Proposes Nearly Flat 2027 Medicare Advantage Payment Rates**
+- CMS proposed 2027 Medicare Advantage payment rates with minimal increase
+- Advance Notice published January 26, 2026
+- Comment period open until February 25, 2026 at 11:59 PM
+- Continuation of CMS pressure on MA plan profitability
+- May affect MA plan willingness to cover advanced wound care products
+- Source: AJMC (Feb 11, 2026 - published 17 hours ago)
+
+**TEAM Bundled Payment Model Launched January 1, 2026**
+- Transforming Episode Accountability Model (TEAM) is new mandatory bundled payment initiative
+- Finalized by CMS August 1, 2024; launched January 1, 2026
+- 5-year program implemented in 188 metropolitan areas
+- Covers 30-day episodes of care including surgery, hospitalization, and immediate recovery
+- Outpatient procedures integrated into subset of DRG episodes
+- Creates incentives for hospitals to conduct more surgeries in outpatient settings
+- **ASCs NOT included in TEAM**
+- Implication: May drive wound care procedures toward outpatient settings
+- Source: AJMC (Feb 10, 2026 - 2 days ago)
+
+**NOPAIN Act Eligibility Maintained - Game Ready Added for 2026**
+- CMS maintains NOPAIN Act eligibility for ON-Q and ambIT Infusion Pumps
+- **NEW: Game Ready cold compression system added to eligible products list for 2026**
+- HOPDs and ASCs using these products for post-surgical pain management receive separate Medicare payment under OPPS
+- Payment in addition to covered surgical procedure reimbursement
+- Relevant for wound care procedures with post-op pain management needs
+- Source: Avanos Medical Inc. (Feb 6, 2026 - 6 days ago)
+
+**SCA Health Warns ASC Payment Calculation Undercuts Rate Increase**
+- Medical supply chain costs projected to increase 2.41% in 2026
+- ASC weight rescaling and secondary rescaling methodology drives down overall ASC reimbursement relative to HOPD payments
+- Despite nominal 2.6% payment rate increase, actual ASC reimbursement may lag HOPD rates
+- Technical calculation issue creating unintended payment disparity
+- Source: Becker's ASC (Feb 11, 2026 - 14 hours ago)
+
+---
+
+## 2026-02-12 - FDA Approvals & Regulatory Actions
+
+**Integra Omnigraft Dermal Regeneration Matrix - FDA Approval for Diabetic Foot Ulcers**
+- FDA approved Integra's Omnigraft Dermal Regeneration Matrix for diabetic foot ulcers
+- **Indication:** DFUs lasting longer than 6 weeks without exposure of joint capsule, tendon, or bone
+- Expands Integra's product portfolio in chronic wound care segment
+- Timing: Approved during challenging period for Integra (stock at 1-year low, Q4 earnings Feb 26)
+- Source: Pharmacy Times (Feb 5, 2026 - 1 week ago)
+
+**FDA Qualifies MolecuLightDX as Medical Device Development Tool (MDDT) for Wound Care**
+- MolecuLightDX Wound Measurement system qualified by FDA as MDDT
+- **Purpose:** Standardized tool for evaluating NEW wound care products in clinical trials
+- Enables manufacturers to use MolecuLightDX for wound measurement endpoints in FDA submissions
+- Accelerates pathway for new product approvals by providing validated measurement methodology
+- Significant for Clear Health Pass: Future product development may benefit from standardized imaging-based validation
+- Source: MolecuLight Inc. (Feb 6, 2026 - 6 days ago)
+
+**SkinTE Breakthrough Therapy Designation for Diabetic Foot Ulcers**
+- FDA granted Breakthrough Therapy Designation to SkinTE for diabetic foot ulcers
+- Phase 2 trial demonstrated SkinTE + standard care significantly improved wound closure rates vs standard care alone
+- Ongoing Phase 3 trial assessing safety and efficacy
+- **Results anticipated Q1 2026** (imminent)
+- Represents autologous skin cell spray technology
+- Competitor watch: Novel treatment modality entering market
+- Source: Pharmacy Times (Feb 11, 2026 - 1 day ago)
+
+---

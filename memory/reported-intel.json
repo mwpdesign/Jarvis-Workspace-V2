@@ -393,6 +393,62 @@
       "source": "war-room-competitors",
       "category": "competitor",
       "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-12",
+      "topic_hash": "cms-2027-ma-payment-rates-nearly-flat-jan2026",
+      "headline": "CMS proposes nearly flat 2027 Medicare Advantage payment rates (comment period until Feb 25)",
+      "source": "war-room-cms",
+      "category": "cms",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-12",
+      "topic_hash": "cms-team-bundled-payment-launched-jan2026",
+      "headline": "TEAM bundled payment model launched Jan 1, 2026 (188 metro areas, 5 years, 30-day episodes)",
+      "source": "war-room-cms",
+      "category": "cms",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-12",
+      "topic_hash": "cms-nopain-game-ready-added-2026",
+      "headline": "CMS adds Game Ready to NOPAIN Act eligible products list for 2026",
+      "source": "war-room-cms",
+      "category": "cms",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-12",
+      "topic_hash": "sca-health-asc-payment-calculation-warning-feb2026",
+      "headline": "SCA Health warns ASC payment calculation methodology undercuts 2.6% rate increase (supply costs up 2.41%)",
+      "source": "war-room-cms",
+      "category": "cms",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-12",
+      "topic_hash": "integra-omnigraft-fda-approval-dfu-feb2026",
+      "headline": "Integra Omnigraft Dermal Regeneration Matrix FDA approved for diabetic foot ulcers >6 weeks",
+      "source": "war-room-cms",
+      "category": "fda",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-12",
+      "topic_hash": "moleculightdx-fda-mddt-qualification-feb2026",
+      "headline": "FDA qualifies MolecuLightDX as Medical Device Development Tool for wound care product evaluation",
+      "source": "war-room-cms",
+      "category": "fda",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-12",
+      "topic_hash": "skinte-breakthrough-therapy-designation-dfu-feb2026",
+      "headline": "FDA grants SkinTE Breakthrough Therapy Designation for diabetic foot ulcers (Phase 3 results Q1 2026)",
+      "source": "war-room-cms",
+      "category": "fda",
+      "ttl_days": 14
     }
   ]
 }
