@@ -1,65 +1,20 @@
-{
-  "timestamp": "2026-02-11T15:15:27Z",
-  "action": "email-monitor",
-  "result": "no unread urgent emails found",
-  "emails_checked": 0,
-  "model": "haiku",
-  "entries": {
-    "2026-02-11T16:00:12Z_email_monitor": {
-      "action": "email-monitor-check",
-      "result": "no-unread-emails",
-      "labels": "a-team,1-snetwork",
-      "tokens_est": 45
+[
+  {
+    "timestamp": "2026-02-12T13:01:42.676038Z",
+    "session_type": "cron:futurentech-form-check",
+    "action": "daily-monitoring",
+    "result": "no new submissions, no status changes",
+    "detail": {
+      "form_submissions_checked": 0,
+      "form_submissions_new": 0,
+      "outreach_tracking_rows": 11,
+      "replied_bands": 0,
+      "status_updates": 0,
+      "no_response_updates": 0,
+      "contacted_status_age_days_max": 7
     },
-    "2026-02-11T17:00:00Z_task_worker": {
-      "session_type": "cron:task-worker",
-      "action": "queue_check",
-      "category": "tasks",
-      "model": "sonnet",
-      "tokens_est": 2000,
-      "detail": "No pending tasks found in queue (3 total: 2 complete, 1 blocked)",
-      "result": "no-work"
-    },
-    "2026-02-11T17:45:00Z_email_monitor": {
-      "session_type": "cron:email-monitor",
-      "action": "urgent-email-check",
-      "model": "haiku",
-      "labels_scanned": "a-team,1-snetwork",
-      "unread_count": 0,
-      "alerts_sent": 0,
-      "tokens_est": 35,
-      "result": "clean"
-    },
-    "2026-02-11T19:00:00Z_task_worker": {
-      "session_type": "cron:task-worker",
-      "action": "queue_check",
-      "category": "tasks",
-      "model": "sonnet",
-      "tokens_est": 2000,
-      "detail": "No pending tasks found in queue (3 total: 2 complete, 1 blocked - TASK-003 awaits manual Bandcamp outreach)",
-      "result": "no-work"
-    },
-    "2026-02-11T21:00:00Z_task_worker": {
-      "session_type": "cron:task-worker",
-      "action": "queue_check",
-      "category": "tasks",
-      "model": "sonnet",
-      "tokens_est": 2000,
-      "detail": "No pending tasks found in queue (3 total: 2 complete, 1 blocked)",
-      "result": "no-work"
-    }
+    "category": "futurentech",
+    "model": "haiku",
+    "tokens_est": 45
   }
-}
-,{"timestamp":"2026-02-11T15:00:00-05:00","task":"git-autocommit","model":"haiku","tokens_est":150,"action":"pushed 1 file (memory/work-log.json) to GitHub","status":"complete"}
-,{"timestamp":"2026-02-11T18:00:00-05:00","session_type":"cron:task-worker","action":"queue_check","category":"tasks","model":"sonnet","tokens_est":2000,"detail":"No pending tasks found in queue (3 total: 2 complete, 1 blocked)","result":"no-work"}
-,{"timestamp":"2026-02-11T20:00:00-05:00","session_type":"cron:task-worker","action":"queue_check","category":"tasks","model":"sonnet","tokens_est":2000,"detail":"No pending tasks found in queue (3 total: 2 complete, 1 blocked - TASK-003 awaits manual Bandcamp outreach)","result":"no-work"}
-{"timestamp":"2026-02-11T22:00:00-05:00","session_type":"cron:task-worker","action":"queue_check","category":"tasks","model":"sonnet","tokens_est":2000,"detail":"No pending tasks found in queue (3 total: 2 complete, 1 blocked - TASK-003 awaits manual Bandcamp outreach)","result":"no-work"}
-,{"timestamp":"2026-02-12T02:00:00-05:00","session_type":"cron:task-worker","action":"queue_check","category":"tasks","model":"sonnet","tokens_est":2000,"detail":"No pending tasks found in queue (3 total: 2 complete, 1 blocked)","result":"no-work"}
-,{"timestamp":"2026-02-12T03:00:00-05:00","session_type":"cron:war-room-competitors","action":"web_search","category":"war-room","model":"sonnet","tokens_est":3500,"result":"2 new findings: MiMedx analyst fair value cut to $10.40, Smith+Nephew 12-month high Feb 6"}
-{"timestamp":"2026-02-12T09:01:00.000Z","type":"system","action":"daily-auto-update","details":"OpenClaw: checked (version 2026.2.10, npm updated 1 package). Skills: all up to date (7 checked: auto-updater, claude-code-wingman, youtube-watcher, humanizer, gemini-deep-research, nano-banana-pro all current; self-improving-agent skipped due to local changes).","model":"sonnet","tokens_est":500}
-
-,{"timestamp":"2026-02-12T04:02:00-05:00","session_type":"cron:war-room-cms","action":"web_search","category":"war-room","model":"sonnet","tokens_est":7000,"result":"7 new findings: CMS 2027 MA rates nearly flat, TEAM bundled payment launched, Integra Omnigraft FDA approval, MolecuLightDX MDDT qualification, NOPAIN Game Ready added, SCA Health ASC pay warning, SkinTE Breakthrough Therapy designation"}
-,{"timestamp":"2026-02-12T04:04:00Z","session_type":"cron:git-autocommit","action":"git_backup","category":"infrastructure","model":"haiku","tokens_est":85,"files_changed":3,"files":"memory/reported-intel.json, memory/war-room-findings.md, memory/work-log.json","commit":"fbcd5d0","result":"pushed-to-github"}
-,{"timestamp":"2026-02-12T04:05:00-05:00","session_type":"cron:task-worker","action":"queue_check","category":"tasks","model":"sonnet","tokens_est":2000,"detail":"No pending tasks found in queue (3 total: 2 complete, 1 blocked - TASK-003 requires manual Bandcamp outreach)","result":"no-work"}
-,{"timestamp":"2026-02-12T05:00:00-05:00","session_type":"cron:war-room-industry","action":"web_search","category":"war-room","model":"sonnet","tokens_est":12000,"result":"9 new findings: Vital Wound Care AI app launch, smart biosensor dressings, thermal/bacterial imaging, DenovoSkin Phase I results, IHS largest hiring effort, IHS mercury amalgam phaseout 2027, Tribal Epi Centers $39.43M, Produce Rx Pilot $7M, IHS Facilities Needs Assessment 2026"}
-,{"timestamp":"2026-02-12T06:00:00-05:00","session_type":"cron:task-worker","action":"queue_check","category":"tasks","model":"sonnet","tokens_est":2000,"detail":"No pending tasks found in queue (3 total: 2 complete, 1 blocked - TASK-003 awaits manual Bandcamp outreach)","result":"no-work"}
+]
