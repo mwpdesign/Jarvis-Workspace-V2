@@ -40,12 +40,12 @@
       "request": "FutureNTech band outreach - Bandcamp-only approach",
       "project": "futurentech",
       "priority": "high",
-      "status": "deferred",
-      "assigned_session": "main-morning",
-      "result_file": null,
+      "status": "blocked",
+      "assigned_session": "cron:task-worker",
+      "result_file": "projects/futurentech/outreach/bandcamp-outreach-template.md",
       "result_summary": null,
       "deadline": "2026-02-13T09:00:00-05:00",
-      "notes": "🕐 DEFERRED until morning (2026-02-13): No Bandcamp messaging API available. Manual outreach required via Bandcamp website. Target bands: Usury, Mantera Anarchist, Volubilis, thistle., dead things, Void. Wake event scheduled for morning briefing. Outreach template ready on request.",
+      "notes": "⚠️ BLOCKED - Manual action required: Bandcamp has no messaging API. Created complete outreach template with personalized messages for 6 target bands (Usury, Mantera Anarchist, Volubilis, thistle., dead things, Void). Template includes specific compliments for each band + process checklist. Estimated time: 20-30 minutes to message all 6 bands. See: projects/futurentech/outreach/bandcamp-outreach-template.md",
       "completed_at": null
     }
   ]
