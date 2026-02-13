@@ -17,6 +17,43 @@ No new competitor intel
 
 ---
 
+## 2026-02-13 - Industry Intelligence
+
+**Swift Medical AI-Enhanced Wound Monitoring Features**
+- Launched AutoDepth: Real-time wound edge identification, dimension calculation, and deepest area detection
+- Launched SmartTissue: Advanced tissue type classification for complex wounds
+- Both features integrated into AI-powered wound monitoring platform
+- Addresses challenges in monitoring complex wound presentations
+- Source: PMC feasibility study publication
+
+**Medicare Telehealth Flexibilities Extended (FY2026)**
+- Audio-only telehealth flexibilities extended into FY2026
+- Expanded telehealth codes maintained beyond pandemic emergency period
+- Part of broader Congressional funding package for tribal health systems
+- Source: National Indian Health Board update (Feb 2026)
+
+**Community Health Centers Funding Increase**
+- FY2026 appropriation: $4.6 billion (increased from FY2025)
+- Supports CHCs serving tribal and underserved communities
+- Part of Congressional three-bill minibus package
+- Source: NIHB, NCUIH reports (Jan 2026)
+
+**Becerra v. San Carlos Apache Tribe - Contract Support Cost Ruling**
+- Landmark ruling requires IHS to pay Contract Support Costs (CSC) on third-party reimbursements
+- Applies to Medicare, Medicaid, and private insurance expenditures at tribal facilities
+- Significant financial impact for tribal health programs (increases reimbursable costs)
+- Creates "documentation cliff" urgency for tribal facilities to optimize billing
+- Source: GeBBS Healthcare Solutions analysis (Feb 10, 2026)
+
+**V28 Risk Adjustment Model - Tribal Health Documentation Mandate**
+- CMS V28 Risk Adjustment Model now applies to FQHCs, CHCs, and Tribal Health facilities
+- More stringent documentation requirements for risk-based reimbursement
+- "Documentation cliff" in 2026 - facilities must adapt coding/documentation practices
+- Directly impacts revenue capture for tribal health organizations
+- Source: GeBBS Healthcare Solutions (Feb 10, 2026)
+
+---
+
 ## 2026-02-05 - Competitor Intelligence
 
 **MiMedx - Major Partnership Announcement (Feb 4, 2026)**

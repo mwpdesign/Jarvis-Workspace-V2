@@ -521,6 +521,46 @@
       "source": "war-room-industry",
       "category": "tribal",
       "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-13",
+      "topic_hash": "swift-medical-autodepth-smarttissue-ai-feb2026",
+      "headline": "Swift Medical launches AutoDepth and SmartTissue AI features for real-time wound monitoring",
+      "source": "war-room-industry",
+      "category": "industry",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-13",
+      "topic_hash": "medicare-telehealth-audio-only-extended-fy2026",
+      "headline": "Medicare audio-only telehealth flexibilities extended into FY2026",
+      "source": "war-room-industry",
+      "category": "cms",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-13",
+      "topic_hash": "chc-funding-4.6b-fy2026",
+      "headline": "Community Health Centers funding increased to $4.6B for FY2026",
+      "source": "war-room-industry",
+      "category": "cms",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-13",
+      "topic_hash": "becerra-san-carlos-apache-csc-ruling-2026",
+      "headline": "Becerra v. San Carlos Apache Tribe ruling requires IHS to pay CSC on third-party reimbursements (Medicare/Medicaid/private)",
+      "source": "war-room-industry",
+      "category": "tribal",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-13",
+      "topic_hash": "v28-risk-adjustment-tribal-health-2026",
+      "headline": "CMS V28 Risk Adjustment Model now applies to FQHCs/CHCs/Tribal Health with stricter documentation requirements",
+      "source": "war-room-industry",
+      "category": "tribal",
+      "ttl_days": 14
     }
   ]
 }
