@@ -305,5 +305,21 @@
     "category": "war-room",
     "model": "sonnet",
     "tokens_est": 4200
+  },
+  {
+    "timestamp": "2026-02-13T11:00:00.000000Z",
+    "session_type": "cron:task-worker",
+    "action": "queue_check",
+    "result": "no pending tasks",
+    "detail": {
+      "tasks_total": 3,
+      "tasks_pending": 0,
+      "tasks_deferred": 1,
+      "tasks_complete": 2,
+      "next_deferred_task": "TASK-003 (Bandcamp outreach, due 2026-02-13 09:00)"
+    },
+    "category": "tasks",
+    "model": "sonnet",
+    "tokens_est": 2000
   }
 ]
