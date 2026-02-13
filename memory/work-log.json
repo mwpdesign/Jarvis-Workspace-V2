@@ -164,5 +164,52 @@
     "model": "haiku",
     "tokens_est": 250,
     "status": "complete"
+  },
+  {
+    "timestamp": "2026-02-13T07:00:00.000000Z",
+    "session_type": "cron:task-worker",
+    "action": "queue_check",
+    "result": "no pending tasks",
+    "detail": {
+      "tasks_total": 3,
+      "tasks_pending": 0,
+      "tasks_deferred": 1,
+      "tasks_complete": 2,
+      "next_deferred_task": "TASK-003 (Bandcamp outreach, due 2026-02-13 09:00)"
+    },
+    "category": "tasks",
+    "model": "sonnet",
+    "tokens_est": 2000
+  },
+  {
+    "timestamp": "2026-02-13T08:00:00.000000Z",
+    "session_type": "cron:war-room-competitors",
+    "action": "web_search",
+    "result": "0 new findings",
+    "detail": {
+      "companies_searched": ["Integra LifeSciences", "MiMedx", "Organogenesis", "Smith+Nephew"],
+      "search_queries": 8,
+      "new_findings": 0,
+      "duplicate_findings_filtered": 0
+    },
+    "category": "war-room",
+    "model": "sonnet",
+    "tokens_est": 3500
+  },
+  {
+    "timestamp": "2026-02-13T03:01:00.000000Z",
+    "session_type": "cron:email-monitor",
+    "action": "unread_check",
+    "result": "no unread emails",
+    "detail": {
+      "search_query": "label:a-team OR label:1-snetwork is:unread",
+      "unread_count": 0,
+      "p1_alerts": 0,
+      "p2_alerts": 0,
+      "quiet_hours": true
+    },
+    "category": "email",
+    "model": "haiku",
+    "tokens_est": 150
   }
 ]

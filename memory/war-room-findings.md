@@ -5,6 +5,12 @@ Morning briefing reads this file to assemble intel section.
 
 ---
 
+## 2026-02-13 - Competitor Intelligence
+
+No new competitor intel
+
+---
+
 ## 2026-02-05 - Competitor Intelligence
 
 **MiMedx - Major Partnership Announcement (Feb 4, 2026)**
