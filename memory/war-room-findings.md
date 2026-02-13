@@ -5,6 +5,12 @@ Morning briefing reads this file to assemble intel section.
 
 ---
 
+## 2026-02-13 - CMS Regulatory Intelligence
+
+No new regulatory intel
+
+---
+
 ## 2026-02-13 - Competitor Intelligence
 
 No new competitor intel
