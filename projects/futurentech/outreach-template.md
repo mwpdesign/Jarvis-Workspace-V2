@@ -1,62 +1,54 @@
 # FutureNTech Bandcamp Outreach Template
 
-**Created:** 2026-02-11
-**Purpose:** Copy/paste template for Bandcamp artist messaging
+## Copy/Paste Message
 
 ---
 
-## Standard Outreach Message
+**Subject:** FutureNTech - Free Video Feature for Underground Metal
 
-**Subject:** Feature Your Music on FutureNTech YouTube
+Hi there,
 
-Hi [ARTIST NAME],
+I'm Michael with **FutureNTech** — a YouTube channel spotlighting unsigned and indie metal bands who are making killer music on DIY budgets.
 
-I run FutureNTech, a YouTube channel dedicated to showcasing unsigned artists who are pushing boundaries with DIY recording and creative use of technology in their music.
+I came across your music on Bandcamp and I'm really impressed. Your sound fits exactly what we're looking for: raw, authentic, and uncompromising.
 
-I came across your work on Bandcamp and I'm really impressed by [SPECIFIC COMPLIMENT ABOUT THEIR MUSIC/PRODUCTION]. 
+**What we do:**
+- 6-8 minute video features highlighting your band, your story, and your DIY recording process
+- Professional narration and production
+- **100% free** — no cost to you, no strings attached
+- Published to our YouTube channel with links back to your Bandcamp, socials, etc.
 
-Would you be interested in being featured in an upcoming video? We highlight your story, your creative process, and your music to help connect you with new listeners who appreciate what you're doing.
+**Why we're doing this:**
+Too many incredible underground bands get buried in the noise. We want to change that by giving you a platform and amplifying your reach to metalheads who care about real music, not manufactured BS.
 
-No cost, no strings attached — just genuine support for independent artists.
+**If you're interested:**
+Just reply with:
+1. A bit about your band (lineup, location, influences, whatever you want to share)
+2. Links to your best tracks
+3. Any upcoming releases or shows you'd like us to mention
 
-If you're interested, I'd love to learn more about your project. You can also check out what we're building at youtube.com/@FutureNTech.
+No pressure either way — just wanted to reach out and let you know we're here if you want the exposure.
 
-Best,
-Michael
-FutureNTech
-futurentechofficial@gmail.com
+Keep making heavy music. 🤘
 
----
-
-## Current Target Bands (2026-02-11)
-
-1. **Usury** - [Bandcamp URL]
-2. **Mantera Anarchist** - [Bandcamp URL]
-3. **Volubilis** - [Bandcamp URL]
-4. **thistle.** - [Bandcamp URL]
-5. **dead things** - [Bandcamp URL]
-6. **Void** - [Bandcamp URL]
-
----
-
-## After Sending Outreach
-
-**CRITICAL:** Log every outreach to Outreach Tracking sheet immediately:
-
-```bash
-gog sheets append 1Dq2KDX-ktde3JMybQVydAfFesaf-slxAm77wTZNubnU 'futurentech-outreach!A:H' --account futurentechofficial@gmail.com --values '[date]' 'Bandcamp' '[artist name]' '[location if known]' '[genre]' '[bandcamp url]' 'Contacted' 'Outreach sent via Bandcamp messaging'
-```
-
-**Example:**
-```bash
-gog sheets append 1Dq2KDX-ktde3JMybQVydAfFesaf-slxAm77wTZNubnU 'futurentech-outreach!A:H' --account futurentechofficial@gmail.com --values '2026-02-11' 'Bandcamp' 'Usury' 'Unknown' 'Metal' 'https://usury.bandcamp.com' 'Contacted' 'Outreach sent 2026-02-11'
-```
+**Michael Parson**  
+FutureNTech  
+YouTube: @FutureNTech  
+Email: futurentechofficial@gmail.com
 
 ---
 
-## Response Tracking
+## Notes for Michael
 
-When artists respond:
-- **Interested:** Create research task in tasks/queue.json (type: futurentech, action: research-artist)
-- **Not interested:** Update sheet status to "Declined"
-- **No response after 7 days:** Update sheet status to "No Response"
+**Customization tips:**
+- If you know something specific about the band (recent release, unique sound, etc.), mention it in the opening
+- Keep it conversational — we're not a corporation, we're metalheads supporting metalheads
+- If they have a specific album or track you really like, name-drop it
+
+**Follow-up:**
+- If they respond positively, get their approval on the script before producing the video
+- If no response after 7-10 days, one gentle follow-up, then move on
+
+**Tracking:**
+- Log each outreach to the Outreach Tracking sheet (Date | Platform | Band | Status)
+- Status: "Contacted" → "Interested" / "Declined" / "No Response"
