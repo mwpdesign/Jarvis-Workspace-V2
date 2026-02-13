@@ -155,5 +155,14 @@
     "category": "tasks",
     "model": "sonnet",
     "tokens_est": 2000
+  },
+  {
+    "timestamp": "2026-02-13T06:30:09.115Z",
+    "session": "cron:email-monitor",
+    "action": "email_check",
+    "details": "P1/P2 urgent check (a-team + 1-snetwork labels): 0 unread",
+    "model": "haiku",
+    "tokens_est": 250,
+    "status": "complete"
   }
 ]
