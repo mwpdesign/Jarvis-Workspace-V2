@@ -10,3 +10,7 @@ lib/
 *.mp3
 credentials/*.json
 credentials/*.pickle
+
+# Node.js
+node_modules/
+package-lock.json
