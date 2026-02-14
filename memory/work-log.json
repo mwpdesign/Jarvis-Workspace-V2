@@ -101,7 +101,7 @@
     "category": "tasks",
     "model": "sonnet",
     "tokens_est": 2000
-  }
+  },
   {
     "timestamp": "2026-02-13T21:30:00Z",
     "session_type": "cron:email-monitor",
@@ -117,5 +117,36 @@
     "category": "email",
     "model": "haiku",
     "tokens_est": 120
+  },
+  {
+    "timestamp": "2026-02-14T03:00:29.816702Z",
+    "session_type": "cron:git-autocommit",
+    "action": "git-backup",
+    "description": "Backed up 1 changed file to GitHub",
+    "files_changed": [
+      "memory/work-log.json"
+    ],
+    "commit_hash": "cf10d88",
+    "category": "git",
+    "model": "haiku",
+    "tokens_est": 25
+  }
+],
+  {
+    "timestamp": "2026-02-14T03:00:00.000000Z",
+    "session_type": "cron:task-worker",
+    "action": "queue_check",
+    "result": "no pending tasks",
+    "detail": {
+      "total_tasks": 3,
+      "pending": 0,
+      "blocked": 1,
+      "complete": 2,
+      "task_id": null,
+      "summary": "Queue checked - no work to process"
+    },
+    "category": "tasks",
+    "model": "sonnet",
+    "tokens_est": 2000
   }
 ]
