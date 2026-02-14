@@ -230,5 +230,35 @@
     "category": "war-room",
     "model": "sonnet",
     "tokens_est": 8500
+  },
+  {
+    "timestamp": "2026-02-14T04:00:00-05:00",
+    "type": "system_maintenance",
+    "action": "daily_auto_update",
+    "details": "Checked OpenClaw (v2026.2.13 - up to date) and all 7 skills. 6 skills up to date, 1 has local changes (self-improving-agent - expected)",
+    "model": "anthropic/claude-haiku-3-5",
+    "tokens_est": 500
+  },
+  {
+    "timestamp": "2026-02-14T09:02:00Z",
+    "session_type": "cron:war-room-cms",
+    "action": "web_search",
+    "result": "5 new regulatory findings",
+    "detail": {
+      "searches_performed": 6,
+      "topics_searched": ["CMS Medicare policy", "FDA approvals", "HOPD ASC payment", "Medicare coverage decisions", "WISeR model", "skin substitute prior auth"],
+      "new_findings": 5,
+      "findings": [
+        "StimLabs DermaForm FDA 510(k) clearance (Feb 12, 2026)",
+        "WISeR Model skin substitute prior auth detailed analysis (KFF Feb 10, 2026)",
+        "CMS ACCESS Model payment guidance (launches July 5, 2026)",
+        "False Claims Act enforcement focus on wound care (Feb 13, 2026)",
+        "Medicare Advantage prior auth reform timeline (July 2026/2027)"
+      ],
+      "duplicates_skipped": 12
+    },
+    "category": "war-room",
+    "model": "sonnet",
+    "tokens_est": 9200
   }
 ]

@@ -585,6 +585,46 @@
       "source": "war-room-competitors",
       "category": "competitor",
       "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-14",
+      "topic_hash": "stimlabs-dermaform-fda-510k-feb2026",
+      "headline": "StimLabs/Geistlich DermaForm FDA 510(k) clearance - collagen scaffold particulate wound device (Feb 12, 2026)",
+      "source": "war-room-cms",
+      "category": "fda",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-14",
+      "topic_hash": "wiser-skin-substitute-prior-auth-kff-analysis-feb2026",
+      "headline": "WISeR Model detailed analysis: Skin substitutes account for $10.3B (83%) of WISeR spending, AI prior auth in 6 states (KFF Feb 10)",
+      "source": "war-room-cms",
+      "category": "cms",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-14",
+      "topic_hash": "cms-access-model-guidance-july2026-launch",
+      "headline": "CMS ACCESS Model launches July 5, 2026 - outcome-aligned payments for chronic care ($90-$420 per beneficiary, 50% withheld)",
+      "source": "war-room-cms",
+      "category": "cms",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-14",
+      "topic_hash": "false-claims-act-wound-care-focus-feb2026",
+      "headline": "DOJ increasing False Claims Act enforcement focus on wound care industry post-$19.6B skin substitute spending reduction",
+      "source": "war-room-cms",
+      "category": "cms",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-14",
+      "topic_hash": "medicare-advantage-prior-auth-exemption-timeline-2026-2027",
+      "headline": "Medicare Advantage PA reform: Insurer reporting by July 2026, exemption list published July 2027 (gold carding)",
+      "source": "war-room-cms",
+      "category": "cms",
+      "ttl_days": 14
     }
   ]
 }

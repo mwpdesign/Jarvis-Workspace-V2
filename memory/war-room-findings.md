@@ -7,7 +7,56 @@ Morning briefing reads this file to assemble intel section.
 
 ## 2026-02-14 - CMS Regulatory Intelligence
 
-No new regulatory intel
+**StimLabs DermaForm FDA 510(k) Clearance**
+- Announced: February 12, 2026
+- Product: DermaForm (Geistlich) - Collagen Scaffold Particulate for wound care
+- FDA clearance: 510(k) for extracellular matrix wound care device
+- Indications: Protection and management of chronic and acute wounds
+- Manufacturer: Partnership between StimLabs (U.S.) and Geistlich (Swiss family-owned company, founded 1851)
+- Competitive impact: Adds to StimLabs' wound care portfolio alongside Allacor P (launched Jan 2026)
+- Source: BioSpace press release (Feb 12, 2026)
+
+**WISeR Model Detailed Analysis: Skin Substitute Prior Authorization Impact**
+- Published: Kaiser Family Foundation (KFF) analysis, February 10, 2026
+- Model launched: January 1, 2026 in 6 states (AZ, NJ, OH, OK, TX, WA)
+- Skin substitute spending: $10.3B (83.4%) of $12.3B total WISeR service spending in 2024 (up from $509.6M in 2019)
+- Price driver: Average price per service increased 820% from $2,300 (2019) to $21,200 (2024)
+- Utilization impact: Only 98,000 beneficiaries (9.3% of WISeR service users) received skin substitutes in 2024
+- Prior authorization mechanism: AI-powered review with human clinician second opinion before denial
+- Financial incentive: Vendors rewarded based on volume of care denied (controversy noted)
+- Combined with CMS payment standardization (Jan 1, 2026): Expected 90% spending reduction makes prior auth impact minimal
+- Key concern: Skin substitutes had previously NOT required prior authorization in traditional Medicare
+- Source: KFF Medicare policy analysis (Feb 10, 2026)
+
+**CMS ACCESS Model Payment and Performance Guidance Released**
+- Model name: Advancing Chronic Care with Effective, Scalable Solutions (ACCESS)
+- Launch date: July 5, 2026 through December 31, 2027 (18-month pilot)
+- Structure: Outcome-Aligned Payments (OAP) for chronic disease management
+- Clinical tracks: (1) Early cardio-kidney-metabolic (eCKM), (2) Advanced CKM, (3) Musculoskeletal (MSK), (4) Behavioral health
+- Payment amounts: $90-$420 annually per beneficiary (varies by track and care period)
+- Payment withhold: 50% withheld pending measurable clinical outcomes (Outcome Attainment Rate ≥50%)
+- Rural bonus: $15 additional for eCKM/CKM patients to offset connected device costs
+- Substitute spend adjustment: Reduces payments if beneficiaries receive overlapping services from other providers (90% threshold)
+- Multi-payer adoption: CMS inviting Medicare Advantage, Medicaid, and commercial plans to participate
+- Paradigm shift: From fee-for-service to outcome-conditioned capitation for chronic disease management
+- Exclusions: Medications, labs, imaging, DME billed separately (OAP covers care coordination only)
+- Source: CMS CMMI guidance (published Feb 13, 2026), analysis by Longyear Health
+
+**False Claims Act Enforcement Focus on Wound Care Industry**
+- Published: Mondaq legal analysis, February 13, 2026 (18 hours ago)
+- Warning: DOJ increasing scrutiny on wound care companies following CMS $19.6B skin substitute spending reduction
+- Context: OIG reports flagged unusual billing patterns, inadequate pricing data, and fraud instances in skin substitute market
+- Legal exposure: Companies face heightened False Claims Act risk during 2026 transition period
+- Recommendation: Expect continued DOJ focus on wound care billing compliance
+- Source: White Collar Crime analysis (Mondaq, Feb 13, 2026)
+
+**Medicare Advantage Prior Authorization Reform Timeline**
+- July 2026 milestone: Insurers must report statistics on PA approval/denial rates for exemption analysis
+- July 2027 milestone: CMS publishes list of procedures/medications exempt from prior authorization
+- Policy goal: Reduce PA burden for services with consistently high approval rates ("gold carding")
+- Scope: Applies to Medicare Advantage plans (not traditional Medicare or WISeR)
+- Context: Follows 2025 voluntary insurer pledge to reduce PA requirements
+- Source: KQED healthcare policy report (Feb 12, 2026)
 
 ---
 
