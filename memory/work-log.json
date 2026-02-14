@@ -51,5 +51,38 @@
     "category": "tasks",
     "model": "sonnet",
     "tokens_est": 2000
+  },
+  {
+    "timestamp": "2026-02-13T23:00:00.000000Z",
+    "session_type": "cron:task-worker",
+    "action": "queue_check",
+    "result": "no pending tasks",
+    "detail": {
+      "total_tasks": 3,
+      "pending": 0,
+      "blocked": 1,
+      "complete": 2,
+      "task_id": null,
+      "summary": "Queue checked - no work to process"
+    },
+    "category": "tasks",
+    "model": "sonnet",
+    "tokens_est": 2000
+  },
+  {
+    "timestamp": "2026-02-14T02:30:00.000000Z",
+    "session_type": "cron:email-monitor",
+    "action": "unread_check",
+    "result": "no unread emails",
+    "detail": {
+      "search_query": "label:a-team OR label:1-snetwork is:unread",
+      "unread_count": 0,
+      "p1_alerts": 0,
+      "p2_alerts": 0,
+      "time_check": "Friday 6:30 PM EST (outside business hours)"
+    },
+    "category": "email",
+    "model": "haiku",
+    "tokens_est": 120
   }
 ]
