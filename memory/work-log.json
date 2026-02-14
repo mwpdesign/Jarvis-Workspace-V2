@@ -306,9 +306,7 @@
     },
     "model": "sonnet",
     "tokens_est": 3200
-  }
-]
-,
+  },
   {
     "timestamp": "2026-02-14T11:00:00.000000Z",
     "session_type": "cron:task-worker",
@@ -325,5 +323,41 @@
     "category": "tasks",
     "model": "sonnet",
     "tokens_est": 2000
+  },
+  {
+    "timestamp": "2026-02-14T13:00:00.000000Z",
+    "session_type": "cron:task-worker",
+    "action": "queue_check",
+    "result": "no pending tasks",
+    "detail": {
+      "total_tasks": 3,
+      "pending": 0,
+      "blocked": 1,
+      "complete": 2,
+      "task_id": null,
+      "summary": "Queue checked - no work to process"
+    },
+    "category": "tasks",
+    "model": "sonnet",
+    "tokens_est": 2000
+  },
+  {
+    "timestamp": "2026-02-14T08:00:00Z",
+    "session_type": "cron:futurentech-form-check",
+    "action": "daily-monitoring",
+    "result": "no activity",
+    "detail": {
+      "form_submissions_checked": 0,
+      "form_submissions_new": 0,
+      "outreach_tracking_rows": 11,
+      "contacted_status_age_days_max": 9,
+      "artist_email_replies": 0,
+      "status_updates": 0,
+      "no_response_updates": 0,
+      "summary": "Form sheet empty, Coniferous Myst contacted 9 days ago (no reply yet), no other band replies"
+    },
+    "category": "futurentech",
+    "model": "haiku",
+    "tokens_est": 180
   }
 ]
