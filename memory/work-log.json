@@ -193,5 +193,42 @@
     "category": "git",
     "model": "haiku",
     "tokens_est": 25
+  },
+  {
+    "timestamp": "2026-02-14T07:00:00.000000Z",
+    "session_type": "cron:task-worker",
+    "action": "queue_check",
+    "result": "no pending tasks",
+    "detail": {
+      "total_tasks": 3,
+      "pending": 0,
+      "blocked": 1,
+      "complete": 2,
+      "task_id": null,
+      "summary": "Queue checked - no work to process"
+    },
+    "category": "tasks",
+    "model": "sonnet",
+    "tokens_est": 2000
+  },
+  {
+    "timestamp": "2026-02-14T08:00:00.000000Z",
+    "session_type": "cron:war-room-competitors",
+    "action": "web_search",
+    "result": "3 new findings",
+    "detail": {
+      "searches_performed": 7,
+      "competitors_checked": ["Integra LifeSciences", "MiMedx", "Organogenesis", "Smith+Nephew"],
+      "new_findings": 3,
+      "findings": [
+        "MiMedx 15-year EPIFIX/AMNIOFIX anniversary",
+        "Organogenesis Q4 2025 earnings Feb 25-26",
+        "StimLabs Allacor P umbilical cord ECM launch (Jan 2026)"
+      ],
+      "duplicates_skipped": 8
+    },
+    "category": "war-room",
+    "model": "sonnet",
+    "tokens_est": 8500
   }
 ]

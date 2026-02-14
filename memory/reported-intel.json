@@ -561,6 +561,30 @@
       "source": "war-room-industry",
       "category": "tribal",
       "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-14",
+      "topic_hash": "mimedx-epifix-amniofix-15yr-anniversary-feb2026",
+      "headline": "MiMedx celebrates 15-year anniversary of EPIFIX/AMNIOFIX placental allografts (launched 2011)",
+      "source": "war-room-competitors",
+      "category": "competitor",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-14",
+      "topic_hash": "organogenesis-q4-2025-earnings-feb25-26-2026",
+      "headline": "Organogenesis Q4 2025 earnings scheduled Feb 25-26, 2026 (first report post-CMS payment changes)",
+      "source": "war-room-competitors",
+      "category": "competitor",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-14",
+      "topic_hash": "stimlabs-allacor-p-launch-jan2026",
+      "headline": "StimLabs launches Allacor P - first FDA 510(k) cleared human umbilical cord ECM device for wound care (Jan 2026)",
+      "source": "war-room-competitors",
+      "category": "competitor",
+      "ttl_days": 14
     }
   ]
 }

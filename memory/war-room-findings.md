@@ -5,15 +5,36 @@ Morning briefing reads this file to assemble intel section.
 
 ---
 
-## 2026-02-13 - CMS Regulatory Intelligence
+## 2026-02-14 - CMS Regulatory Intelligence
 
 No new regulatory intel
 
 ---
 
-## 2026-02-13 - Competitor Intelligence
+## 2026-02-14 - Competitor Intelligence
 
-No new competitor intel
+**MiMedx Celebrates 15-Year EPIFIX/AMNIOFIX Milestone**
+- 15th anniversary of EPIFIX and AMNIOFIX placental allografts announced Feb 2, 2026
+- Products used in wound care and surgical recovery settings since 2011
+- Demonstrates sustained market presence and clinical adoption over 15 years
+- Timing: Milestone reached amid CMS 2026 reimbursement transition period
+- Source: MiMedx press release (Feb 2, 2026)
+
+**Organogenesis Q4 2025 Earnings Announcement Scheduled**
+- Q4 2025 and full-year 2025 results scheduled for release: February 25-26, 2026
+- First major earnings report post-CMS 2026 skin substitute payment rule implementation
+- Analyst focus: Company adaptation to new Medicare payment guidelines effective Jan 1, 2026
+- Market watching for initial revenue/volume impact data from reimbursement changes
+- Source: Multiple investor platforms (aktiencheck.de, stockevents.app)
+
+**StimLabs Launches Allacor P - First Human Umbilical Cord ECM Wound Device**
+- Launch date: January 5-6, 2026
+- First FDA 510(k) cleared human umbilical cord extracellular matrix (ECM) particulate device
+- Indicated for acute and chronic wound management across multiple care settings
+- Competitive advantage: Novel tissue source (umbilical cord vs. placental/animal-derived)
+- Received A Code in 2025, enabling expanded site-of-service reimbursement
+- Direct competitor to MiMedx (placental), Integra (bovine/porcine), and other ECM products
+- Source: StimLabs press release (Jan 5, 2026), PRNewswire, Ortho Spine News
 
 ---
 
