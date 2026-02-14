@@ -87,6 +87,37 @@ Morning briefing reads this file to assemble intel section.
 
 ---
 
+## 2026-02-14 - Industry Intelligence
+
+**CholeDerm - India's First Indigenous ECM Wound Healing Device**
+- Launched: January 2026
+- Developer: Alicorn Medical (Kerala-based) in partnership with SCTIMST (Sree Chitra Tirunal Institute for Medical Sciences and Technology)
+- Product: India's first indigenously manufactured extracellular matrix (ECM)-based Class D wound healing medical device
+- Material: Tissue graft scaffold made from farm animal gall bladders (world-first innovation)
+- Mechanism: Promotes faster wound healing with minimal scarring through enhanced re-epithelialisation, angiogenesis, tissue regeneration, and favorable collagen remodeling
+- Significance: First domestic ECM device in Indian market (previously dominated by imports)
+- Market impact: Addresses "Make in India" goals, potential cost advantage vs imported products
+- Source: Globe Newswire (Feb 13, 2026), Medical Dialogues, Devdiscourse (Jan 2026)
+
+**Wound Care Delaware Mobile Service Launch**
+- Launched: October 2025
+- Service model: Mobile wound care assessment and treatment across Delaware
+- Purpose: Expands access to clinical wound assessment in underserved/rural areas
+- Trend alignment: Part of broader shift toward home-based and mobile wound care delivery
+- Source: Globe Newswire market report (Feb 13, 2026)
+
+**Digital Wound Care Management Platform Adoption Accelerates in U.S.**
+- Timing: February 2026 (current)
+- Technology: AI-powered imaging and predictive analytics for wound healing progression assessment
+- Adoption trend: Healthcare providers increasingly integrating digital platforms into standard wound care workflows
+- Market value: Digital wound care management market projected to reach $7.12B by 2033 at 8.8% CAGR
+- Regional leadership: North America holds 39% market share
+- Key capabilities: Real-time wound assessment, healing progression tracking, treatment optimization
+- Vendors mentioned: Smith+Nephew, 3M, Swift Medical
+- Source: OpenPR market analysis (Feb 10, 2026)
+
+---
+
 ## 2026-02-13 - Industry Intelligence
 
 **Swift Medical AI-Enhanced Wound Monitoring Features**

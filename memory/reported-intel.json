@@ -625,6 +625,30 @@
       "source": "war-room-cms",
       "category": "cms",
       "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-14",
+      "topic_hash": "cholederm-india-ecm-device-jan2026",
+      "headline": "CholeDerm - India's first indigenous ECM-based Class D wound healing device (Alicorn Medical/SCTIMST, Jan 2026)",
+      "source": "war-room-industry",
+      "category": "industry",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-14",
+      "topic_hash": "wound-care-delaware-mobile-service-oct2025",
+      "headline": "Wound Care Delaware launches mobile wound care service for expanded access (Oct 2025)",
+      "source": "war-room-industry",
+      "category": "industry",
+      "ttl_days": 14
+    },
+    {
+      "date_reported": "2026-02-14",
+      "topic_hash": "digital-wound-platform-adoption-us-feb2026",
+      "headline": "U.S. healthcare providers accelerating adoption of AI-powered digital wound care management platforms (Feb 2026)",
+      "source": "war-room-industry",
+      "category": "industry",
+      "ttl_days": 14
     }
   ]
 }

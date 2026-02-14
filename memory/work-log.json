@@ -218,7 +218,12 @@
     "result": "3 new findings",
     "detail": {
       "searches_performed": 7,
-      "competitors_checked": ["Integra LifeSciences", "MiMedx", "Organogenesis", "Smith+Nephew"],
+      "competitors_checked": [
+        "Integra LifeSciences",
+        "MiMedx",
+        "Organogenesis",
+        "Smith+Nephew"
+      ],
       "new_findings": 3,
       "findings": [
         "MiMedx 15-year EPIFIX/AMNIOFIX anniversary",
@@ -246,7 +251,14 @@
     "result": "5 new regulatory findings",
     "detail": {
       "searches_performed": 6,
-      "topics_searched": ["CMS Medicare policy", "FDA approvals", "HOPD ASC payment", "Medicare coverage decisions", "WISeR model", "skin substitute prior auth"],
+      "topics_searched": [
+        "CMS Medicare policy",
+        "FDA approvals",
+        "HOPD ASC payment",
+        "Medicare coverage decisions",
+        "WISeR model",
+        "skin substitute prior auth"
+      ],
       "new_findings": 5,
       "findings": [
         "StimLabs DermaForm FDA 510(k) clearance (Feb 12, 2026)",
@@ -260,5 +272,39 @@
     "category": "war-room",
     "model": "sonnet",
     "tokens_est": 9200
+  },
+  {
+    "timestamp": "2026-02-14T09:04:00.000000Z",
+    "session_type": "cron:task-worker",
+    "action": "queue_check",
+    "result": "no pending tasks",
+    "detail": {
+      "total_tasks": 3,
+      "pending": 0,
+      "blocked": 1,
+      "complete": 2,
+      "task_id": null,
+      "summary": "Queue checked - no work to process"
+    },
+    "category": "tasks",
+    "model": "sonnet",
+    "tokens_est": 2000
+  },
+  {
+    "timestamp": "2026-02-14T10:01:16.3NZ",
+    "session_type": "cron:war-room-industry",
+    "action": "web_search",
+    "category": "war-room",
+    "result": "3 new industry findings appended to war-room-findings.md",
+    "detail": {
+      "new_findings": 3,
+      "topics": [
+        "CholeDerm India ECM device (Jan 2026)",
+        "Wound Care Delaware mobile service (Oct 2025)",
+        "Digital wound care platform adoption (Feb 2026)"
+      ]
+    },
+    "model": "sonnet",
+    "tokens_est": 3200
   }
 ]
