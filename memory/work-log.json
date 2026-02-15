@@ -490,5 +490,22 @@
     "category": "tasks",
     "model": "sonnet",
     "tokens_est": 2000
+  },
+  {
+    "timestamp": "2026-02-15T02:00:00.000000Z",
+    "session_type": "cron:email-monitor",
+    "action": "unread_check",
+    "result": "no unread emails",
+    "detail": {
+      "search_query": "label:a-team OR label:1-snetwork is:unread",
+      "unread_count": 0,
+      "p1_alerts": 0,
+      "p2_alerts": 0,
+      "current_time": "Saturday 10:00 PM EST (evening/quiet hours)",
+      "note": "Silent check - no unread emails to report"
+    },
+    "category": "email",
+    "model": "haiku",
+    "tokens_est": 120
   }
 ]
