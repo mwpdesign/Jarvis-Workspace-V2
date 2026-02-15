@@ -540,3 +540,21 @@
 }
 
 ]{"timestamp": "2026-02-15T02:58:00-05:00", "action": "email-monitor cron", "status": "complete", "result": "no unread emails in a-team or 1-snetwork labels", "model": "haiku", "tokens_est": 45}
+,
+{
+  "timestamp": "2026-02-15T13:03:00.000000Z",
+  "session_type": "cron:task-worker",
+  "action": "queue_check",
+  "result": "no pending tasks",
+  "detail": {
+    "total_tasks": 3,
+    "pending": 0,
+    "blocked": 1,
+    "complete": 2,
+    "task_id": null,
+    "summary": "Queue checked - no work to process"
+  },
+  "category": "tasks",
+  "model": "sonnet",
+  "tokens_est": 2000
+}
