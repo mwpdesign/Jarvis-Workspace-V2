@@ -594,3 +594,21 @@
   "model": "sonnet",
   "tokens_est": 2000
 }
+,
+{
+  "timestamp": "2026-02-15T19:00:00.000000Z",
+  "session_type": "cron:task-worker",
+  "action": "queue_check",
+  "result": "no pending tasks",
+  "detail": {
+    "total_tasks": 3,
+    "pending": 0,
+    "blocked": 1,
+    "complete": 2,
+    "task_id": null,
+    "summary": "Queue checked - no work to process"
+  },
+  "category": "tasks",
+  "model": "sonnet",
+  "tokens_est": 2000
+}
